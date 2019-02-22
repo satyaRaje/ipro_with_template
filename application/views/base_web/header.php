@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Material Pro Admin Template - Bootstrap 4 Admin Template</title>
+    <title>IPRO3D-About Us</title>
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/bootstrap/css/bootstrap.min.css"?>' rel="stylesheet">
     <!-- owl slider CSS -->
