@@ -1,11 +1,20 @@
 
+
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>assets/images/favicon.png">
+<title>IPRO3D-Home</title>
+    
+<body>
+
+
+
 <div class="container-fluid">
      <div class="row text-center">
-          <div class="col-sm-3 bg-danger">
+          <div class="col-sm-3 bg-danger" style="opacity: 0.3;
+">
             <h1>test</h1>
           </div>
 
-         <div class="col-sm-3 bg-info">
+         <div class="col-sm-3" style="background-color: black;opacity: 0.5">
           <h1>asdff</h1>
          </div>
 
@@ -20,7 +29,7 @@
      </div>
 </div>
 <div class="container-fluid">
-     <h1 class="font-weight-bold text-center">Application</h1>
+     <h2 class="font-weight-bold text-center">Application</h2>
 
 
     <div class="row">
@@ -65,7 +74,7 @@
      </div>
      <hr>
 
-     <h1 class=" font-weight-bold text-center">How We Work</h1>
+     <h2 class=" font-weight-bold text-center">How We Work</h2>
 
      <div class="row text-center" style="align-items: center;">
 
@@ -99,46 +108,46 @@
       </div>
      <hr>
 
-     <h1 class=" font-weight-bold text-center">Prototype Your Product</h1>
+     <h2 class=" font-weight-bold text-center">Prototype Your Product</h2>
 
 
      <div class="row" style="height: 25em">
 
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/prototype/material.png"?>'>
+         <div class="col-md-2" align="center">
+             <img src='<?php echo base_url()."images/prototype/material.png"?>' style="height: 150px;" >
              <h6><b>Material</b></h6>
              <p class="text">Select materials from a wide
              variety in plastics,
                  metals, metal alloys and plastic composites</p>
          </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/prototype/quality.png"?>'>
+         <div class="col-md-2" align="center">
+             <img src='<?php echo base_url()."images/prototype/quality.png"?>' style="height: 150px;">
              <h6><b>Quality
                  </b></h6>
              <p class="text">We don’t
                  compromise on part / product quality</p>
          </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/prototype/price.png"?>'>
+         <div class="col-md-2" align="center">
+             <img src='<?php echo base_url()."images/prototype/price.png"?>' style="height: 150px;">
              <h6><b>Price</b></h6>
              <p class="text">We provide the best competitive price compared to any other competitor in India and world 3D printing market.</p>
          </div>
 
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/prototype/production.png"?>'>
-             <h6><b>Production</b></h6>
+         <div class="col-md-2" align="center">
+             <img src='<?php echo base_url()."images/prototype/production.png"?>' style="height: 150px;">
+             <h6 align="center"><b>Production</b></h6>
              <p class="text">We manufacture all products at a time and help reduce the manufacturing time and cost while maintaining the optimum part quality</p>
          </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/prototype/delivery.png"?>'>
+         <div class="col-md-2" align="center">
+             <img src='<?php echo base_url()."images/prototype/delivery.png"?>' style="height: 150px;">
              <h6><b>Delivery all over India</b></h6>
          </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/prototype/world.png"?>' >
+         <div class="col-md-2" align="center">
+             <img src='<?php echo base_url()."images/prototype/world.png"?>' style="height: 150px;">
              <h6><b>World wide delivery</b></h6>
 
              </div>
 
      </div>
 
-     <hr>
+     </body>

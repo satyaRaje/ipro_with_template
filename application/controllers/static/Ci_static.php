@@ -28,20 +28,11 @@ class Ci_static extends CI_Controller {
 
     public function index()
     {
-        // $this->load_panel_data();
-    }
-
-    public function About_us(){
-        $this->load->view('base_web/header.php');
-        $this->load->view('base_web/aboutus.php');
+        $this->load->view('base_web/home.php');
         $this->load->view('base_web/footer.php');
     }
 
-    public function Home_page(){
-        $this->load->view('base_web/header.php');
-        $this->load->view('base_web/panel.php');
-        $this->load->view('base_web/footer.php');
-    }
+    
 }
 
 ?>

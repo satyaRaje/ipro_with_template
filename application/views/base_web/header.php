@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>IPRO3D-About Us</title>
+    
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/bootstrap/css/bootstrap.min.css"?>' rel="stylesheet">
     <!-- owl slider CSS -->
@@ -44,10 +44,6 @@
 <!-- ============================================================== -->
 <!-- Preloader - style you can find in spinners.css -->
 <!-- ============================================================== -->
-<div class="preloader">
-    <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
-</div>
 <!-- ============================================================== -->
 <!-- Main wrapper - style you can find in pages.scss -->
 <!-- ============================================================== -->
@@ -64,12 +60,12 @@
                 <!-- This is the navigation menu -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto stylish-nav">
-                        <li class="nav-item"> <a class="nav-link" href="../Documentation/document.html" target="_blank">Home</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="../Documentation/document.html" target="_blank">About Us</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="../Documentation/document.html" target="_blank">Services</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="../Documentation/document.html" target="_blank">Shop</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="../Documentation/document.html" target="_blank">Mutation</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="../Documentation/document.html" target="_blank">Contact Us</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index" target="_blank">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">About Us</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Shop</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Mutation</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us" target="_blank">Contact Us</a> </li>
                         <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="https://wrappixel.com/templates/materialpro/" style="width:120px;">Login</a> </li>
                     </ul>
                 </div>
