@@ -62,7 +62,7 @@
                     <ul class="navbar-nav ml-auto stylish-nav">
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index" target="_blank">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">About Us</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Services" target="_blank">Services</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Shop</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" target="_blank">Mutation</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us" target="_blank">Contact Us</a> </li>
