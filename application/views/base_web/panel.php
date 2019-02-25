@@ -15,24 +15,23 @@
                                                 <li data-target="#carouselExampleIndicators3" data-slide-to="2" class=""></li>
                                             </ol>
                                             <div  style="height:550px" class="carousel-inner" role="listbox">
-                                                <div class="carousel-item">
-                                                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/img1.jpg" alt="First slide" >
+                                                <div style="height:550px" class="carousel-item">
+                                                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/img1.jpg" alt="Third slide">
                                                     <div class="carousel-caption d-none d-md-block">
-                                                        <h3 class="text-white">SELL</h3>
+                                                        <h2 class="text-white">SELL</h2>
                                                         <p></p>
                                                     </div>
-                                                </div>
-                                                <div style="height:550px" class="carousel-item active">
+                                                </div><div style="height:550px" class="carousel-item active">
                                                     <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" alt="Second slide">
                                                     <div class="carousel-caption d-none d-md-block">
-                                                        <h3 class="text-white">DESIGN</h3>
-                                                        <p>this is the subcontent you can use this</p>
+                                                        <h2 class="text-white">DESIGN</h2>
+                                                        <p></p>
                                                     </div>
                                                 </div>
                                                 <div style="height:550px" class="carousel-item">
                                                     <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/showpiece.jpg" alt="Third slide">
                                                     <div class="carousel-caption d-none d-md-block">
-                                                        <h3 class="text-white">BUY</h3>
+                                                        <h2 class="text-white">BUY</h2>
                                                         <p>Add ART to the CART</p>
                                                     </div>
                                                 </div>
@@ -168,11 +167,39 @@
              <h6><b>World wide delivery</b></h6>
 
              </div>
-
      </div>
 
+     <div class="row" align="center">
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/startup.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/make.jpg" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/ikea.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/cc.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+    </div>
+    <div class="row" align="center">
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/blue.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/paytm.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/savera.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>img/clients/sbi.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+    </div>
 
-    <script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
+
+<script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
 <!-- Bootstrap tether Core JavaScript -->
 <script src="<?php echo base_url()."style/full/assets/plugins/popper/popper.min.js";?>"></script>
 <script src="<?php echo base_url()."style/full/assets/plugins/bootstrap/js/bootstrap.min.js";?>"></script>
