@@ -6,28 +6,49 @@
 <body>
 
 
-
-<div class="container-fluid">
-     <div class="row text-center">
-          <div class="col-sm-3 bg-danger" style="opacity: 0.3;
-">
-            <h1>test</h1>
-          </div>
-
-         <div class="col-sm-3" style="background-color: black;opacity: 0.5">
-          <h1>asdff</h1>
-         </div>
-
-         <div class="col-sm-3 bg-primary">
-        <h1>asdf</h1>
-         </div>
-
-         <div class="col-sm-3 bg-warning">
-<h1>asdf</h1>
-         </div>
-
-     </div>
+<div class="row">
+  <div class="col-lg-12">
+                                        <div id="carouselExampleIndicators3" class="carousel slide mt-4" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class=""></li>
+                                                <li data-target="#carouselExampleIndicators3" data-slide-to="1" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators3" data-slide-to="2" class=""></li>
+                                            </ol>
+                                            <div  style="height:550px" class="carousel-inner" role="listbox">
+                                                <div class="carousel-item">
+                                                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/img1.jpg" alt="First slide" >
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h3 class="text-white">SELL</h3>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                                <div style="height:550px" class="carousel-item active">
+                                                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" alt="Second slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h3 class="text-white">DESIGN</h3>
+                                                        <p>this is the subcontent you can use this</p>
+                                                    </div>
+                                                </div>
+                                                <div style="height:550px" class="carousel-item">
+                                                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/showpiece.jpg" alt="Third slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h3 class="text-white">BUY</h3>
+                                                        <p>Add ART to the CART</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+   </div>
 </div>
+
 <div class="container-fluid">
      <h2 class="font-weight-bold text-center">Application</h2>
 
@@ -149,5 +170,80 @@
              </div>
 
      </div>
+
+
+    <script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script src="<?php echo base_url()."style/full/assets/plugins/popper/popper.min.js";?>"></script>
+<script src="<?php echo base_url()."style/full/assets/plugins/bootstrap/js/bootstrap.min.js";?>"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="<?php echo base_url()."style/full/js/jquery.slimscroll.js"?>"></script>
+<!--Wave Effects -->
+<script src="<?php echo base_url()."style/full/js/waves.js"?>"></script>
+<!--Menu sidebar -->
+<script src="<?php echo base_url()."style/full/js/sidebarmenu.js"?>"></script>
+<!--stickey kit -->
+<script src="<?php echo base_url()."style/full/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js";?>"></script>
+<script src="<?php echo base_url()."style/full/assets/plugins/sparkline/jquery.sparkline.min.js"?>"></script>
+<!--Custom JavaScript -->
+<script src="<?php echo base_url()."style/full/js/custom.min.js"?>"></script>
+<script>
+    // This is for the sticky sidebar
+    $(".stickyside").stick_in_parent({
+        offset_top: 100
+    });
+    $('.stickyside a').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 500);
+        return false;
+    });
+    // This is auto select left sidebar
+    // Cache selectors
+    // Cache selectors
+    var lastId,
+        topMenu = $(".stickyside"),
+        topMenuHeight = topMenu.outerHeight(),
+        // All list items
+        menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function() {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
+        });
+
+    // Bind click handler to menu items
+
+
+    // Bind to scroll
+    $(window).scroll(function() {
+        // Get container scroll position
+        var fromTop = $(this).scrollTop() + topMenuHeight - 250;
+
+        // Get id of current scroll item
+        var cur = scrollItems.map(function() {
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+        // Get the id of the current element
+        cur = cur[cur.length - 1];
+        var id = cur && cur.length ? cur[0].id : "";
+
+        if (lastId !== id) {
+            lastId = id;
+            // Set/remove active class
+            menuItems
+                .removeClass("active")
+                .filter("[href='#" + id + "']").addClass("active");
+        }
+    });
+</script>
+<!-- ============================================================== -->
+<!-- Style switcher -->
+<!-- ============================================================== -->
+<script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+
 
      </body>
