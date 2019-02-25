@@ -2,7 +2,7 @@
 <link type="image/png" sizes="16x16" href="<?php echo base_url();?>images/logo/logo.png">
 <title>IPRO3D-Services</title>
 
-<body class="fix-header fix-sidebar card-no-border">
+<body class="fix-header fix-sidebar ">
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
             <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
@@ -46,7 +46,7 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">1. 3D Printing</h2>
-                            <p>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent qualityWhat is 3d printing? Glad you asked.
+                            <p style="text-align: justify;">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent qualityWhat is 3d printing? Glad you asked.
                 Additive manufacturing process is popularly known as 3d printing. Additive manufacturing is a method of manufacturing physical parts in a successive addition process of adding material layer by layer but only one layer at a time on top of each other layer to build a physical part from a digital 3d CAD file.  The additive manufacturing principal is totally opposite to the traditional subtractive manufacturing using lathes, CNC’s, mills, etc.
                 </br></br>Additive manufacturing has several different methods/processes of producing a prototype. Although each method/process has its own advantages but the principle of additive manufacturing or the popularly known name 3d printing remains the same.
                 The Idea of building a physical part by adding material rather than cutting away material applies no matter whichever additive manufacturing process you choose to use.
@@ -69,7 +69,7 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="scanning" align="center" style="font-weight: bold;font-family: Philosiphers">2. Scanning</h2>
-                           <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file. </br>3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br></br>
+                           <p style="text-align: justify;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file. </br>3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br></br>
            There are Different 3d scanners and 3d scanning techniques for different applications like industrial, novelty, architecture, reverse engineering, etc.</p> </br></br></br></br>
 
                         </div>
@@ -79,7 +79,7 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="rapidprototyping" align="center" style="font-weight: bold;font-family: Philosiphers">3. Rapid Prototyping</h2>
-                          <p>
+                          <p style="text-align: justify;">
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.
           
                           </p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -90,7 +90,7 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="cadmodeling" align="center" style="font-weight: bold;font-family: Philosiphers">4. 3D & 2D CAD Modeling</h2>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D and 2d Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals. 3D CAD modeling provides an extra dimension to precisely visualize and share designs concepts and iterate it many times in real time.</br></br>
+                            <p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D and 2d Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals. 3D CAD modeling provides an extra dimension to precisely visualize and share designs concepts and iterate it many times in real time.</br></br>
            </p>
                             </div>
                     </div>
@@ -101,7 +101,7 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="design" align="center" style="font-weight: bold;font-family: Philosiphers">5. Design for 3D Printing</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design for 3d printing is a designing process through which the part can be design according to its final use or purpose but can be optimized for easy 3d printing for reducing the chance of any errors or defects occurrence during the 3d printing process or after production of final part.</br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small batch production can be done using 3d printing technology for directly producing end use parts.SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.<//p>
 
 </br></br><br>
@@ -118,7 +118,7 @@
                 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="reverse" align="center" style="font-weight: bold;font-family: Philosiphers">6. Reverse Engineering</h2>
-                            <p>
+                            <p style="text-align: justify;">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</p></br></br>
     
 
@@ -136,7 +136,7 @@
                 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="topology" align="center" style="font-weight: bold;font-family: Philosiphers">7. Design topology optimization</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topology optimization is a mathematical modeling approach that can optimizes material layouts digitally and simulate various iterations for within a given set of design space, for a given set of loads and boundary conditions such that the resulting layout meets a prescribed set of performance that targets to optimize the overall end result.</br>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The topology optimization technique is a very helpful tool for optimizing a design/part and make it more efficient in every aspect. The technology was not used before as the result output for most of the time s was not manufacturable due to the manufacturing constraints but due to additive manufacturing technology or popularly known name as 3d printing has now made it is possible to manufacture all critical parts/components by removing all the barriers of manufacturing constraints.</br></br></p>       </br></br><br>
 
@@ -152,7 +152,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="manufacturing" align="center" style="font-weight: bold;font-family: Philosiphers">8. Small Batch Manufacturing </h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small batch production can be done using 3d printing technology for directly producing end use parts.SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.<//p>
 
 </br></br><br>
@@ -170,7 +170,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="vaccumecast" align="center" style="font-weight: bold;font-family: Philosiphers">9. Vaccum casting</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;It is a highly adaptable technology that is capable of producing parts in a wide range of polyurethane(PU) resins and cast nylon. 
         It can create, replicate and replace engineering polymers for prototypes and end-use parts.</p>
 </br></br><br>
@@ -188,7 +188,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="xraytopology" align="center" style="font-weight: bold;font-family: Philosiphers">10. Xray-Topology</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-ray topography is technology that is widely used to investigate dislocation and other defects, such as stacking faults and precipitates in single crystals. It is mainly used to determine the Burgers vector of the dislocations. The Spatial resolution of the topography is very important for visualizing the individual dislocations in the crystals.</p>
     </br>
 </br></br><br>
@@ -206,7 +206,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="functional" align="center" style="font-weight: bold;font-family: Philosiphers">11. Functional Part Manufacturing</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design for 3d printing is a designing process through which the part can be design according to its final use or purpose but can be optimized for easy 3d printing for reducing the chance of any errors or defects occurrence during the 3d printing process or after production of final part.</br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small batch production can be done using 3d printing technology for directly producing end use parts.SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.<//p>
 
 </br></br><br>
@@ -224,7 +224,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="tooling" align="center" style="font-weight: bold;font-family: Philosiphers">12. Tooling Manufacturing</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tooling is also known as machine tooling. It is the manufacturing of components, tools and machines needed for production. The common categories of machine tooling include fixture, jigs, gauges, moulds, dies, cutting equipment, patterns, etc.</p></br> </br>
         <br><br><br>
 </br></br><br>
@@ -242,7 +242,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="injectionmodeling" align="center" style="font-weight: bold;font-family: Philosiphers">13. Injection Modeling</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Injection molding is a process for producing parts by injecting molten materials into a mold.It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p>       
     </br>
 </br></br><br>
@@ -260,7 +260,7 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="cncmachine" align="center" style="font-weight: bold;font-family: Philosiphers">14. CNC Machining</h2>
-                            <p>
+                            <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNC (Computer Numeric Control) machining process used in the manufacturing industry that involves the use of computers to control machine tools.Tools that can be controlled in this manner include lathes, mills, routers, grinders, etc.</p></br></br><br>
 
                                   </p>

@@ -19,13 +19,13 @@
                                                     <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/img1.jpg" alt="Third slide">
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h2 class="text-white">SELL</h2>
-                                                        <p></p>
+                                                        <p>Shop your creative product</p>
                                                     </div>
                                                 </div><div style="height:550px" class="carousel-item active">
                                                     <img class="img-responsive" src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" alt="Second slide">
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h2 class="text-white">DESIGN</h2>
-                                                        <p></p>
+                                                        <p>Expect the Unexpected..!!</p>
                                                     </div>
                                                 </div>
                                                 <div style="height:550px" class="carousel-item">
@@ -48,10 +48,10 @@
    </div>
 </div>
 
-<div class="container-fluid">
+<div>
+    <hr>
      <h2 class="font-weight-bold text-center">Application</h2>
-
-
+     <hr>
     <div class="row">
  <div class="col-md-2">
  <img src='<?php echo base_url()."images/application/Aerospace.png"?>' style="width:100%;height:100%;">
@@ -76,7 +76,6 @@
 </div>
 
      <div class="row">
-
          <div class="col-md-2">
          </div>
          <div class="col-md-2">
@@ -92,12 +91,13 @@
              <img src='<?php echo base_url()."images/application/Packaging.png"?>' style="width:100%;height:100%;">
          </div>
      </div>
+     <br>
+
+    <div style="background-color: #F5F5F5">
      <hr>
-
-     <h2 class=" font-weight-bold text-center">How We Work</h2>
-
-     <div class="row text-center" style="align-items: center;">
-
+     <h2 class=" font-weight-bold text-center" >How We Work</h2>
+     <hr>
+     <div class="row text-center">
          <div class="col-md-2">
              <img src='<?php echo base_url()."images/how_we_work/idea.png"?>'>
              <h6 style="font-weight: bold;"> Idea</h6>
@@ -122,21 +122,22 @@
          <div class="col-md-2">
              <img src='<?php echo base_url()."images/how_we_work/delivery.png"?>' >
              <h6 style="font-weight: bold;">Delivery </h6>
-
          </div>
-
       </div>
-     <hr>
+      </div>
+     <br><br>
 
+
+     
+     <div style="background-color: whitesmoke">
+    <hr>
      <h2 class=" font-weight-bold text-center">Prototype Your Product</h2>
-
-
-     <div class="row" style="height: 25em">
-
+     <hr>
+     <div class="row"   >
          <div class="col-md-2" align="center">
              <img src='<?php echo base_url()."images/prototype/material.png"?>' style="height: 150px;" >
              <h6><b>Material</b></h6>
-             <p class="text">Select materials from a wide
+             <p class="text" style="font-size: 15px">Select materials from a wide
              variety in plastics,
                  metals, metal alloys and plastic composites</p>
          </div>
@@ -144,19 +145,19 @@
              <img src='<?php echo base_url()."images/prototype/quality.png"?>' style="height: 150px;">
              <h6><b>Quality
                  </b></h6>
-             <p class="text">We don’t
-                 compromise on part / product quality</p>
+             <p class="text" style="font-size: 15px">We don’t
+                 compromise on part" / product quality</p>
          </div>
          <div class="col-md-2" align="center">
              <img src='<?php echo base_url()."images/prototype/price.png"?>' style="height: 150px;">
              <h6><b>Price</b></h6>
-             <p class="text">We provide the best competitive price compared to any other competitor in India and world 3D printing market.</p>
+             <p class="text" style="font-size: 15px">We provide the best competitive price compared to any other competitor in India and world 3D printing market.</p>
          </div>
 
          <div class="col-md-2" align="center">
              <img src='<?php echo base_url()."images/prototype/production.png"?>' style="height: 150px;">
              <h6 align="center"><b>Production</b></h6>
-             <p class="text">We manufacture all products at a time and help reduce the manufacturing time and cost while maintaining the optimum part quality</p>
+             <p class="text" style="font-size: 15px">We manufacture all products at a time and help reduce the manufacturing time and cost while maintaining the optimum part quality</p>
          </div>
          <div class="col-md-2" align="center">
              <img src='<?php echo base_url()."images/prototype/delivery.png"?>' style="height: 150px;">
@@ -165,39 +166,48 @@
          <div class="col-md-2" align="center">
              <img src='<?php echo base_url()."images/prototype/world.png"?>' style="height: 150px;">
              <h6><b>World wide delivery</b></h6>
-
-             </div>
+         </div>
      </div>
+ </div>
 
+
+    <div style="background-color: #F5F5F5">
+    <hr>
+    <h2 class=" font-weight-bold text-center">Our Clients</h2>
+    <hr>
      <div class="row" align="center">
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/startup.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/startup.png" class="img-circle" style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/make.jpg" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/make.jpg" class="img-circle" style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/ikea.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/ikea.png" class="img-circle" style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/cc.png" class="img-circle" style="height: 100px;width: 150px;">
-        </div>
-    </div>
-    <div class="row" align="center">
-        <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/blue.png" class="img-circle" style="height: 100px;width: 150px;">
-        </div>
-        <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/paytm.png" class="img-circle" style="height: 100px;width: 150px;">
-        </div>
-        <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/savera.png" class="img-circle" style="height: 100px;width: 150px;">
-        </div>
-        <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>img/clients/sbi.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/cc.png" class="img-circle" style="height: 100px;width: 150px;">
         </div>
     </div>
 
+    <div class="row" align="center">
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>assets/images/clients/blue.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>assets/images/clients/paytm.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>assets/images/clients/savera.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="<?php echo base_url(); ?>assets/images/clients/sbi.png" class="img-circle" style="height: 100px;width: 150px;">
+        </div>
+    </div>
+    <br>
+    </div>
+    <br>
+ 
 
 <script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
 <!-- Bootstrap tether Core JavaScript -->

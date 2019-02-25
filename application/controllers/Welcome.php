@@ -27,13 +27,13 @@ class Welcome extends CI_Controller {
 
     }
     public function About_us(){
-        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/header1.php');
         $this->load->view('base_web/aboutus.php');
         $this->load->view('base_web/footer.php');
     }
 
     public function Services(){
-        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/header1.php');
         $this->load->view('base_web/services.php');
         $this->load->view('base_web/footer.php');
     }
@@ -44,25 +44,25 @@ class Welcome extends CI_Controller {
         $this->load->view('base_web/footer.php');
     }
     public function Contact_us(){
-        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/header1.php');
         $this->load->view('base_web/contact_us.php');
         $this->load->view('base_web/footer.php');
     }
     public function Enquiry()
     {
-        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/header1.php');
         $this->load->view('base_web/enquiry.php');
         $this->load->view('base_web/footer.php');
     }
     public function Mutation()
     {
-        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/header1.php');
         $this->load->view('base_web/mutation.php');
         $this->load->view('base_web/footer.php');
     }
      public function Login()
     {
-        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/header1.php');
         $this->load->view('base_web/login.php');
         $this->load->view('base_web/footer.php');
     }

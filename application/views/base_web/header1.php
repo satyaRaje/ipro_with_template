@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,12 +15,11 @@
     <link href='<?php echo base_url()."style/assets/owl.carousel/owl.theme.default.css"?>' rel="stylesheet">
     <!-- Custom CSS -->
     <link href='<?php echo base_url()."style/css/style.css"?>' rel="stylesheet">
-    <!-- HTML5 Shim and R   espond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<![endif]-->
     <script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -39,27 +35,22 @@
     ga('send', 'pageview');
     </script>
 </head>
+<body>
+<div class="preloader" style="display: none;">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
+    </div>
 
-<body class="fix-header">
-<!-- ============================================================== -->
-<!-- Preloader - style you can find in spinners.css -->
-<!-- ============================================================== -->
-<!-- ============================================================== -->
-<!-- Main wrapper - style you can find in pages.scss -->
-<!-- ============================================================== -->
-<div id="main-wrapper">
-    <!-- ============================================================== -->
-    <!-- Topbar header - style you can find in pages.scss -->
-    <!-- ============================================================== -->
-    <header style="height:80px" class="topheader font-bold" id="top">
-        <div class="fix-width">
-            <nav class="navbar navbar-expand-md navbar-light p-l-0">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <!-- Logo will be here -->
+    <div id="main-wrapper">
+    <header class="topheader" id="top">
+            <div class="fix-width">
+                <nav class="navbar navbar-expand-md navbar-light p-l-0">
+                    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <!-- Logo will be here -->
                 <a class="navbar-brand" href="index.html"><img src='<?php echo base_url()."images/logo/logo.png"?>' height="80px" width="200px" alt="admin template" /></a>
-                <!-- This is the navigation menu -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto stylish-nav">
+                    <!-- This is the navigation menu -->
+                    <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
+                         <ul class="navbar-nav ml-auto stylish-nav" style="font-weight: bold">
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index" target="_blank">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">About Us</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Services" target="_blank">Services</a> </li>
@@ -68,37 +59,18 @@
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us" target="_blank">Contact Us</a> </li>
                         <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="<?php echo base_url(); ?>index.php/welcome/login" style="width:120px;">Login</a> </li>
                     </ul>
-                </div>
-            </nav>
-        </div>
+                    </div>
+                </nav>
+            </div>
         </header>
-    </div>
+        </div>
 
-    <script src="<?php echo base_url(); ?>js/jquery.min.js"></script>
+        <script src="<?php echo base_url(); ?>js/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url(); ?>bootstrap/js/popper.min.js"></script>
+    <script src="<?php echo base_url(); ?>bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>js/waves.js"></script>
     <script src="<?php echo base_url(); ?>js/sticky-kit.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/owl.carousel/owl.carousel.min.js"></script>
     <script src="<?php echo base_url(); ?>js/custom.min.js"></script>
-
 </body>
-</html>
-
-    <!-- ============================================================== -->
-    <!-- Page wrapper  -->
-    <!-- ============================================================== -->
-    <div class="page-wrapper">
-        <!-- ============================================================== -->
-        <!-- Container fluid  -->
-        <!-- ============================================================== -->
-        <div class="container-fluid">
-
-
-            <!-- ============================================================== -->
-            <!-- Testimonial -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- Call to action bar -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->

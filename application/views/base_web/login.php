@@ -1,9 +1,9 @@
 <title>IPRO3D-Login</title>
-<div class="row" style="padding-left: 20%;padding-right: 20%">
-                      <div class="col-lg-12">
+<div class="row" style="padding-left: 20%;padding-right: 20%;">
+                      <div class="col-lg-12"><br>
                       <div class="card">
-                        <div class="card-body" >
-                            <h2 class="card-title">Login</h2>
+                        <div class="card-body" style="background-color: #F5F5F5F5">
+                            <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Login</h2>
                                 <form class="form p-t-20">
                                     <div class="form-group">
                                         <label for="exampleInputuname">User Name /Email </label>
@@ -49,7 +49,9 @@
 
                             </div>
                         </div>
+                        <br>
                     </div>
+
                 </div>
             </body>
 
