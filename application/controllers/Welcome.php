@@ -54,6 +54,13 @@ class Welcome extends CI_Controller {
         $this->load->view('base_web/mutation.php');
         $this->load->view('base_web/footer.php');
     }
+     public function Login()
+    {
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/login.php');
+        $this->load->view('base_web/footer.php');
+    }
+
 
 
     
