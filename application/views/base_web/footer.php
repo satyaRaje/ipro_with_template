@@ -39,7 +39,7 @@
                 <ul class="footer-link list-icons">
                     <h3 style="color: white;">Contact us</h3>
                     <li><a href="../material/app-email.html"><i class="ti-angle-right"></i>Support/FAQs</a></li>
-                    <li><a href="../material/pages-treeview.html"><i class="ti-angle-right"></i> Enquiries</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Enquiry"></i> Enquiries</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i class="ti-angle-right"></i> Contact</a></li>
                     <li><a href="../material/pages-gallery.html"><i class="ti-angle-right"></i> Feedback Form</a></li>
                     <li><a href="../material/starter-kit.html"><i class="ti-angle-right"></i> Get Quotation</a></li>
