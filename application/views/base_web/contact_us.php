@@ -2,7 +2,7 @@
                       <div class="col-lg-12">
                       <div class="card">
                         <div class="card-body" >
-                            <h4 class="card-title">Contact Us</h4>
+                            <h2 class="card-title">Contact Us</h2>
 
                      <form class="form p-t-20">
                                     <div class="form-group">
