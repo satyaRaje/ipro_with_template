@@ -64,7 +64,7 @@
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">About Us</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Services</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Shop</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Mutation</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" target="_blank">Mutation</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us" target="_blank">Contact Us</a> </li>
                         <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="https://wrappixel.com/templates/materialpro/" style="width:120px;">Login</a> </li>
                     </ul>

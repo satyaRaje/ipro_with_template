@@ -1,9 +1,10 @@
-<div class="row">
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Enquiry Section</h4>
-                                <h6 class="card-subtitle">hello</h6>
+<body>
+<div class="row" style="padding-right: 20%; padding-left: 20%;">
+    <div class="col-lg-12">
+        <div class="card">
+               <div class="card-body">
+                       <h2 class="card-title">Enquiry Section</h2>
+                            <h6 class="card-subtitle"></h6>
                                 <form class="form p-t-20">
                                     <div class="form-group">
                                         <label for="exampleInputuname">User Name</label>
@@ -27,9 +28,16 @@
                                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                    <label>Mobile no<span class="help"> </span></label>
-                                    <input type="text" class="form-control" value="">
+                                     <div class="form-group">
+                                        <label for="mobileno">Mobile No</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="ti-mobile"></i>
+                                                </span>
+                                            </div>
+                                            <input type="mobile" class="form-control" id="mobileno" placeholder="Enter Mobile no">
+                                        </div>
                                     </div>
 
 
@@ -69,3 +77,5 @@
                         </div>
                     </div>
                 </div>
+            </div>
+</body>

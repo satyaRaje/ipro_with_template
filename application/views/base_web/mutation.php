@@ -13,25 +13,20 @@
     <!-- ============================================================== -->
     <div class="page-wrapper">
             <div class="row">
-                <div class="col-lg-3 col-xlg-2 col-md-4">
-                    <div class="stickyside">
-                        <div class="list-group" id="top-menu">
-                            <a href="#1" class="list-group-item active">Mutation</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-xlg-10 col-md-8">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title" id="1">Mutation</h4>
-            <p>IPRO3D mutation program is for students to develop their creative ideas/products and prototype them using the hi-tech 3d printing technology. The mutation program helps students to fabricate their ideas to product and get expert help if needed by the students. Students can also discuss their problems with the 3d printing community forums and get help from people working in 3d printing, 3d designing, etc.</p>
-                       </div>
+                 <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title" id="1">Mutation</h2>
+                   
+              <p>IPRO3D mutation program is for students to develop their creative ideas/products and prototype them using the hi-tech 3d printing technology. The mutation program helps students to fabricate their ideas to product and get expert help if needed by the students. Students can also discuss their problems with the 3d printing community forums and get help from people working in 3d printing, 3d designing, etc.</p>
+              <br><br>
+                             </div>
 
-                    </div>
-                <div>
+                        </div>
+                  <div>
             </div>
     </div>
-
+<br><br>
                     
     <!-- ============================================================== -->
     <!-- End Page wrapper  -->
