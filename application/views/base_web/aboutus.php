@@ -1,6 +1,6 @@
     
 <link type="image/png" sizes="16x16" href="<?php echo base_url();?>images/logo/logo.png">
-<title>About-us</title>
+<title>IPRO3D-About_us</title>
 
 <body class="fix-header fix-sidebar card-no-border">
     <div class="preloader">

@@ -1,3 +1,4 @@
+<title>IPRO3D-Enquiry</title>
 <body>
 <div class="row" style="padding-right: 20%; padding-left: 20%;">
     <div class="col-lg-12">
