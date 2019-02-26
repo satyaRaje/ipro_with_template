@@ -227,39 +227,6 @@
                     <li>
                         <a href='<?php echo base_url()."index.php/student/student_link/link_dashboard";?>' aria-expanded="false"><i class="icon-home" style="color: #007bb6;"></i><span class="hide-menu">Dashboard</span></a>
                     </li>
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/help_desk";?>' aria-expanded="false"><i class="fas fa-question"style="color: darkorange;" ></i><span class="hide-menu" >Help Desk</span></a>
-                    </li>
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_exam_pattern_fin";?>' aria-expanded="false"><i class="fas fa-file-alt"></i><span class="hide-menu">Exam Pattern</span></a>
-                    </li>
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_lesson";?>' aria-expanded="false"><i class="icon-notebook text-success"></i><span class="hide-menu">Lesson</span></a>
-                    </li>
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_objective";?>' aria-expanded="false"><i class="fa fa-database text-danger"></i><span class="hide-menu">Objective</span></a>
-                    </li>
-
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_email";?>' aria-expanded="false"><i class="mdi mdi-email text-primary"></i><span class="hide-menu">Email</span></a>
-                    </li>
-
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_letter";?>' aria-expanded="false" ><i class="fas fa-file-word" style="color: royalblue;"></i><span class="hide-menu">Letter</span></a>
-                    </li>
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_statement";?>' aria-expanded="false"><i class="fas fa-file-excel" style="color:darkgreen;;"></i><span class="hide-menu">Statement</span></a>
-                    </li>
-
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_passage";?>' aria-expanded="false"><i class="icon-notebook text-danger"></i><span class="hide-menu">Passage</span></a>
-                    </li>
-
-
-
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_exam";?>' aria-expanded="false"><i class="icon-graduation"></i><span class="hide-menu">Exam</span></a>
-                    </li>
 
                 </ul>
             </nav>
