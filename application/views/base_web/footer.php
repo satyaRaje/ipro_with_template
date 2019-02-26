@@ -38,13 +38,13 @@
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
                     <h3 style="color: white;">Contact us</h3>
-                    <li><a href="../material/app-email.html"><i class="ti-angle-right"></i>Support/FAQs</a></li>
+                    <li><a href="#"><i class="ti-angle-right"></i>Support/FAQs</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Enquiry" class="ti-angle-right"></i> Enquiries</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i class="ti-angle-right"></i> Contact</a></li>
-                    <li><a href="../material/pages-gallery.html"><i class="ti-angle-right"></i> Feedback Form</a></li>
-                    <li><a href="../material/starter-kit.html"><i class="ti-angle-right"></i> Get Quotation</a></li>
-                    <li><a href="../material/starter-kit.html"><i class="mdi mdi-cellphone-basic" style="font-size: large;"></i> +91 9821413663</a></li>
-                    <li><a href="../material/starter-kit.html"><i class="mdi mdi-gmail" style="font-size: large;"></i> hello@ipro3d.io</a></li>
+                    <li><a href="#"><i class="ti-angle-right"></i> Feedback Form</a></li>
+                    <li><a href="#"><i class="ti-angle-right"></i> Get Quotation</a></li>
+                    <li><a href="#"><i class="mdi mdi-cellphone-basic" style="font-size: large;"></i> +91 9821413663</a></li>
+                    <li><a href="#"><i class="mdi mdi-gmail" style="font-size: large;"></i> hello@ipro3d.io</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>

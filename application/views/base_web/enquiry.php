@@ -1,9 +1,14 @@
 <title>IPRO3D-Enquiry</title>
 <body>
+    <br>
+    <div class="preloader" style="display: none;">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
+    </div>
 <div class="row" style="padding-right: 20%; padding-left: 20%;">
     <div class="col-lg-12">
         <div class="card">
-               <div class="card-body">
+               <div class="card-body" style="background-color: #F5F5F5F5">
                        <h2 class="card-title">Enquiry Section</h2>
                             <h6 class="card-subtitle"></h6>
                                 <form class="form p-t-20">
@@ -79,4 +84,5 @@
                     </div>
                 </div>
             </div>
+            <br>
 </body>

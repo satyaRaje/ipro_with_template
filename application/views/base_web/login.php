@@ -1,4 +1,9 @@
 <title>IPRO3D-Login</title>
+<body>
+    <div class="preloader" style="display: none;">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
+    </div>
 <div class="row" style="padding-left: 20%;padding-right: 20%;">
                       <div class="col-lg-12"><br>
                       <div class="card">
@@ -44,9 +49,10 @@
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Login</button>
-                                    <button type="submit"  class="btn btn-success waves-effect waves-light m-r-10" >Register</button>
+                                    
                                 </form>
-
+                                <br>
+<a  href="#"><button  type="none" class="btn btn-success waves-effect waves-light " >Register</button></a>
                             </div>
                         </div>
                         <br>

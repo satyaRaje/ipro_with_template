@@ -51,7 +51,7 @@
     <!-- ============================================================== -->
     <!-- Topbar header - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <header style="height:80px" class="topheader font-bold" id="top">
+    <header class="topheader font-bold" id="top">
         <div class="fix-width">
             <nav class="navbar navbar-expand-md navbar-light p-l-0">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
@@ -60,12 +60,12 @@
                 <!-- This is the navigation menu -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto stylish-nav">
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index" target="_blank">Home</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">About Us</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Services" target="_blank">Services</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Shop</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" target="_blank">Mutation</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us" target="_blank">Contact Us</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" >About Us</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Services" >Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#" target="_blank">Shop</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" >Mutation</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us">Contact Us</a> </li>
                         <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="<?php echo base_url(); ?>index.php/welcome/login" style="width:120px;">Login</a> </li>
                     </ul>
                 </div>

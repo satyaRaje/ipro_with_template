@@ -1,5 +1,9 @@
 <title>IPRO3D-Contact_Us</title>
-
+<body>
+    <div class="preloader" style="display: none;">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
+    </div>
 <div class="row" style="padding-left: 20%;padding-right: 20%;">
                       <div class="col-lg-12"><br>
                       <div class="card">
@@ -15,18 +19,18 @@
                                                     <i class="ti-user"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" class="form-control" id="exampleInputuname" placeholder="Name">
+                                            <input type="text" class="form-control" id="fname" placeholder="Name">
                                         </div>
                                     </div>
                                      <div class="form-group">
-                                        <label for="exampleInputEmail1">Mobile Number</label>
+                                        <label>Mobile Number</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
                                                     <i class="ti-mobile"></i>
                                                 </span>
                                             </div>
-                                            <input type="email" class="form-control" id="exampleInputMobile" placeholder="Enter Mobile Number">
+                                            <input type="email" class="form-control" id="mobileno" placeholder="Enter Mobile Number">
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -37,7 +41,7 @@
                                                     <i class="ti-email"></i>
                                                 </span>
                                             </div>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email">
                                         </div>
                                     </div>
                                    <div class="form-group">
@@ -70,10 +74,10 @@
                                 <div class="form-group">
                                     <label>Message</label>
                                   
-                                    <textarea class="form-control" rows="5">
+                                    <textarea class="form-control" rows="5" id="message">
                                 </textarea> </div>
                                   
-                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Send Message</button>
+                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" name="send">Send Message</button>
                                     <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 </form>
                             </div>
@@ -85,3 +89,19 @@
                  </body>
 
                     
+<?php
+if(isset($_POST['send'])){
+  /*  $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
+    $conn = mysqli_connect("localhost","root", "","dbipro3d");
+    $check = mysqli_query($conn,$query);*/
+    $to = "hello@ipro3d.io";
+    $subject = "Email Enquiry : ";
+    $txt = "Student Name : ".$_POST['fname']." Requirement's : ".$_POST['message']." Mobile No. : ".$_POST['mobileno']." Email Address : ".$_POST['email'];
+    $headers = "From: mit@arkay.org" . "\r\n" .
+        "CC: swaranjalik24@gmail.com";
+    mail($to,$subject,$txt,$headers);
+
+    echo "<script>alert('Thanks For Contact...!');</script>";
+}
+
+?>
