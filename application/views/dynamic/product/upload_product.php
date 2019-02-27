@@ -4,7 +4,7 @@
              <div class="col-lg-12">
                  <div class="col-lg-6">
                        <h3>Upload Product - <?php echo $this->session->dir_url;?></h3>
-                       <form method="post" action="<?php echo base_url()."index.php/TeamA/product/ci_upload_product/upload_stl_file"?>" enctype="multipart/form-data">
+                       <form method="post" action="<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_stl_file"?>" enctype="multipart/form-data">
                            <div class="form-group">
                                <label for="exampleInputEmail1">Product Name</label>
                                <input type="text" class="form-control" name="pname"id="email_address" aria-describedby="emailHelp" placeholder="Enter Product Name">
@@ -42,7 +42,7 @@
                              <tbody>
 
                              <?php foreach ($data as $d ){?>
-                            <form method="post" action='<?php echo base_url()."index.php/TeamA/product/ci_upload_product/remove_stl_file";?>'>
+                            <form method="post" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/remove_stl_file";?>'>
                                  <tr>
                                      <input type="hidden" name="product_id" value='<?php echo $d->pid;?>'>
                                      <td><?php

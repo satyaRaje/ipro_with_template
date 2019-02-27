@@ -24,7 +24,7 @@
                         <tbody>
 
                         <?php foreach ($data as $d ){?>
-                            <form method="post" action='<?php echo base_url()."index.php/TeamA/product/ci_upload_product/generate_quotation";?>'>
+                            <form method="post" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/generate_quotation";?>'>
                                 <tr>
                                     <input type="hidden" name="product_id" value='<?php echo $d->pid;?>'>
                                     <input type="hidden" name="product_name" value='<?php echo $d->pname;?>'>

@@ -50,9 +50,9 @@
                     <b>
                         <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                         <!-- Dark Logo icon -->
-                        <img src='<?php echo base_url()."style/assets/images/logo-icon.png";?>' alt="homepage" class="dark-logo" />
+                        <!--<img src='<?php echo base_url()."style/assets/images/logo-icon.png";?>' alt="homepage" class="dark-logo" /> -->
                         <!-- Light Logo icon -->
-                        <img src='<?php echo base_url()."style/assets/images/logo-light-icon.png";?>' alt="homepage" class="light-logo" />
+                        <!--<img src='<?php echo base_url()."style/assets/images/logo-light-icon.png";?>' alt="homepage" class="light-logo" /> -->
                     </b>
                     <!--End Logo icon -->
                     <!-- Logo text -->
@@ -149,13 +149,13 @@
                                         </a>
                                         <!-- Message -->
                                         <a href="#">
-                                            <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                            <div class="user-img"> <img src="<?php echo base_url()?>style/full/assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
                                             <div class="mail-contnet">
                                                 <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                         </a>
                                         <!-- Message -->
                                         <a href="#">
-                                            <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                            <div class="user-img"> <img src="<?php echo base_url()?>style/full/assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
                                             <div class="mail-contnet">
                                                 <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                         </a>
@@ -180,15 +180,13 @@
                     <!-- Profile -->
                     <!-- ============================================================== -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src='<?php echo base_url()."style/assets/images/users/1.jpg"; ?>' alt="user" class="profile-pic" /></a>
+                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src='<?php echo base_url()."style/full/assets/images/users/1.jpg"; ?>' alt="user" class="profile-pic" /></a>
                         <div class="dropdown-menu dropdown-menu-right scale-up">
                             <ul class="dropdown-user">
                                 <li>
                                     <div class="dw-user-box">
-                                        <div class="u-img"><img src='<?php echo base_url()."style/assets/images/users/1.jpg"; ?>' alt="user"></div>
+                                        <div class="u-img"><img src='<?php echo base_url()."style/full/assets/images/users/1.jpg"; ?>' alt="user"></div>
                                         <div class="u-text">
-                                            <h4><?php echo $this->load->session->userdata('owner_name');?></h4>
-                                            <p class="text-muted"><?php echo $this->load->session->userdata('email');?></p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
                                     </div>
                                 </li>
                                 <li role="separator" class="divider"></li>
@@ -226,6 +224,26 @@
                 <ul id="sidebarnav">
                     <li>
                         <a href='<?php echo base_url()."index.php/student/student_link/link_dashboard";?>' aria-expanded="false"><i class="icon-home" style="color: #007bb6;"></i><span class="hide-menu">Dashboard</span></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-product-hunt fa-fw"></i> Product<span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View STL File</a>
+                        </li>
+                    </ul>
+
                     </li>
 
                 </ul>

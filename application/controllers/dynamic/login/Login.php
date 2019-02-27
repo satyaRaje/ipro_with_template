@@ -31,9 +31,9 @@ class Login extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('TeamA/login/header_view1');
-        $this->load->view('TeamA/login/user_login');
-        $this->load->view('TeamA/login/footer_view1');
+        $this->load->view('dynamic/login/header_view1');
+        $this->load->view('dynamic/login/user_login');
+        $this->load->view('dynamic/login/footer_view1');
     }
 
     public function admin_dashboard(){
@@ -45,17 +45,17 @@ class Login extends CI_Controller {
 
     public function customer_dashboard(){
         
-        $this->load->view('TeamA/dashboard/customer/Customer_panel');
+        $this->load->view('dynamic/dashboard/customer/Customer_panel');
         
     }
 
     public function user_login_page(){
-        $this->load->view('TeamA/login/user_login');
-        $this->load->view('TeamA/login/footer_view1');
+        $this->load->view('dynamic/login/user_login');
+        $this->load->view('dynamic/login/footer_view1');
     }
     public function login_page(){
-        $this->load->view('TeamA/login/login');
-        $this->load->view('TeamA/login/footer_view1');
+        $this->load->view('dynamic/login/login');
+        $this->load->view('dynamic/login/footer_view1');
     }
     public function send_email_otp(){
         header('Access-Control-Allow-Origin: *');
@@ -105,7 +105,7 @@ class Login extends CI_Controller {
              'password'=>md5($password),
              'dir_url'=>$rand
          );
-        $this->load->model('TeamA/login/mod_login','mod');
+        $this->load->model('dynamic/login/mod_login','mod');
         $result=array();
         if($this->mod->register_success($data)==true){
 
@@ -215,13 +215,13 @@ class Login extends CI_Controller {
            // print_r($_SESSION);
            
            if($result['flag']=='0'){
-           header("Location: ".base_url()."index.php/TeamA/login/login/customer_dashboard");
+           header("Location: ".base_url()."index.php/dynamic/login/login/customer_dashboard");
            }else if($result['flag']=='1'){
-               header("Location: ".base_url()."index.php/TeamA/login/login/admin_dashboard");
+               header("Location: ".base_url()."index.php/dynamic/login/login/admin_dashboard");
            }else{
             echo "Wrong Password";
            }
-            //echo "<script>location.href = ".base_url().'index.php/TeamA/login/login/customer_dashboard'.";</script>";
+            //echo "<script>location.href = ".base_url().'index.php/dynamic/login/login/customer_dashboard'.";</script>";
             
         //}else{
             

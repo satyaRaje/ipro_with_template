@@ -32,7 +32,7 @@ class ci_upload_product extends CI_Controller {
     }
 
    public function upload_stl_file(){
-       $this->load->model('TeamA/product/product_model','up');
+       $this->load->model('dynamic/product/product_model','up');
 
             $rand = rand(55555,444444);
        if(!is_file( getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname'])){
@@ -82,9 +82,9 @@ class ci_upload_product extends CI_Controller {
         $user=$this->session->userdata('user');
         $query = $this->db->get_where('tblproduct', array('userId' =>$this->session->user_id,'flag'=>'0'));
         $data['data'] = $query->result();
-        $this->load->view('TeamA/dashboard/admin/header');
-        $this->load->view('TeamA/product/upload_product',$data);
-        $this->load->view('TeamA/dashboard/admin/footer');
+        $this->load->view('dynamic/dashboard/admin/header');
+        $this->load->view('dynamic/product/upload_product',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
 
     }
 
@@ -101,17 +101,17 @@ class ci_upload_product extends CI_Controller {
 
 
      public function load_quotation(){
-         $this->load->view('TeamA/dashboard/admin/header');
+         $this->load->view('dynamic/dashboard/admin/header');
          $query = $this->db->get_where('tblproduct', array('flag'=>'0'));
          $data['data'] = $query->result();
-         $this->load->view('TeamA/product/product_quotation',$data);
-         $this->load->view('TeamA/dashboard/admin/footer');
+         $this->load->view('dynamic/product/product_quotation',$data);
+         $this->load->view('dynamic/dashboard/admin/footer');
      }
 
      public function generate_quotation(){
-         $this->load->view('TeamA/dashboard/admin/header');
-         $this->load->view('TeamA/product/generate_product_quotation');
-         $this->load->view('TeamA/dashboard/admin/footer');
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/generate_product_quotation');
+         $this->load->view('dynamic/dashboard/admin/footer');
      }
 
      public function update_company_quotation(){
@@ -126,19 +126,20 @@ $this->db->update('tblproduct', $data, $where);
      
      
      public function upload_admin_product(){
-         $this->load->view('TeamA/dashboard/admin/header');
-         $this->load->view('TeamA/product/upload_product_admin');
-         $this->load->view('TeamA/dashboard/admin/footer');
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/upload_product_admin');
+         $this->load->view('dynamic/dashboard/admin/footer');
      }
 
 
     public function select_view_upload(){
-        $this->load->view('TeamA/dashboard/admin/header');
+        $this->load->view('dynamic/dashboard/admin/header');
         $d=array('flag' => '11');
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
-        $this->load->view('TeamA/product/admin_product_card',$data);
-        $this->load->view('TeamA/dashboard/admin/footer');
+  //      print_r($data);
+       $this->load->view('dynamic/product/admin_product_card',$data);
+    $this->load->view('dynamic/dashboard/admin/footer');
     }
 
     public function upload_front_view(){
@@ -396,12 +397,12 @@ $this->db->update('tblproduct', $data, $where);
      
      
      public function select_product_on_marketplace(){
-              $this->load->view('TeamA/dashboard/admin/header');
+              $this->load->view('dynamic/dashboard/admin/header');
         $d=array('flag' => '18');
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
-        $this->load->view('TeamA/product/admin_product_card',$data);
-        $this->load->view('TeamA/dashboard/admin/footer');
+        $this->load->view('dynamic/product/admin_product_card',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
        
      }
      

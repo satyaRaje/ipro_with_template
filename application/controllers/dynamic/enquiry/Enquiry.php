@@ -35,9 +35,9 @@ class Enquiry extends CI_Controller {
         $user=$this->session->userdata('user');
         $query = $this->db->get_where('tblenquiry', array('status'=>'0'));
         $data['data'] = $query->result();
-        $this->load->view('TeamA/dashboard/admin/header');
-        $this->load->view('TeamA/enquiry/enquiry',$data);
-        $this->load->view('TeamA/dashboard/admin/footer'); 
+        $this->load->view('dynamic/dashboard/admin/header');
+        $this->load->view('dynamic/enquiry/enquiry',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
      }    
 }
 
