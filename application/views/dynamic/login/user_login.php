@@ -5,13 +5,13 @@
         background-image: linear-gradient(to left bottom, #858383, #a2a1a1, #c0bfc0, #dfdfdf, #ffffff);
     </style>
 
-
+<div class="container-fluid">
 <form method="post" action='<?php echo base_url()."index.php/dynamic/login/login/login_success"; ?>'>
     <div class="row">
         <div class="col-sm-3"> </div>
 
         <div class="col-sm-6 border border-dark bg-light" style="border-radius:5px;;">
-            <img src='<?php echo base_url().'/style/NewTM_Logo.png'; ?>'  style=" padding-left:25%;height:100px;max-width: 100%;max-height: 100%;align:center;" class="text-center"/>
+            <img src='<?php echo base_url().'/images/logo/logo.png'; ?>'  style=" padding-left:25%;height:100px;max-width: 100%;max-height: 100%;align:center;" class="text-center"/>
             <h1 class="text-center text-secondary">Login</h1>
             <div id="hide_email">
                 <div class="form-group">
@@ -40,9 +40,7 @@
             </div>
             
             <div class="form-group">
-                <a href='<?php echo "https://www.ipro3d.io";?>' class="btn btn-primary float-left" style="padding-bottom:5px;">Home</a>
                 <a href='<?php echo base_url()."index.php/dynamic/login/login/login_page"?>' class="btn btn-primary float-right" style="padding-bottom:5px;">Register</a>
-                
             </div>
          <br>
             
@@ -52,7 +50,7 @@
         </div>
 
 </form>
-
+</div>
 
 
 
