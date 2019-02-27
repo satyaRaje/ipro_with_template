@@ -56,6 +56,7 @@
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Services" target="_blank">Services</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" target="_blank">Shop</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" target="_blank">Mutation</a> </li>
+                             <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/dynamic/marketplace/ci_marketplace/select_marketplace" target="_blank">Marketplace</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us" target="_blank">Contact Us</a> </li>
                         <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page" style="width:120px;">Login</a> </li>
                     </ul>

@@ -37,8 +37,11 @@ class CI_Marketplace extends CI_Controller {
         $d=array('flag' => '18');
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
-        $this->load->view('TeamA/marketplace/market',$data);
-        
+        $this->load->view('base_web/header');
+
+        $this->load->view('dynamic/marketplace/market',$data);
+        $this->load->view('base_web/footer');
+
     }
     
     
