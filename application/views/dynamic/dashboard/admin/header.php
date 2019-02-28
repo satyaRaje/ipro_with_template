@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href='<?php echo base_url()."style/assets/images/favicon.png";?>'>
-    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Marketplace IPRO3D-Admin</title>
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/full/assets/plugins/bootstrap/css/bootstrap.min.css";?>' rel="stylesheet">
     <!-- Custom CSS -->
@@ -245,6 +245,82 @@
                     </ul>
 
                     </li>
+                      <li>
+                        <a href="#"><i class="fa fa-product-hunt fa-fw"></i>View <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">View STL File</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
+                        </li>
+                          <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Enquiry</a>
+                        </li>
+                          <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Bills</a>
+                        </li>
+                          <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
+                        </li>
+                       </ul>
+                   </li>
+                          <li>
+                        <a href="#"><i class="fa fa-watch"></i>History <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
+                        </li>
+                         <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Payment History</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Product History</a>
+                        </li>
+                    </ul>
+                </li>
+                   <li>
+                        <a href="#"><i class="fa fa-add"></i>Add <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Blog</a>
+                        </li>
+                       <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Newsletter</a>
+                        </li>
+                       <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>
+                        </li>
+                    </ul>
+                </li>
+                                    <li>
+                        <a href="#"><i class="fa fa-user"></i>Customer<span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Contact</a>
+                        </li>
+               <li>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Data</a>
+                        </li>
+                    </ul>
+                </li>
+                 <li>
+                    <a href="#"><i class="fa fa-mod"></i>Discount<span class="fa arrow"></span></a>\
+                </li>
+                 <li>
+                    <a href="#"><i class="fa fa-card"></i>Generate Coupon<span class="fa arrow"></span></a>
+                </li>
+
+
+               
+
+                       
+                       
+                                
 
                 </ul>
             </nav>
