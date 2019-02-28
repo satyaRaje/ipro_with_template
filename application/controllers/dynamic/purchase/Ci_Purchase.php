@@ -37,12 +37,15 @@ class ci_Purchase extends CI_Controller {
     }
 
     public function add_quantity_cart(){
-        $data = array('qty'=>$_POST['qty']+1);
-        $where ="id=".$_POST['pid'];
-        //print_r($where);
-        //print_r($data);
-        echo $this->db->update('tblcart', $data, $where);
+        if(isset($_POST['plus'])){
+            $data = array('qty'=>$_POST['qty']+1);
+            $where ="id=".$_POST['pid'];
+            $this->db->update('tblcart', $data, $where);
+        }else if(isset($_POST['plus'])){
 
+        }else{
+
+        }
        $this->view_cart();
     }
 
