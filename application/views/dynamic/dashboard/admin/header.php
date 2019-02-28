@@ -309,7 +309,7 @@
                     </ul>
                 </li>
                  <li>
-                    <a href="#"><i class="fa fa-mod"></i>Discount<span class="fa arrow"></span></a>\
+                    <a href="#"><i class="fa fa-mod"></i>Discount<span class="fa arrow"></span></a>
                 </li>
                  <li>
                     <a href="#"><i class="fa fa-card"></i>Generate Coupon<span class="fa arrow"></span></a>
