@@ -41,10 +41,13 @@ class ci_Purchase extends CI_Controller {
             $data = array('qty'=>$_POST['qty']+1);
             $where ="id=".$_POST['pid'];
             $this->db->update('tblcart', $data, $where);
-        }else if(isset($_POST['plus'])){
-
+        }else if(isset($_POST['minus'])){
+            $data = array('qty'=>$_POST['qty']-1);
+            $where ="id=".$_POST['pid'];
+            $this->db->update('tblcart', $data, $where);
         }else{
-
+            $this->db->where('id', $_POST['pid']);
+            $this->db->delete('tblcart');
         }
        $this->view_cart();
     }

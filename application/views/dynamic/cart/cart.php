@@ -24,11 +24,11 @@
                     <td><img src="<?php echo $d->img;?>" style="height: 80px;width: 80px;"></td>
                     <td><?php echo $d->pname;?></td>
                     <td><?php echo $d->price;?></td>
-                    <td><button class="btn btn-circle btn-sm btn-inverse m-2" type="submit" value="minus"><i class="mdi mdi-minus"></i></button>
+                    <td><button class="btn btn-circle btn-sm btn-inverse m-2" type="submit" value="minus" name="minus"><i class="mdi mdi-minus"></i></button>
                         <input type="text" value="<?php echo $d->qty;?>" style="width: 30px;text-align: center;" name="qty" readonly>
 
 
-                        <button class="btn btn-circle btn-sm btn-inverse m-2"  type="submit" value="plus"><i class="mdi mdi-plus" value="minus"></i></button></td>
+                        <button class="btn btn-circle btn-sm btn-inverse m-2"  type="submit" value="plus" name="plus"><i class="mdi mdi-plus" value="minus"></i></button></td>
                     <td><?php $tot_p= $d->price * $d->qty;
                             echo $tot_p;
                        $tot+=$tot_p;
