@@ -21,7 +21,7 @@ class CI_Marketplace extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->load->db_ipro3do();
+        $this->load->database();
         //$this->load->library('session');
         //$this->ci =& get_instance();
     }
