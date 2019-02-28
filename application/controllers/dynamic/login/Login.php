@@ -20,7 +20,6 @@ class Login extends CI_Controller {
      */
     public function __construct()
     {
-        
         parent::__construct();
        // parent::Controller();
         $this->load->database();
@@ -35,6 +34,16 @@ class Login extends CI_Controller {
         $this->load->view('dynamic/login/user_login');
         $this->load->view('dynamic/login/footer_view1');
     }
+
+    public function select_header(){
+        /*$query = $this->db->get_where('tblcart', array('user_id' =>$this->session->user_id,'flag'=>'0'));
+        $data['data'] = $query->result();
+        $this->load->view('dynamic/dashboard/customer/header',$data);
+        $this->load->view('dynamic/dashboard/customer/dashboard');
+        $this->load->view('dynamic/dashboard/customer/footer');
+ */
+    }
+
 
     public function admin_dashboard(){
         $this->load->view('dynamic/dashboard/admin/header');

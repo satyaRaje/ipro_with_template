@@ -80,7 +80,39 @@
                 <ul class="navbar-nav my-lg-0">
                     <!-- ============================================================== -->
                     <!-- Comment -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-cart"></i>
+                            <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right mailbox scale-up">
+                            <ul>
+                                <li>
+                                    <div class="drop-title">Product</div>
+                                </li>
+                                <li>
+                                    <div class="message-center">
+
+                                        <!-- Message -->
+                                        <?php
+                                        $query = $this->db->get_where('tblcart', array('user_id' =>$this->session->user_id,'flag'=>'0'));
+                                        $g = $query->result();
+                                      foreach ($g as $d){?>
+                                        <a href="#">
+                                            <img src="<?php echo $d->img;?>" class="img img-circle" style="height:30px;width: 30px;"/>
+                                            <div class="mail-contnet">
+                                                <h5><?php echo $d->pname;?></h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+                                        </a>
+                                     <?php }?>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-center" href="<?php echo base_url()."index.php/dynamic/purchase/ci_purchase/view_cart";?>"> <strong>Check all notifications</strong> <i class="fa fa-angle-right"></i> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                     <!-- ============================================================== -->
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
                             <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
