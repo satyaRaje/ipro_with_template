@@ -118,6 +118,7 @@ class ci_upload_product extends CI_Controller {
          $data = array('flag' => '2','product_price'=>$_POST['price']);
 
          $where = "pid=".$_POST['pid'];
+
 $this->db->update('tblproduct', $data, $where);
          //$str = $this->db->update_string();
         // $this->db->query($str);

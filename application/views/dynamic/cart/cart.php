@@ -15,18 +15,29 @@
                  <td>Quantity</td>
                  <td>Total</td>
              </tr>
+                <?php $tot=0;?>
                 <?php foreach ($data as $d){?>
                 <tr>
+                  <form method="post" action="<?php echo base_url()."index.php/dynamic/purchase/ci_purchase/add_quantity_cart"?>">
+                      <input type="hidden" value="<?php echo $d->id;?>" name="pid">
                     <td><img src="<?php echo $d->img;?>" style="height: 80px;width: 80px;"></td>
                     <td><?php echo $d->pname;?></td>
                     <td><?php echo $d->price;?></td>
-                    <td><?php echo $d->qty;?></td>
-                    <td>Total</td>
+                    <td><button class="btn btn-circle btn-sm btn-inverse m-2" type="submit" value="plus"><i class="mdi mdi-minus"></i></button>
+                        <input type="text" value="<?php echo $d->qty;?>" style="width: 30px;text-align: center;" name="qty" readonly>
+
+
+                        <button class="btn btn-circle btn-sm btn-inverse m-2"><i class="mdi mdi-plus" type="submit" value="minus"></i></button></td>
+                    <td><?php $tot_p= $d->price * $d->qty;
+                            echo $tot_p;
+                       $tot+=$tot_p;
+                    ?></td>
+                  </form>
                 </tr>
                <?php } ?>
                 <tr>
                     <td>Total : </td>
-                    <td>600</td>
+                    <td><?php echo $tot;?></td>
                 </tr>
                 <tr>
                     <td><button class="btn btn-primary btn-rounded">Pay Now</button></td>
