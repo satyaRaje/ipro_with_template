@@ -274,6 +274,46 @@
                         <li>
                             <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View STL File</a>
                         </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/">Generate Quatation</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View All Quatation</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View Enquiry</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Add Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Newsletter</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View Bills</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Generate Coupon</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Sale History</a>
+                        </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     </ul>
 
                     </li>
