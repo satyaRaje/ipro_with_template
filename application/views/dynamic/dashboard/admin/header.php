@@ -214,125 +214,105 @@
     <!-- ============================================================== -->
     <!-- Left Sidebar - style you can find in sidebar.scss  -->
     <!-- ============================================================== -->
-    <aside class="left-sidebar" style="background-color: white;">
-        <!-- Sidebar scroll-->
-        <div class="scroll-sidebar">
-            <!-- User profile -->
-            <!-- End User profile text-->
-            <!-- Sidebar navigation-->
-            <nav class="sidebar-nav">
-                <ul id="sidebarnav">
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_dashboard";?>' aria-expanded="false"><i class="icon-home" style="color: #007bb6;"></i><span class="hide-menu">Dashboard</span></a>
-                    </li>
 
-                    <li>
-                        <a href="#"><i class="fa fa-product-hunt fa-fw"></i> Product<span class="fa arrow"></span></a>
-
-                        <ul class="nav nav-second-level">
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
+<aside class="left-sidebar" style="background-color: white; overflow: visible;">
+            <!-- Sidebar scroll-->
+            <div class="slimScrollDiv" style="position: relative; overflow: visible; width: auto; height: 100%;"><div class="scroll-sidebar" style="overflow: visible hidden; width: auto; height: 100%;">
+                <!-- User profile -->
+                <div class="user-profile" style="background: url(../assets/images/background/user-info.jpg) no-repeat;">
+                    <!-- User profile image -->
+                                   <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav active">
+                    <ul id="sidebarnav" class="in">
+                     
+                        <li class=""> <a href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Product</span></a>
+                        <ul aria-expanded="false" class="collapse" style="height: 262px;">
+                                
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View STL File</a>
+                            <a href="http://localhost/ipro_with_template/index.php/Welcome/view_stlfile_fun">View STL File</a>
                         </li>
-                    </ul>
-
-                    </li>
-                      <li>
-                        <a href="#"><i class="fa fa-product-hunt fa-fw"></i>View <span class="fa arrow"></span></a>
-
-                        <ul class="nav nav-second-level">
+                    </ul></li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
+                              <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">View STL File</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">View STL File</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
                         </li>
                           <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Enquiry</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Enquiry</a>
                         </li>
                           <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Bills</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Bills</a>
                         </li>
                           <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
                         </li>
                        </ul>
-                   </li>
-                          <li>
-                        <a href="#"><i class="fa fa-watch"></i>History <span class="fa arrow"></span></a>
 
-                        <ul class="nav nav-second-level">
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
+                             <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
                         </li>
                          <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Payment History</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Payment History</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Product History</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Product History</a>
                         </li>
                     </ul>
-                </li>
-                   <li>
-                        <a href="#"><i class="fa fa-add"></i>Add <span class="fa arrow"></span></a>
-
-                        <ul class="nav nav-second-level">
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Add</span></a>
+                            <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Blog</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Blog</a>
                         </li>
                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Newsletter</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Newsletter</a>
                         </li>
                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>
                         </li>
                     </ul>
-                </li>
-                                    <li>
-                        <a href="#"><i class="fa fa-user"></i>Customer<span class="fa arrow"></span></a>
 
-                        <ul class="nav nav-second-level">
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Customer</span></a>
+                            <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Contact</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Contact</a>
                         </li>
-               <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Data</a>
+                       <li>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Data</a>
+                        </li>
+                       </ul>
+                </li>
+                 <li>
+                    <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Discount</span></a>
+                </li>
+                 <li>
+                    <a  href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Generate Coupon</span></a>
+                </li>
+
                         </li>
                     </ul>
-                </li>
-                 <li>
-                    <a href="#"><i class="fa fa-mod"></i>Discount<span class="fa arrow"></span></a>
-                </li>
-                 <li>
-                    <a href="#"><i class="fa fa-card"></i>Generate Coupon<span class="fa arrow"></span></a>
-                </li>
-
-
-               
-
-                       
-                       
-                                
-
-                </ul>
-            </nav>
-            <!-- End Sidebar navigation -->
-        </div>
-        <!-- End Sidebar scroll-->
-        <!-- Bottom points-->
-        <!-- End Bottom points-->
-    </aside>
-    <!-- ============================================================== -->
-    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Page wrapper  -->
-    <!-- ============================================================== -->
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div><div class="slimScrollBar" style="background: rgb(220, 220, 220); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; left: 1px; height: 2994.78px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; left: 1px;"></div></div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <!-- End Bottom points-->
+        </aside>
