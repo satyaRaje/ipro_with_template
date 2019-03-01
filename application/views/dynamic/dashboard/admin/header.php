@@ -58,7 +58,9 @@
                     <!-- Logo text -->
                     <span>
                          <!-- dark Logo text -->
-                         <img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
+
+                        <img src="http://localhost/ipro_with_template/images/logo/logo.png" height="80px" width="200px" alt="admin template">
+                         <!--img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
                         <!-- Light Logo text -->
                          <img src='<?php echo base_url()."style/assets/images/logo-light-text.png";?>' class="light-logo" alt="homepage" /></span> </a>
             </div>

@@ -32,9 +32,6 @@
     <svg class="circular" viewBox="25 25 50 50">
         <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
 </div>
-<!-- ============================================================== -->
-<!-- Main wrapper - style you can find in pages.scss -->
-<!-- ============================================================== -->
 <div id="main-wrapper">
     <!-- ============================================================== -->
     <!-- Topbar header - style you can find in pages.scss -->
@@ -58,10 +55,16 @@
                     <!-- Logo text -->
                     <span>
                          <!-- dark Logo text -->
-                         <img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
+
+                        <img src="http://localhost/ipro_with_template/images/logo/logo.png" height="80px" width="200px" alt="admin template">
+                         <!--img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
                         <!-- Light Logo text -->
-                         <img src='<?php echo base_url()."style/assets/images/logo-light-text.png";?>' class="light-logo" alt="homepage" /></span> </a>
-            </div>
+                         <!--img src='<?php echo base_url()."style/assets/images/logo-light-text.png";?>' class="light-logo" alt="homepage" /-->
+                         </span> </a>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+                   </div>
             <!-- ============================================================== -->
             <!-- End Logo -->
             <!-- ============================================================== -->
