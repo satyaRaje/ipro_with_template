@@ -132,6 +132,13 @@ $this->db->update('tblproduct', $data, $where);
          $this->load->view('dynamic/dashboard/admin/footer');
      }
 
+      public function addblog_view(){
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/add_blog');
+         $this->load->view('dynamic/dashboard/admin/footer');
+     }
+
+
 
     public function select_view_upload(){
         $this->load->view('dynamic/dashboard/admin/header');

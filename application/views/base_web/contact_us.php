@@ -89,7 +89,7 @@
                  </body>
 
                     
-<?php
+<!--<?php
 if(isset($_POST['send'])){
   /*  $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
     $conn = mysqli_connect("localhost","root", "","dbipro3d");
@@ -104,4 +104,4 @@ if(isset($_POST['send'])){
     echo "<script>alert('Thanks For Contact...!');</script>";
 }
 
-?>
+?>-->

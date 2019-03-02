@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href='<?php echo base_url()."style/assets/images/favicon.png";?>'>
-    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>IPRO3D-Customer_Dashboard</title>
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/full/assets/plugins/bootstrap/css/bootstrap.min.css";?>' rel="stylesheet">
     <!-- Custom CSS -->
@@ -288,7 +288,8 @@
                         </li>
 
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Add Blog</a>
+                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/addblog_view">Add Blog</a>
+  
                         </li>
 
                         <li>
