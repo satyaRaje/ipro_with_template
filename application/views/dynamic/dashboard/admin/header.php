@@ -217,7 +217,7 @@
     <!-- Left Sidebar - style you can find in sidebar.scss  -->
     <!-- ============================================================== -->
 
-<aside class="left-sidebar" style="background-color: white; overflow: visible;">
+<aside class="left-sidebar nabbar-light" style="background-color: white; overflow: visible;">
             <!-- Sidebar scroll-->
             <div class="slimScrollDiv" style="position: relative; overflow: visible; width: auto; height: 100%;"><div class="scroll-sidebar" style="overflow: visible hidden; width: auto; height: 100%;">
                 <!-- User profile -->
@@ -225,7 +225,7 @@
                     <!-- User profile image -->
                                    <!-- End User profile text-->
                 <!-- Sidebar navigation-->
-                <nav class="sidebar-nav active">
+                <nav class="sidebar-nav active " style="background-color: white;">
                     <ul id="sidebarnav" class="in">
                      
                         <li class=""> <a href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
@@ -242,7 +242,7 @@
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
                         </li>
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/Welcome/view_stlfile_fun">View STL File</a>
+                            <a href="<?php echo base_url()."index.php/dynamic/product/ci_upload_product/remove_stl_file";?>">View STL File</a>
                         </li>
                     </ul></li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
