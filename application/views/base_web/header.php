@@ -62,7 +62,26 @@
                     <ul class="navbar-nav ml-auto stylish-nav">
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" >About Us</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Services" >Services</a> </li>
+                        <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services" target="_blank">3D Printing</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#scanning" target="_blank">3D Scanning</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#rapidprototyping" target="_blank">Rapid Prototyping</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#cadmodelling" target="_blank">CAD Modeling</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#design " target="_blank">Design for 3D Printing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#reverse" target="_blank">Reverse Engineering</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#topology" target="_blank">Design Topology Optimization</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#manufacturing" target="_blank">Small Batch Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#vaccumcast" target="_blank">Vaccum Casting</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#xraytopology" target="_blank">X-Ray Topology</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#functional" target="_blank">Functional Part Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#tooling" target="_blank">Tooling Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#injectionmodelling" target="_blank">Injection Modeling</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#cncmachine" target="_blank">CNC Machining</a>         
+
+                                 </div>
+                            </li>
                         <li class="nav-item"> <a class="nav-link" href="#" target="_blank">Shop</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" >Mutation</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/dynamic/marketplace/ci_marketplace/select_marketplace" target="_blank">Marketplace</a> </li>

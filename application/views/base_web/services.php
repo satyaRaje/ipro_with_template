@@ -80,6 +80,50 @@
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="rapidprototyping" align="center" style="font-weight: bold;font-family: Philosiphers">3. Rapid Prototyping</h2>
                           <p style="text-align: justify;">
+                            <div class="row" >
+                                <div class="col-lg-3">
+                                </div>
+                                      <div class="col-xlg-3" align="center" style="padding-left: 10%">
+                                        <div id="carouselExampleIndicators3" class="carousel slide mt-4" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class=""></li>
+                                                <li data-target="#carouselExampleIndicators3" data-slide-to="1" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators3" data-slide-to="2" class=""></li>
+                                            </ol>
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item">
+                                                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/big/img6.jpg" alt="First slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h3 class="text-white">First title goes here</h3>
+                                                        <p>this is the subcontent you can use this</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item active">
+                                                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/big/img3.jpg" alt="Second slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h3 class="text-white">Second title goes here</h3>
+                                                        <p>this is the subcontent you can use this</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/big/img4.jpg" alt="Third slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h3 class="text-white">Third title goes here</h3>
+                                                        <p>this is the subcontent you can use this</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                             </div><br>
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.
           
                           </p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
