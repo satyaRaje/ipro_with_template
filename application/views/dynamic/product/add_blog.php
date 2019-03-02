@@ -58,13 +58,17 @@
 
                                      <?php $i=1;
                                      foreach ($data as $d){?>
-                                            <tr>
+                                            <tr <?php if($d->flag==1){ echo "class='text text-primary'";}else{echo "class='text text-danger'";}?> >
                                                 <td><?php echo $i;?></td>
                                                 <td><?php echo $d->cust_id;?></td>
                                                 <td><?php echo $d->fname;?></td>
                                                 <td><?php echo $d->blog_cont;?></td>
                                                 <td><?php echo $d->dt;?></td>
-                                                <td><span class="label label-danger">View Blog</span></td>
+                                                <td><form method="post" action="<?php echo base_url()."index.php/dynamic/blog/ci_blog/upload_blog"; ?>">
+                                                        <input type="hidden" name="pid"  value="<?php echo $d->id;?>">
+                                                        <input type="submit" class="btn btn-rounded btn-primary" value="Upload Blog">
+                                                        <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove">
+                                                    </form></td>
                                             </tr>
                                          <?php } ?>
                                         </tbody>

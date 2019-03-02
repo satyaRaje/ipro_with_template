@@ -18,8 +18,15 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	
-	public function index()
+
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->database();
+    }
+
+
+    public function index()
     {
     	$this->load->view('base_web/header.php');
         $this->load->view('base_web/panel.php');
@@ -74,6 +81,15 @@ class Welcome extends CI_Controller {
     }
 
 
+    public function view_blog()
+    {
+        $query = $this->db->get_where('tblblog',array('flag'=>1)); //For selection Data
+        $data['data'] = $query->result();
+
+        $this->load->view('base_web/header');
+        $this->load->view('base_web/view_blog',$data);
+        $this->load->view('base_web/footer');
+    }
 
     
 }

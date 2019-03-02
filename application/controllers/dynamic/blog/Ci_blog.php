@@ -18,7 +18,7 @@ class Ci_blog extends CI_Controller {
     }
 
     public function load_admin_blog(){
-        $query = $this->db->get_where('tblblog', array('flag'=>'0')); //For selection Data
+        $query = $this->db->get_where('tblblog'); //For selection Data
         $data['data'] = $query->result();
         $this->load->view('dynamic/dashboard/admin/header');
         $this->load->view('dynamic/product/add_blog',$data);
@@ -52,18 +52,32 @@ class Ci_blog extends CI_Controller {
 
         }else{
             //false block
+            echo "done";
         }
 
     }
 
-    public function update_row(){
+    public function upload_blog(){
         //Update the test array
-        $test = array(
-            'flag' =>11
-        );
-        $where = "pid=" . $_POST['pid'];  //where clause
-        $str = $this->db->update_string('tblproduct', $test, $where); //fire update qry
-        $this->db->query($str);
+        if(!isset($_POST['rmv'])){
+            $test = array(
+                'flag' =>1
+            );
+            $where = "id=" . $_POST['pid'];  //where clause
+            $str = $this->db->update_string('tblblog', $test, $where); //fire update qry
+            $this->db->query($str);
+            $this->load_admin_blog();
+        //echo "done";
+        }else{
+            $test = array(
+                'flag' =>0
+            );
+            $where = "id=" . $_POST['pid'];  //where clause
+            $str = $this->db->update_string('tblblog', $test, $where); //fire update qry
+            $this->db->query($str);
+            $this->load_admin_blog();
+        }
+        //echo "remove";
     }
 }
 
