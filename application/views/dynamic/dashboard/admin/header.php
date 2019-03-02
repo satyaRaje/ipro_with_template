@@ -281,7 +281,7 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Add</span></a>
                             <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Blog</a>
+                            <a href="<?php echo base_url()."index.php/dynamic/blog/Ci_blog/load_admin_blog";?>">Add Blog</a>
                         </li>
                        <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Newsletter</a>
