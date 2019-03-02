@@ -9,7 +9,11 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href='<?php echo base_url()."style/assets/images/favicon.png";?>'>
+<<<<<<< HEAD
     <title>IPRO3D-Customer_Dashboard</title>
+=======
+    <title>IPRO3D Marketplace-Customer</title>
+>>>>>>> 00a6af089c5f9ea0e109f8af04f0c08ce39e7dc0
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/full/assets/plugins/bootstrap/css/bootstrap.min.css";?>' rel="stylesheet">
     <!-- Custom CSS -->
@@ -32,9 +36,6 @@
     <svg class="circular" viewBox="25 25 50 50">
         <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
 </div>
-<!-- ============================================================== -->
-<!-- Main wrapper - style you can find in pages.scss -->
-<!-- ============================================================== -->
 <div id="main-wrapper">
     <!-- ============================================================== -->
     <!-- Topbar header - style you can find in pages.scss -->
@@ -58,10 +59,16 @@
                     <!-- Logo text -->
                     <span>
                          <!-- dark Logo text -->
-                         <img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
+
+                        <img src="http://localhost/ipro_with_template/images/logo/logo.png" height="80px" width="200px" alt="admin template">
+                         <!--img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
                         <!-- Light Logo text -->
-                         <img src='<?php echo base_url()."style/assets/images/logo-light-text.png";?>' class="light-logo" alt="homepage" /></span> </a>
-            </div>
+                         <!--img src='<?php echo base_url()."style/assets/images/logo-light-text.png";?>' class="light-logo" alt="homepage" /-->
+                         </span> </a>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+                   </div>
             <!-- ============================================================== -->
             <!-- End Logo -->
             <!-- ============================================================== -->
@@ -246,90 +253,64 @@
     <!-- ============================================================== -->
     <!-- Left Sidebar - style you can find in sidebar.scss  -->
     <!-- ============================================================== -->
-    <aside class="left-sidebar" style="background-color: white;">
-        <!-- Sidebar scroll-->
-        <div class="scroll-sidebar">
-            <!-- User profile -->
-            <!-- End User profile text-->
-            <!-- Sidebar navigation-->
-            <nav class="sidebar-nav">
-                <ul id="sidebarnav">
-                    <li>
-                        <a href='<?php echo base_url()."index.php/student/student_link/link_dashboard";?>' aria-expanded="false"><i class="icon-home" style="color: #007bb6;"></i><span class="hide-menu">Dashboard</span></a>
-                    </li>
+<aside class="left-sidebar" style="background-color: white; overflow: visible;">
+            <!-- Sidebar scroll-->
+            <div class="slimScrollDiv" style="position: relative; overflow: visible; width: auto; height: 100%;"><div class="scroll-sidebar" style="overflow: visible hidden; width: auto; height: 100%;">
+                <!-- User profile -->
+                <div class="user-profile" style="background: url(../assets/images/background/user-info.jpg) no-repeat;">
+                    <!-- User profile image -->
+                                   <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav active">
+                    <ul id="sidebarnav" class="in">
+                     
+                        <li class=""> <a href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Product</span></a>
+                        <ul aria-expanded="false" class="collapse" style="height: 262px;">
+                                
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">Product Status</a>
+                        </li>
+                        </ul></li>
+                        <li>
+                        <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Blog</span></a>
+                        </li>
+                       
+                        <li>
+                        <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Hire Designer</span></a>
+                        </li>
+                
 
-                    <li>
-                        <a href="#"><i class="fa fa-product-hunt fa-fw"></i> Product<span class="fa arrow"></span></a>
-
-                        <ul class="nav nav-second-level">
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
+                             <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View STL File</a>
-                        </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/">Generate Quatation</a>
-                        </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View All Quatation</a>
-                        </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View Enquiry</a>
-                        </li>
-
-                        <li>
+<<<<<<< HEAD
                             <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/addblog_view">Add Blog</a>
   
+=======
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
+>>>>>>> 00a6af089c5f9ea0e109f8af04f0c08ce39e7dc0
                         </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Newsletter</a>
+                         <li>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Buy History</a>
                         </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">View Bills</a>
-                        </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Generate Coupon</a>
-                        </li>
-
-                        <li>
-                            <a href="<?php echo base_url(); ?>index.php/Welcome/view_stlfile_fun">Sale History</a>
-                        </li>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                     </ul>
+                        </li>
+                        
+                 
+                    <li> <a  href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Offer Zone</span></a>
+                        </li>
+                        
 
-                    </li>
-
-                </ul>
-            </nav>
-            <!-- End Sidebar navigation -->
-        </div>
-        <!-- End Sidebar scroll-->
-        <!-- Bottom points-->
-        <!-- End Bottom points-->
-    </aside>
-    <!-- ============================================================== -->
-    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Page wrapper  -->
-    <!-- ============================================================== -->
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div><div class="slimScrollBar" style="background: rgb(220, 220, 220); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; left: 1px; height: 2994.78px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; left: 1px;"></div></div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <!-- End Bottom points-->
+        </aside>
