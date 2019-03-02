@@ -75,10 +75,11 @@ class ci_Purchase extends CI_Controller {
         if($this->db->replace('tblcart',$data)==true){
             $result['status']=true;
             //echo json_encode($result);
+            $this->view_cart();
         }else{
             $result['status']=false;
             $result['otp_message']="Unable to Add Product to Cart";
-            //echo json_encode($result);
+            echo json_encode($result);
         }
 
     }
