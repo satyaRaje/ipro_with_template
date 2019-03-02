@@ -34,7 +34,7 @@ class Ci_template extends CI_Controller {
             'email'=>$email,//Attribute list ( , ) separated
             'att2'=>$email   // last doesnot contain comma
         );
-        if($this->mod->register_success($data)==true){
+        if($this->db->insert('tame',$data)==true){
 
            //True Block
         }else{
