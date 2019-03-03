@@ -1,9 +1,7 @@
 <footer class="footer">
-<<<<<<< HEAD
-   Copyright 2019. All Rights Reserved by Ipro3d Technologies.
-=======
+
     All rights are deserved at IPRO3D Technologies LLP.
->>>>>>> 00a6af089c5f9ea0e109f8af04f0c08ce39e7dc0
+
 </footer>
 <!-- ============================================================== -->
 <!-- End footer -->
