@@ -229,7 +229,7 @@
                                     </div>
                                 </li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
+                                <li><a href="#"><i class="ti-user"></i> <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/user_profile">My Profile</a></li>
                                 <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
                                 <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
                                 <li role="separator" class="divider"></li>

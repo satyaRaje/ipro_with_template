@@ -139,6 +139,16 @@ $this->db->update('tblproduct', $data, $where);
      }
 
 
+       public function user_profile(){
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/user_profile');
+         $this->load->view('dynamic/dashboard/admin/footer');
+     }
+
+
+
+
+
 
     public function select_view_upload(){
         $this->load->view('dynamic/dashboard/admin/header');
