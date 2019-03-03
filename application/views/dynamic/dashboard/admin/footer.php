@@ -1,5 +1,5 @@
 <footer class="footer">
-    © 2019 Material Pro Admin by wrappixel.com
+   All rights are deserved at IPRO3D Technologies LLP.
 </footer>
 <!-- ============================================================== -->
 <!-- End footer -->

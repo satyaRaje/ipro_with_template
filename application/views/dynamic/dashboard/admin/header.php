@@ -241,14 +241,11 @@
                         <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
                         </li>
-                        <li>
-                            <a href="<?php echo base_url()."index.php/dynamic/product/ci_upload_product/remove_stl_file";?>">View STL File</a>
-                        </li>
-                    </ul></li>
+                        </ul></li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
                               <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">View STL File</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/view_stl">View STL File</a>
                         </li>
                         <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
@@ -259,10 +256,7 @@
                           <li>
                             <a href="<?php echo base_url()."/index.php/dynamic/enquiry/enquiry/select_contact";?>">View Contact</a>
                         </li>
-                          <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
-                        </li>
-                       </ul>
+                         </ul>
 
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
@@ -284,7 +278,7 @@
                             <a href="<?php echo base_url()."index.php/dynamic/blog/Ci_blog/load_admin_blog";?>">Add Blog</a>
                         </li>
                        <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add Newsletter</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/view_news">Add Newsletter</a>
                         </li>
                        <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>

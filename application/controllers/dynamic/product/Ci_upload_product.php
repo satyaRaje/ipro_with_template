@@ -113,6 +113,18 @@ class ci_upload_product extends CI_Controller {
          $this->load->view('dynamic/product/generate_product_quotation');
          $this->load->view('dynamic/dashboard/admin/footer');
      }
+      public function view_news(){
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/newletter');
+         $this->load->view('dynamic/dashboard/admin/footer');
+     }
+      public function view_stl(){
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/view_stl');
+         $this->load->view('dynamic/dashboard/admin/footer');
+     }
+
+
 
      public function update_company_quotation(){
          $data = array('flag' => '2','product_price'=>$_POST['price']);

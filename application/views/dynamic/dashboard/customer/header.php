@@ -283,12 +283,11 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
                              <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-<<<<<<< HEAD
+
                             <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/addblog_view">Add Blog</a>
   
-=======
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
->>>>>>> 00a6af089c5f9ea0e109f8af04f0c08ce39e7dc0
+
                         </li>
                          <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Buy History</a>
