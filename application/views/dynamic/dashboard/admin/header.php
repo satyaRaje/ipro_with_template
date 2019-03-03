@@ -257,7 +257,7 @@
                             <a href="<?php echo base_url()."/index.php/dynamic/enquiry/enquiry/select_enquiry";?>">View Enquiry</a>
                         </li>
                           <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Bills</a>
+                            <a href="<?php echo base_url()."/index.php/dynamic/enquiry/enquiry/select_contact";?>">View Contact</a>
                         </li>
                           <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>

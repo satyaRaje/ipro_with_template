@@ -10,7 +10,7 @@
                         <div class="card-body" style="background-color: #F5F5F5F5">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Contact Us</h2>
 
-                     <form class="form p-t-20">
+                     <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/enquiry/enquiry/add_contact"?>">
                                     <div class="form-group">
                                         <label for="exampleInputuname">Name</label>
                                         <div class="input-group">
@@ -19,7 +19,7 @@
                                                     <i class="ti-user"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" class="form-control" id="fname" placeholder="Name">
+                                            <input type="text" class="form-control" name="fname" placeholder="Name">
                                         </div>
                                     </div>
                                      <div class="form-group">
@@ -30,7 +30,7 @@
                                                     <i class="ti-mobile"></i>
                                                 </span>
                                             </div>
-                                            <input type="email" class="form-control" id="mobileno" placeholder="Enter Mobile Number">
+                                            <input type="text" class="form-control" name="mobileno" placeholder="Enter Mobile Number">
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -41,12 +41,12 @@
                                                     <i class="ti-email"></i>
                                                 </span>
                                             </div>
-                                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                            <input type="email" class="form-control" name="email" placeholder="Enter email">
                                         </div>
                                     </div>
                                    <div class="form-group">
                                     <label>Info</label>
-                                    <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                    <select class="custom-select col-12" name="inlineFormCustomSelect">
                                         <option selected="">select</option>
                                         <option value="worker">Student</option>
                                         <option value="businessman">Industry</option>
@@ -60,7 +60,7 @@
 
                                 <div class="form-group">
                                     <label>How you know about us</label>
-                                    <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                    <select class="custom-select col-12" name="inlineFormCustomSelect2">
                                         <option selected="">select</option>
                                         <option value="news">Newspaper</option>
                                         <option value="news">Google</option>
@@ -74,7 +74,7 @@
                                 <div class="form-group">
                                     <label>Message</label>
                                   
-                                    <textarea class="form-control" rows="5" id="message">
+                                    <textarea class="form-control" rows="5" name="message">
                                 </textarea> </div>
                                   
                                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" name="send">Send Message</button>

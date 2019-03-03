@@ -38,7 +38,28 @@ class Enquiry extends CI_Controller {
         $this->load->view('dynamic/dashboard/admin/header');
         $this->load->view('dynamic/product/view_enquiry',$data);
         $this->load->view('dynamic/dashboard/admin/footer');
-     }    
+     }
+
+
+     public function add_contact(){
+        $data= array('name'=>$_POST['fname'], 'mobile_no'=>$_POST['mobileno'], 'email'=>$_POST['email'], 'info'=>$_POST['inlineFormCustomSelect'], 'known_us'=>$_POST['inlineFormCustomSelect2'], 'message'=>$_POST['message'], 'flag'=>0);
+        $this->db->insert('tblcontactus',$data);
+         $this->load->view('base_web/header.php');
+         $this->load->view('base_web/contact_us.php');
+         $this->load->view('base_web/footer.php');
+
+     }
+
+
+    public function select_contact(){
+        //$user=$this->session->userdata('user');
+        $query = $this->db->get_where('tblcontactus', array('flag'=>'0'));
+        $data['data'] = $query->result();
+        $this->load->view('dynamic/dashboard/admin/header');
+        $this->load->view('dynamic/enquiry/contact_view',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+    }
+
 }
 
 ?>
