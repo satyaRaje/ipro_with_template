@@ -1,6 +1,8 @@
-  <div class="card-body" style="background-color: #F5F5F5F5">
+<div class="page-wrapper">
+    <div class="col-12">
                                 <h2 class="card-title" align="center">Enquiry</h2>
                                 <!--<h6 class="card-subtitle"></h6>-->
+                   <div class="card card-body">
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
@@ -12,44 +14,22 @@
                                                 <th>Info</th>
                                                 <th>Enquiry</th>
                                                 
-                                           
                                             </tr>
                                         </thead>
                                         <tbody>
+                                      <?php $i=1; foreach ($data as $d){?>
                                             <tr>
-                                                <td>1</td>
-                                                <td>sarthak joshi</td>
-                                                <td>7218374140</td>
-                                                <td>sarthak@gmail.com</td>
-                                                <td>Manager</td>
-                                                <td>Request for product</td>
+                                                <td><?php echo $i;?></td>
+                                                <td><?php echo $d->name;?></td>
+                                                <td><?php echo $d->mobile;?></td>
+                                                <td><?php echo $d->email;?></td>
+                                                <td><?php echo $d->info;?></td>
+                                                <td><button class="btn btn-info">check</button></td>
                                             </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                    
+                                     <?php $i++; } ?>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
+    </div>
+</div>

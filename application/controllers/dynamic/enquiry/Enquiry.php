@@ -32,11 +32,11 @@ class Enquiry extends CI_Controller {
     }
 
      public function select_enquiry(){
-        $user=$this->session->userdata('user');
+        //$user=$this->session->userdata('user');
         $query = $this->db->get_where('tblenquiry', array('status'=>'0'));
         $data['data'] = $query->result();
         $this->load->view('dynamic/dashboard/admin/header');
-        $this->load->view('dynamic/enquiry/enquiry',$data);
+        $this->load->view('dynamic/product/view_enquiry',$data);
         $this->load->view('dynamic/dashboard/admin/footer');
      }    
 }
