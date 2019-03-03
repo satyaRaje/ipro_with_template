@@ -61,7 +61,19 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto stylish-nav">
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index">Home</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/About_us" >About Us</a> </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1" target="_blank">Overview</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#2" target="_blank">History</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3" target="_blank">Our Approaches</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#4" target="_blank">Our team</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#5 " target="_blank">Company Ethics</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#6" target="_blank">Authentic</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#7" target="_blank">Accuracy</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#8" target="_blank">Careers</a>
+                                </div>
+                         </li>
                         <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 

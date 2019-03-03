@@ -83,14 +83,14 @@
                             <div class="row" >
                                 <div class="col-lg-3">
                                 </div>
-                                      <div class="col-xlg-3" align="center" style="padding-left: 10%">
-                                        <div id="carouselExampleIndicators3" class="carousel slide mt-4" data-ride="carousel">
+                                      <div  class="col-xlg-3" align="center" style="padding-left: 10%">
+                                        <div  id="carouselExampleIndicators3" class="carousel slide mt-4" data-ride="carousel">
                                             <ol class="carousel-indicators">
                                                 <li data-target="#carouselExampleIndicators3" data-slide-to="0" class=""></li>
                                                 <li data-target="#carouselExampleIndicators3" data-slide-to="1" class="active"></li>
                                                 <li data-target="#carouselExampleIndicators3" data-slide-to="2" class=""></li>
                                             </ol>
-                                            <div class="carousel-inner" role="listbox">
+                                            <div style="height:400px" class="carousel-inner" role="listbox">
                                                 <div class="carousel-item">
                                                     <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/big/img6.jpg" alt="First slide">
                                                     <div class="carousel-caption d-none d-md-block">
