@@ -90,6 +90,11 @@ class Welcome extends CI_Controller {
         $this->load->view('base_web/view_blog',$data);
         $this->load->view('base_web/footer');
     }
-
+    public function faq()
+    {
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/faqs.php');
+        $this->load->view('base_web/footer.php');
+    }
     
 }
