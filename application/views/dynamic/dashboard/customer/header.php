@@ -261,7 +261,7 @@
                     <!-- User profile image -->
                                    <!-- End User profile text-->
                 <!-- Sidebar navigation-->
-                <nav class="sidebar-nav active">
+                <nav class="sidebar-nav active" style="background-color: white;">
                     <ul id="sidebarnav" class="in">
                      
                         <li class=""> <a href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
@@ -269,10 +269,10 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Product</span></a>
                         <ul aria-expanded="false" class="collapse" style="height: 262px;">
                                 
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
+                            <a href="<?php echo base_url()."/index.php/dynamic/product/ci_upload_customer/upload_admin_product";?>">Upload Product</a>
                         </li>
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">Product Status</a>
+                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_customer/select_view_upload">Product Status</a>
                         </li>
                         </ul></li>
                         <li>
