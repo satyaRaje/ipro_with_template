@@ -64,14 +64,17 @@
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1" target="_blank">Overview</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#2" target="_blank">History</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3" target="_blank">Our Approaches</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#4" target="_blank">Our team</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#5 " target="_blank">Company Ethics</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#6" target="_blank">Authentic</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#7" target="_blank">Accuracy</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#8" target="_blank">Careers</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1">Overview</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#2">
+                                    History</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3"> Our Approaches</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#4">
+                                    Our team</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#5 ">Company Ethics</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#6"> Authentic</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#7">Accuracy</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#8">
+                                    Careers</a>
                                 </div>
                          </li>
                         <li class="nav-item dropdown">
