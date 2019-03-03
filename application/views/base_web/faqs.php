@@ -6,21 +6,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+    <title>IPRO3D-FAQs</title>
     <!-- Bootstrap Core CSS -->
-    <link href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
-    <!-- You can change the theme colors from here -->
-    <link href="<?php echo base_url();?>css/colors/default-dark.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-</head>
-
-<body class="fix-header fix-sidebar card-no-border">
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="fix-header fix-sidebar card-no-border mini-sidebar">
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
@@ -28,14 +26,14 @@
         <svg class="circular" viewBox="25 25 50 50">
             <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
-
+<div id="main-wrapper">
 <div class="row">
-<div class="col-12">
+                    <div class="col-12">
                         <div class="card">
                             <div class="card-body">
+                                <h2 class="card-title" align="center" style="font-weight: bold;font-family: Philosiphers">FAQs</h2>
                                 <!-- Accordian-part -->
-                                <h3 class="card-title" id="1" align="center" style="font-weight: bold;font-family: Philosiphers;">FAQs</h3>
-                                <div id="accordian-part">
+                                <div id="accordian-part" class="minimal-faq">
                                     <div id="accordian-3">
                                         <div class="card m-b-0 border-0">
                                             <div class="card-header p-l-0">
@@ -124,24 +122,312 @@
                                         <div class="card m-b-0 border-0">
                                             <div class="card-header p-l-0">
                                                 <h5 class="mb-0">
-                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                                            Q7. Can you print from a photo?
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse6">
+                                                            Q7. What can I do if I want to print a 3d CAD design for something but I don’t have an STL file or a 3D CAD file.
                                                     </a>
                                                 </h5>
                                             </div>
-                                            <div id="collapse6" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                            <div id="collapse7" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
                                                 <div class="card-body p-l-0">
-                                                    Unfortunately, no, photos have no usable data for us. But we can convert your 2d photos to litheophanes.
+                                                    A 3D printer, by its very nature, prints in 3d using data taken from digital 3d file called an STL (there are new formats being developed that can be used but STL’s are still the most common). These files usually have been directly designed in those programs or cleaned up in them from a scanned file of a real-world object.
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse6">
+                                                            Q8. How to get the best 3d printed architectural Models
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse8" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    On regular basis we have people and companies from around India approach us to 3D print their scale models of buildings, landscapes, development projects, etc. The results are very impressive and we often get positive feedback from our clients including hotel de
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse6">
+                                                            Q9. What currency does IPRO3D Use?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse9" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    All prices on IPRO3D are in Indian Rupees (INR).
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse6">
+                                                            Q10. What are my payment options when buying something?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse10" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    IPRO3D accepts credit card, debit card, net banking, wallets, cash payments.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse6">
+                                                            Q11. How much are the fees/royalties on each?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse11" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    IPRO3D does not take a cut out of the designer’s markup. Instead, we add 10% of the designer’s markup to the sale price for designs.For example: A designer sets download price as Rs. 325/-. the final price is: Rs.325/- +(325 x 10%) = Rs. 357.5/-
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse6">
+                                                            Q12. How and when do designers get paid?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse12" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    Designers will be paid through Paytm on the 15th of every month for earned balances over Rs. 2000/-
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse6">
+                                                            Q13. How do I update my PAYTM information?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse13" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    To update your Paytm information:
+1)  Go to account settings by hovering over your image avatar in the upper right-hand corner of your screen and selecting “Settings”.
+2)  Next, select the “Account settings” tab.
+3)  Enter the email linked to your PAYTM account in the “Paytm email” box.
+4)  Enter your current password into the appropriate box and click “Update”.
+Your Paytm information is now up-to-date!
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse6">
+                                                            Q14. Do I need to pay taxes on my marketplace earnings?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse14" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    Probably, but we’re not experts. Any earning that you generate from IPRO3D are your responsibility to manage appropriately within your local country. We cannot provide tax advice on your earnings as tax laws vary from country to country drastically. When in doubt, get professional advice on tax-law and filings form your personal tax advisor.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse6">
+                                                            Q15. Are there any content restriction on the designs I upload?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse15" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    Yes. You cannot upload weapons design files. Questionable content reported to IPRO3D will be reviewed and removed, if necessary. Make sure you read IPRO3D acceptable use and content policy for guidelines. Designers who violate IPRO3D content policy will risk account deletion.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse6">
+                                                            Q16. Who owns the designs once they are uploaded?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse16" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    The designers always maintain ownership of them deigns but choose which licenses to offer their designs under. Details of these licenses can be found in our Terms & Conditions.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse6">
+                                                            Q17. What do I do if someone is uploading my designs to IPRO3D without permission?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse17" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    We take violations of IP within the design community very seriously. Designers who infringe on others copyrights have risk of account deletion. If you suspect that any designer on IPRO3d marketplace is infringing on your copyright please attempt to contact that designer directly and politely inform them of your concerns. Failing that, please follow the complete Takedown Procedure.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse6">
+                                                            Q18. Can I sell designs based on copyrighted material?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse18" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    Our Terms and conditions prohibit uploading content that you don’t own or have permission to use. We expect that our designers hold the copyrights to their portfolio of designs. <br>Realistically, we cannot review all designs or verify possible copyright infringement. We encourage users to report any known violations to IPRO3D by following the takedown procedure.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse6">
+                                                            Q19. How do I prepare a design for upload?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse19" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    There are a few things you can do to make sure your files are ready to print. Export / save as your 3d CAD design/model file to. STL or .OBJ then Check your model for technical errors and try to repair them.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse6">
+                                                            Q20. What file formats do you support?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse20" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    IPRO3D supports. STL and .OBJ files, as well as .ZIP files containing those types. For information on changing files formats and preparing your shapes for upload, view our preparation guide.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse6">
+                                                            Q21. How do I convert my 3d CAD model to an. STL file?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse21" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    For information on changing files formats and preparing your shapes for upload, view our preparation guide.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse6">
+                                                            Q22. What dimensions should my design image be?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse22" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    The optimal image dimensions for the design listing page are 800px x 600px. These dimensions will make sure that your design photo is properly fitted and doesn’t look pixelated when the listing is done.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse6">
+                                                            Q23. How do I view a 3d render using safari?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse23" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    by default, the safari browser on desktop support WebGL, which is what is used in the design render. To update your settings and fix the problem, complete the following steps:<br>
+1)  Open the Safari Menu and select Preferences.<br>
+2)  Click the advanced tab in the preferences window.<br>
+3)  At the bottom of that window. Check the show develop menu bar checkbox.<br>
+4)  Open the develop menu in the menu bar and select enable WebGL.<br>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse6">
+                                                            Q24. Does IPRO3D have educational discount?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse24" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    Contact us at support@ipro3d.io to discuss educational pricing. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse6">
+                                                            Q25. Can IPRO3D design a model for me?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse25" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    IPRO3D provides design services ourselves, but you can hire a lot of the great designers on IPRO3D to help you out! If you’d like to hire someone, you can post a design request in the IPRO3D Forum.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card m-b-0 border-0">
+                                            <div class="card-header p-l-0">
+                                                <h5 class="mb-0">
+                                                    <a href="#" class="collapsed link p-10" id="headingSix" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse6">
+                                                            Q26. Where can I upload a tutorial to share with others?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse26" class="collapse" aria-labelledby="headingSix" data-parent="#accordian-3">
+                                                <div class="card-body p-l-0">
+                                                    Educational content is always welcome on IPRO3D<br>
+If you would like to share the tutorial yourself, the best place to share it is in the IPRO3D Forum.<br>
+If you’re interested in having your tutorial featured on the IPRO3D Forum.<br>
+If you’re interested in having your tutorial featured on the IPRO3D Blog, sign up as a IPRO3D Ambassador!
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <!-- End accordian-part -->
                             </div>
                         </div>
+                        <br><br><br>
                     </div>
                 </div>
+            </div>
 </body>
                 <script src="<?php echo base_url();?>assets/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
