@@ -14,8 +14,8 @@
                             <h6 class="card-subtitle"></h6>
                                 <form class="form p-t-20">
                                 	<div class="form-group">
-                                        <label for="exampleInputuname">User Id</label>
-                                        <div class="input-group">
+                                        <label for="exampleInputuserid">User Id</label>
+                                          <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
                                                     <i class="ti-user"></i>
@@ -138,10 +138,7 @@
                                             </div>-->
 
                                     
-                                   
-
-
-
+                                
                                     <div class="form-group">
                                     <label>City</label>
                                     <select class="custom-select col-12" id="inlineFormCustomSelect">
