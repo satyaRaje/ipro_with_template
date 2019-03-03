@@ -9,11 +9,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href='<?php echo base_url()."style/assets/images/favicon.png";?>'>
-<<<<<<< HEAD
-    <title>IPRO3D-Customer_Dashboard</title>
-=======
     <title>IPRO3D Marketplace-Customer</title>
->>>>>>> 00a6af089c5f9ea0e109f8af04f0c08ce39e7dc0
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/full/assets/plugins/bootstrap/css/bootstrap.min.css";?>' rel="stylesheet">
     <!-- Custom CSS -->
