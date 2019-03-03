@@ -42,6 +42,8 @@ class Welcome extends CI_Controller {
     public function Services(){
         $this->load->view('base_web/header.php');
         $this->load->view('base_web/services.php');
+       $this->load->view('base_web/view1.php');
+
         $this->load->view('base_web/footer.php');
     }
 
