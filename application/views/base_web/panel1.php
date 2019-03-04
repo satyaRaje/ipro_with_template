@@ -13,22 +13,20 @@
         <svg class="circular" viewBox="25 25 50 50">
             <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
     </div>
-<div class="row
-" style="background-color: black">
+<div class="row" style="background-color: black">
     <div class="col-md-3" style="" class="text-white" width="100%">
         <br><br><br><br><br><br><br><br>
         <h2 style="font-family: Brush Script MT, Brush Script Std,cursive;font-size: 40px;background-color: black;font-color:#ffffff" class="text-white" align="center">IPRO3D Technologies..</h2><br><br><br><br>
     </div>
     <div class="col-md-3">
-        <img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="500px" width="100%" style="opacity: 0.6">
+        <img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
                 <button type="button" class="btn waves-effect waves-light btn-rounded btn-danger">BUY</button>        
-                <p style="font-weight: bold;font-size: 20px">Add ART to the CART</p>
-               
+                <p style="font-weight: bold;font-size: 20px">Add ART to the CART</p>             
         </div>
     </div>
     <div class="col-md-3" >
-        <img src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" height="500px" width="100%" style="opacity: 0.6">
+        <img src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
                 <button type="button" class="btn waves-effect waves-light btn-rounded btn-danger">DESIGN</button>        
                 <p style="font-weight: bold;font-size: 20px">Expect the Unexpected..!!</p>
@@ -36,7 +34,7 @@
         </div>
     </div>
     <div class="col-md-3">
-        <img src="<?php echo base_url();?>assets/images/slider/img1.jpg" height="500px" width="100%" style="opacity: 0.6">
+        <img src="<?php echo base_url();?>assets/images/slider/img1.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
                 <button type="button" class="btn waves-effect waves-light btn-rounded btn-danger">SELL</button>        
                 <p style="font-weight: bold;font-size: 20px">Shop your creative product</p>
