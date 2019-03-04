@@ -80,20 +80,20 @@
                         <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services">3D Printing</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#scanning">3D Scanning</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#rapidprototyping">Rapid Prototyping</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#cadmodelling">CAD Modeling</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#design ">Design for 3D Printing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#reverse">Reverse Engineering</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#topology">Design Topology Optimization</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#manufacturing">Small Batch Manufacturing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#vaccumecast">Vaccum Casting</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#xraytopology">X-Ray Topology</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#functional">Functional Part Manufacturing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#tooling">Tooling Manufacturing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#injectionmodelling">Injection Modeling</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#cncmachine">CNC Machining</a>         
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Printing#printing">3D Printing</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Scanning#scanning">3D Scanning</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Rapid#rapid">Rapid Prototyping</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Cad#cad">CAD Modeling</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Design#design ">Design for 3D Printing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Reverse#reverse">Reverse Engineering</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Topology#topology">Design Topology Optimization</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Small#small">Small Batch Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Vaccum#vaccum">Vaccum Casting</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Xray#xray">X-Ray Topology</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Functional#functional">Functional Part Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Tooling#tooling">Tooling Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Injection#injection">Injection Modeling</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Cnc#cnc">CNC Machining</a>         
 
                                  </div>
                             </li>

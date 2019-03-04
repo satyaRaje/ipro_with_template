@@ -39,11 +39,95 @@ class Welcome extends CI_Controller {
         $this->load->view('base_web/footer.php');
     }
 
-    public function Services(){
+    
+    public function Printing(){
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/services.php');
+        $this->load->view('base_web/printing.php');
         $this->load->view('base_web/footer.php');
     }
+
+    public function Scanning(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/scanning.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+
+public function Rapid(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/rapid.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+public function Cad(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/cad.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+    public function Design(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/design.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+    public function Reverse(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/reverse.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+public function Topology(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/topology.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+    public function Small(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/small.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+    public function Vaccum(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/vaccum.php');
+        $this->load->view('base_web/footer.php');
+    }
+    public function Xray(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/xray.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+
+    public function Functional(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/functional.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+    public function Tooling(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/tooling.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+
+
+public function Injection(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/injection.php');
+        $this->load->view('base_web/footer.php');
+    }
+public function Cnc(){
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/cnc.php');
+        $this->load->view('base_web/footer.php');
+    }
+
+
+
 
     public function Home_page(){
         $this->load->view('base_web/header.php');
