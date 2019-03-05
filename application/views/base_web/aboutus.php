@@ -236,13 +236,24 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="7" align="center" style="font-weight: bold;font-family: Philosiphers">7. Accuracy </h2>
-                            <p style="text-align: justify;">     You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
-                            <h5>IPRO3D a socially responsible business:</h5>
-                            <ol>
-                                <li>The company runs with a strong focus on Corporate Social Responsibility.</li>
-                                <li>The founders have entrenched their commitment to social issues in the company’s character.</li>
-                                <li>The style of management strives to achieve success on a daily basis, but also in long <term></term></li>
-                            </ol><br><br><br><br><br><br><br><br><br><br><br>
+                            <p style="text-align:justify;padding:20px;">
+              &nbsp;&nbsp;&nbsp;You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
+
+            <h5>Engineering Specifications</h5>
+            <p style="text-align:justify;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is essential to study the engineering specifications of the part before the 3D printing process starts. IPRO3D follows simple steps to achieve perfection in 3d printing process.
+            </br>Basic steps we follow before we 3d print any part/design/idea.
+            <ul type="disc">
+                  <li>Analysis and detail study of the part for 3d printing.</li>
+                  <li>Study of Prelimanary requirements and developments.</li>
+                  <li>Evaluation and prototyping</li>
+            </ul>
+              The accuracy of the 3d printed part is reflected from its 3D design/model.</p>
+             <h5>Authentic Appearance</h5>
+             <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The appearance and scale of object are important in 3d printing industry. The carefull analysis, design and rendering of the CAD file with 3D software and tools ensure the authentic appearance of objects. Selection of 3d printing materials also contributes to the appearance and mechanical properties of the part/model/object.
+             Design experts at IPRO3D identify and ensure the printability of the STL file of 3d CAD model to assure the authentic appearance of the models.
+             The process of mapping of drawing form 3d CAD model file to actual 3d printing process is totally taken care by machine and its software’s.
+             The process of mapping the drawing to model is the actual 3d printing process which is totally handeled by the machine. There are several processes associated with 3d printing. However, the basic principle of 3d printing layer by layer remains the same.</p>
+             <br><br><br><br>
                         </div>
                     </div>
 
@@ -250,21 +261,19 @@
                     <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5">
                             <h2 class="card-title" id="8" align="center" style="font-weight: bold;font-family: Philosiphers">8. Careers </h2>
-                            <h5 style="" >Job openings</h5>
-                            <p style="text-align: justify;"> &nbsp;&nbsp;&nbsp;&nbsp; You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
-                            <h5>Engineering Specifications</h5>
-                            <p style="text-align: justify;">
-                                &nbsp;&nbsp;&nbsp;&nbsp;It is essential to study the engineering specifications of the part before the 3D printing process starts. IPRO3D follows simple steps to achieve perfection in 3d printing process.
-                                Basic steps we follow before we 3d print any part/design/idea.
-                            </p>
-                            <ol>
-                                <li>Analysis and detail study of the part for 3d printing.</li>
-                                <li>Study of Prelimanary requirements and developments.</li>
-                                <li>Evaluation and prototyping</li>
-                            </ol>
-                            <p style="text-align: justify;">The accuracy of the 3d printed part is reflected from its 3D design/model.</p>
-                            <h5 style="">Authentic Appearance<br></h5>
-                            <p style="text-align: justify;">  The appearance and scale of object are important in 3d printing industry. The carefull analysis, design and rendering of the CAD file with 3D software and tools ensure the authentic appearance of objects. Selection of 3d printing materials also contributes to the appearance and mechanical properties of the part/model/object. Design experts at IPRO3D identify and ensure the printability of the STL file of 3d CAD model to assure the authentic appearance of the models. The process of mapping of drawing form 3d CAD model file to actual 3d printing process is totally taken care by machine and its software’s. The process of mapping the drawing to model is the actual 3d printing process which is totally handeled by the machine. There are several processes associated with 3d printing. However, the basic principle of 3d printing layer by layer remains the same.</p>
+                            <p style="text-align:justify;padding:20px;">"If you are passionate about 3d printing and want to work with a technology driven startup IPRO3D is the perfect place for you.Currently we do not have no Job openings but who knows where you could fit in so don’t miss on this opportunity and upload your resume here."</p>
+                 <div style="text-align: right;">
+                   <b>Yogesh Pawar</b>
+                   <br>
+                    <b style="color: #999999;">Managing Director</b>
+                  </div>
+                  <br>
+                  <p style="text-align:justify;padding:20px;">IPRO3D is a 3D printing additive manufacturing startup. We provide Idea to product design and prototyping service in various 3D printing additive manufacturing technologies. IPRO3D is a recognized startup by DIPP (Department of Industrial Policy and Promotion), Ministry of Commerce and Industries, Government of India.</p>
+                  <h5 style="text-align:justify;">Internship</h5>
+                  <p style="text-align:justify;padding:20px;">Currently we don’t have any openings For internship but if you don’t want to miss any future opportunity working with us as an intern upload your resume here.</p>
+                  <h5 style="text-align: justify;">3D PRINTING BASIC</h5>
+                  <p style="text-align:justify;padding:20px;">3D printing is a prototyping process whereby an real object is created from a 3D design. The digital 3D-model is saved in STL format and then sent to a 3D printer.</p>
+                  <br><br>
                         </div>
                     </div><br>
                     <h6 style="font-weight: bold;text-decoration-color: grey">*Report abusive content:<br>
