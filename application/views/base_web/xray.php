@@ -10,7 +10,8 @@
 
 <div class="card">
 <div class="card-body" style="background-image:url('<?php echo base_url();?>assets/images/slider/b1.png');background-color:#F5F5F5;">
-                                                    <h2 class="card-title" id="xraytopology" align="center" style="font-weight: bold;font-family: Philosiphers">10. Xray-Topology</h2>
+                            <h2 class="card-title" id="xraytopology" align="center" style="font-weight: bold;font-family: Philosiphers">10. Xray-Topology</h2>
+                            <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
                             <p style="text-align: justify;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-ray topography is technology that is widely used to investigate dislocation and other defects, such as stacking faults and precipitates in single crystals. It is mainly used to determine the Burgers vector of the dislocations. The Spatial resolution of the topography is very important for visualizing the individual dislocations in the crystals.</p>
     </br>

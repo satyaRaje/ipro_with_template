@@ -19,7 +19,7 @@
             <div class="row">
                  <div class="col-12">
                         <div class="card">
-                            <div class="card-body"><br>
+                            <div class="card-body" style="background-image:url('<?php echo base_url();?>assets/images/slider/b1.png'"><br>
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Mutation</h2>
                    
               <p style="text-align: justify;">IPRO3D mutation program is for students to develop their creative ideas/products and prototype them using the hi-tech 3d printing technology. The mutation program helps students to fabricate their ideas to product and get expert help if needed by the students. Students can also discuss their problems with the 3d printing community forums and get help from people working in 3d printing, 3d designing, etc.</p>
