@@ -1,7 +1,7 @@
 <link type="image/png" sizes="16x16" href="<?php echo base_url();?>images/logo/logo.png">
 <title>IPRO3D-Services</title>
 
-<body background="<?php echo base_url();?>assets/images/background/error-bg.jpg">
+<body background="<?php echo base_url();?>assets/images/slider/img1.jpg">
 
 
 <div class="col-lg-12 col-xlg-12">
