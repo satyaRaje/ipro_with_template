@@ -12,13 +12,13 @@
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
                     <h3 style="color: white;">Our Services</h3>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#printing"><i class="ti-angle-right"></i> 3D Printing</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#scanning"><i class="ti-angle-right"></i> 3D Scanning</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#rapidprototyping"><i class="ti-angle-right"></i> Rapid Prototyping</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#cadmodeling"><i class="ti-angle-right"></i> 3D & 2D CAD Modelling</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#design"><i class="ti-angle-right"></i>Design for 3D Printing</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#reverse"><i class="ti-angle-right"></i> Reverse Engineering</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Services#printing"><i class="ti-angle-right"></i> and many more..</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing"><i class="ti-angle-right"></i> 3D Printing</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Scanning"><i class="ti-angle-right"></i> 3D Scanning</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Prototyping"><i class="ti-angle-right"></i> Rapid Prototyping</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/cad"><i class="ti-angle-right"></i> 3D & 2D CAD Modelling</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/design"><i class="ti-angle-right"></i>Design for 3D Printing</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/reverse"><i class="ti-angle-right"></i> Reverse Engineering</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing"><i class="ti-angle-right"></i> and many more..</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -43,7 +43,7 @@
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i class="ti-angle-right"></i> Contact</a></li>
                     <li><a href="#"><i class="ti-angle-right"></i> Feedback Form</a></li>
                     <li><a href="#"><i class="ti-angle-right"></i> Get Quotation</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/view_sblog"><i class="ti-angle-right"></i> Blog</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/view_blog"><i class="ti-angle-right"></i> Blog</a></li>
                     <li><a href="#"><i class="mdi mdi-cellphone-basic" style="font-size: large;"></i> +91 9821413663</a></li>
                     <li><a href="#"><i class="mdi mdi-gmail" style="font-size: large;"></i> hello@ipro3d.io</a></li>
                 </ul>
