@@ -1,12 +1,14 @@
 <link type="image/png" sizes="16x16" href="<?php echo base_url();?>images/logo/logo.png">
 <title>IPRO3D-Services</title>
 
-<body background="<?php echo base_url();?>assets/images/background/error-bg.jpg">
+<body background="<?php echo base_url();?>assets/images/slider/img1.jpg">
 
 
 <div class="col-lg-12 col-xlg-12">
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+
+
+<div class="card">
+                        <div class="card-body" style="background-image:url('<?php echo base_url();?>assets/images/slider/b1.png');background-color:#F5F5F5;">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">1. 3D Printing</h2>
                             <p style="text-align: justify;">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent qualityWhat is 3d printing? Glad you asked.
                 Additive manufacturing process is popularly known as 3d printing. Additive manufacturing is a method of manufacturing physical parts in a successive addition process of adding material layer by layer but only one layer at a time on top of each other layer to build a physical part from a digital 3d CAD file.  The additive manufacturing principal is totally opposite to the traditional subtractive manufacturing using lathes, CNC’s, mills, etc.
@@ -25,5 +27,8 @@
                </br></br><br><br>
                         </div>
 
+
                     </div>
-               <br>
+<br>
+</div>
+                
