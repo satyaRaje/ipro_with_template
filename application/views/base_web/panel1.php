@@ -21,7 +21,7 @@
     <div class="col-md-3">
         <img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
-                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/marketplace/ci_marketplace/select_marketplace">BUY</a>      
+                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">BUY</a>      
                 <p style="font-weight: bold;font-size: 20px">Add ART to the CART</p>             
         </div>
     </div>
