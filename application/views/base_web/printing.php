@@ -26,10 +26,22 @@
                  <li>   Hire an expert designer:  If you don’t know 3d CAD designing/modeling or  require your design to be taken to next level, you can choose one of our Indian IPRO3D member expert designer to 3d CAD design/model your idea and make it ready for 3d printing.</li>
                </ul></p>
                </br></br><br><br>
-                        </div>
-
-
-                    </div>
-<br>
+                </div>
+        </div><br>
 </div>
-                
+<script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script src="<?php echo base_url()."style/full/assets/plugins/popper/popper.min.js";?>"></script>
+<script src="<?php echo base_url()."style/full/assets/plugins/bootstrap/js/bootstrap.min.js";?>"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="<?php echo base_url()."style/full/js/jquery.slimscroll.js"?>"></script>
+<!--Wave Effects -->
+<script src="<?php echo base_url()."style/full/js/waves.js"?>"></script>
+<!--Menu sidebar -->
+<script src="<?php echo base_url()."style/full/js/sidebarmenu.js"?>"></script>
+<!--stickey kit -->
+<script src="<?php echo base_url()."style/full/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js";?>"></script>
+<script src="<?php echo base_url()."style/full/assets/plugins/sparkline/jquery.sparkline.min.js"?>"></script>
+<!--Custom JavaScript -->
+<script src="<?php echo base_url()."style/full/js/custom.min.js"?>"></script>
+</body>                
