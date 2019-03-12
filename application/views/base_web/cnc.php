@@ -8,7 +8,7 @@
 
 
 <div class="card">
-                        <div class="card-body" style="background-image:url('<?php echo base_url();?>assets/images/slider/b1.png');background-color:#F5F5F5;">
+                        <div class="card-body" style="background-color:#F5F5F5;">
                         
                             <h2 class="card-title" id="cncmachine" align="center" style="font-weight: bold;font-family: Philosiphers">14. CNC Machining</h2>
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>

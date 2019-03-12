@@ -8,10 +8,10 @@
 
 
 <div class="card">
-                        <div class="card-body" style="background-image:url('<?php echo base_url();?>assets/images/slider/b1.png');background-color:#F5F5F5;">
+                        <div class="card-body" style="background-color:#F5F5F5;">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">1. 3D Printing</h2>
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                            <p style="text-align: justify;">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent qualityWhat is 3d printing? Glad you asked.
+                            <p class="text font-normal;" style="text-align: justify;">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent qualityWhat is 3d printing? Glad you asked.
                 Additive manufacturing process is popularly known as 3d printing. Additive manufacturing is a method of manufacturing physical parts in a successive addition process of adding material layer by layer but only one layer at a time on top of each other layer to build a physical part from a digital 3d CAD file.  The additive manufacturing principal is totally opposite to the traditional subtractive manufacturing using lathes, CNC’s, mills, etc.
                 </br></br>Additive manufacturing has several different methods/processes of producing a prototype. Although each method/process has its own advantages but the principle of additive manufacturing or the popularly known name 3d printing remains the same.
                 The Idea of building a physical part by adding material rather than cutting away material applies no matter whichever additive manufacturing process you choose to use.
