@@ -4,26 +4,26 @@
         <svg class="circular" viewBox="25 25 50 50">
             <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
     </div>
-<div class="row" style="padding-left: 20%;padding-right: 20%;">
+<div class="row" style="padding-left: 10%;padding-right: 10%;">
                       <div class="col-lg-12"><br>
                       <div class="card">
-                        <div class="card-body" style="background-color: #F5F5F5F5">
+                        <div class="card-body" style="background-color: #F5F5F5F5;background-image:url('<?php echo base_url();?>assets/images/slider/b1.png')">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Contact Us</h2>
 
                      <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/enquiry/enquiry/add_contact"?>">
                                     <div class="form-group">
-                                        <label for="exampleInputuname">Name</label>
+                                        <label for="exampleInputuname"><b>Name</b></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
                                                     <i class="ti-user"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" class="form-control" name="fname" placeholder="Name">
+                                            <input type="text" class="form-control" name="fname" placeholder="Enter Name">
                                         </div>
                                     </div>
                                      <div class="form-group">
-                                        <label>Mobile Number</label>
+                                        <label><b>Mobile Number</b></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
@@ -34,7 +34,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Email</label>
+                                        <label for="exampleInputEmail1"><b>Email</b></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
@@ -45,7 +45,7 @@
                                         </div>
                                     </div>
                                    <div class="form-group">
-                                    <label>Info</label>
+                                    <label><b>Info</b></label>
                                     <select class="custom-select col-12" name="inlineFormCustomSelect">
                                         <option selected="">select</option>
                                         <option value="worker">Student</option>
@@ -59,7 +59,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label>How you know about us</label>
+                                    <label><b>How you know about us</b></label>
                                     <select class="custom-select col-12" name="inlineFormCustomSelect2">
                                         <option selected="">select</option>
                                         <option value="news">Newspaper</option>
@@ -72,7 +72,7 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label>Message</label>
+                                    <label><b>Message</b></label>
                                   
                                     <textarea class="form-control" rows="5" name="message">
                                 </textarea> </div>
@@ -83,13 +83,17 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <br>
+                <div class="row" style="background-color: #bbbbbb;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.2523532716305!2d75.31352311425753!3d19.871563331647998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb99e84cc7f4e7%3A0x8ef52048513cb04!2sIPRO3D+Technologies+LLP!5e0!3m2!1sen!2sin!4v1534930979184" style="width:100%;height: 400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+<br><br><br><br><br><br><br><br><br><br>
+
                  </body>
 
                     
-<!--<?php
+<?php
 if(isset($_POST['send'])){
   /*  $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
     $conn = mysqli_connect("localhost","root", "","dbipro3d");
@@ -104,4 +108,4 @@ if(isset($_POST['send'])){
     echo "<script>alert('Thanks For Contact...!');</script>";
 }
 
-?>-->
+?>

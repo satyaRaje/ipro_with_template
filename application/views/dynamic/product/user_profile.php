@@ -13,17 +13,6 @@
                        <h2 class="card-title">User Profile</h2>
                             <h6 class="card-subtitle"></h6>
                                 <form class="form p-t-20">
-                                	<div class="form-group">
-                                        <label for="exampleInputuserid">User Id</label>
-                                          <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1">
-                                                    <i class="ti-user"></i>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
                                     <div class="form-group">
                                         <label for="exampleInputuname">First Name</label>
                                         <div class="input-group">
@@ -32,7 +21,7 @@
                                                     <i class="ti-user"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" class="form-control" id="exampleInputuname" placeholder="Username">
+                                            <input type="text" class="form-control" id="exampleInputuname" placeholder="First name">
                                         </div>
                                     </div>
 
@@ -85,21 +74,18 @@
 
 
                                  <div class="form-group">
-                                        <label for="pwd1">Date of Birth</label>
+                                        <label for="ti-dob">Date of Birth</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
-                                                  <!--  <i class="ti-dob"></i>-->
+                                                   <i class="ti-calendar"></i>
                                                 </span>
                                             </div>
                                             <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
                                              <ul role="alert"><li></li></ul>
                                         </div>
                                    </div>
-                                </div>
-
-
-
+                                
                                 <!-- <div class="form-group row">
                                         <label for="example-date-input" class="col-2 col-form-label">Date</label>
                                         <div class="col-10">
@@ -107,14 +93,18 @@
                                         </div>
                                     </div>-->
                                 
-                                <div class="form-group">
+                                 <div class="form-group">
                                         <label for="exampleInputuname">Job Section</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
-                                                    <i class="ti-job"></i>
+                                                    <i class="ti-bag"></i>
                                                 </span>
                                             </div>
+                                            <input type="text" class="form-control" id="exampleInputuname" placeholder="Job section">
+                                        </div>
+                                    </div>
+
 
                                    <div class="form-group">
                                     <label for="exampleInputaddress">Address</label>

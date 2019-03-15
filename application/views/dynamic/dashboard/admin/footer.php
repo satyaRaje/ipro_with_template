@@ -1,5 +1,9 @@
 <footer class="footer">
+<<<<<<< HEAD
    All rights are deserved at IPRO3D Technologies LLP.
+=======
+    All rights are deserved at IPRO3D Technologies LLP.
+>>>>>>> 002e69757793bc3a0bea8a4c567d6994bfad4374
 </footer>
 <!-- ============================================================== -->
 <!-- End footer -->

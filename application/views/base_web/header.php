@@ -64,41 +64,44 @@
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1" target="_blank">Overview</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#2" target="_blank">History</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3" target="_blank">Our Approaches</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#4" target="_blank">Our team</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#5 " target="_blank">Company Ethics</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#6" target="_blank">Authentic</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#7" target="_blank">Accuracy</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#8" target="_blank">Careers</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1">Overview</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#2">
+                                    History</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3"> Our Approaches</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#4">
+                                    Our team</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#5 ">Company Ethics</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#6"> Authentic</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#7">Accuracy</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#8">
+                                    Careers</a>
                                 </div>
                          </li>
                         <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services">3D Printing</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#scanning">3D Scanning</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#rapidprototyping">Rapid Prototyping</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#cadmodelling">CAD Modeling</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#design ">Design for 3D Printing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#reverse">Reverse Engineering</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#topology">Design Topology Optimization</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#manufacturing">Small Batch Manufacturing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#vaccumecast">Vaccum Casting</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#xraytopology">X-Ray Topology</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#functional">Functional Part Manufacturing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#tooling">Tooling Manufacturing</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#injectionmodelling">Injection Modeling</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Services#cncmachine">CNC Machining</a>         
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Printing#printing">3D Printing</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Scanning#scanning">3D Scanning</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Rapid#rapid">Rapid Prototyping</a> 
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Cad#cad">CAD Modeling</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Design#design ">Design for 3D Printing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Reverse#reverse">Reverse Engineering</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Topology#topology">Design Topology Optimization</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Small#small">Small Batch Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Vaccum#vaccum">Vaccum Casting</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Xray#xray">X-Ray Topology</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Functional#functional">Functional Part Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Tooling#tooling">Tooling Manufacturing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Injection#injection">Injection Modeling</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Cnc#cnc">CNC Machining</a>         
 
                                  </div>
                             </li>
                         <li class="nav-item"> <a class="nav-link" href="#">Shop</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" >Mutation</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/dynamic/marketplace/ci_marketplace/select_marketplace" target="_blank">Marketplace</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#" target="_blank">Marketplace</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us">Contact Us</a> </li>
-                        <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page" style="width:120px;">Login</a> </li>
+                        <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page" target="_blank" style="width:120px;">Login</a> </li>
                     </ul>
                 </div>
             </nav>

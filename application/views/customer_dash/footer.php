@@ -38,7 +38,7 @@
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
                     <h3 style="color: white;">Contact us</h3>
-                    <li><a href="../material/app-email.html"><i class="ti-angle-right"></i>Support/FAQs</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/faq"><i class="ti-angle-right"></i> FAQs</a></li>
                     <li><a href="../material/pages-treeview.html"><i class="ti-angle-right"></i> Enquiries</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i class="ti-angle-right"></i> Contact</a></li>
                     <li><a href="../material/pages-gallery.html"><i class="ti-angle-right"></i> Feedback Form</a></li>
