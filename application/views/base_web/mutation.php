@@ -23,6 +23,9 @@
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Mutation</h2>
                    
               <p class="text font-normal;" style="text-align: justify;">IPRO3D mutation program is for students to develop their creative ideas/products and prototype them using the hi-tech 3d printing technology. The mutation program helps students to fabricate their ideas to product and get expert help if needed by the students. Students can also discuss their problems with the 3d printing community forums and get help from people working in 3d printing, 3d designing, etc.</p>
+              <p class="text font-normal;" style="text-align: justify;">Prototyping the innovative ideas and testing them in the real word are the basic need to the time. Being a student, it is not possible for them to get access individually to these hi-tech technologies to make a presentable prototype of their ideas but don’t you worry the mutation program helps students to get access to these hi-tech technologies and use it for prototyping their innovative and creative ideas.</p>
+              <p class="text font-normal;" style="text-align: justify;">Students just have to do a free registration in mutation program and access to hi-tech 3d printing latest technology. </p>
+              <p class="text font-normal;" style="text-align: justify;">Students registered in mutation program get special privileges of educational pricing and student discounts.</p>
               <br><br>
                              </div>
 
