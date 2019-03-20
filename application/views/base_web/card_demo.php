@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>assets/images/favicon.png">
-    <title>Material Pro Admin Template - The Most Complete &amp; Trusted Bootstrap 4 Admin Template</title>
+    <title>Card Demo</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>style/full/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Popup CSS -->
@@ -24,7 +24,23 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}
+</style>
+
+<style type="text/css">
+    @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
+/*  
+// From https://bootsnipp.com/snippets/featured/newsletter-subscribe
+//
+// Updated to boostrap 3 + Fontawesome 4
+//
+*/
+input.btn-primary {
+  margin-top: 15px;
+}
+</style>
 </head>
 <body class="fix-header fix-sidebar card-no-border mini-sidebar">
     <div class="page-wrapper" style="min-height: 651px;">
@@ -32,8 +48,7 @@
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <div class="container-fluid">
-        
-<div class="row el-element-overlay">
+                 <div class="row el-element-overlay">
                     <div class="col-md-12">
                         <h4 class="card-title">Fade-in effect</h4>
                         <h6 class="card-subtitle m-b-20 text-muted">You can use by default <code>el-overlay</code></h6> </div>
@@ -108,6 +123,30 @@
                 </div>
             </div>
         </div>
+        <a href="URL ADDRESS"><img src="<?php echo base_url();?>assets/images/slider/img1.jpg" onmouseover="this.src='<?php echo base_url();?>assets/images/slider/slide-2.jpg'" onmouseout="this.src='<?php echo base_url();?>assets/images/slider/img1.jpg'" /></a>
+
+        <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail center well well-sm text-center">
+                <h2>Newsletter</h2>
+                
+                <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                
+                <form action="" method="post" role="form">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                      <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                    </div>
+                    <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
+              </form>
+            </div>    
+        </div>
+    </div>
+</div>
+ 
     </body>
                 
     <script src="<?php echo base_url();?>style/full/assets/plugins/jquery/jquery.min.js"></script>
