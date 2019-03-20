@@ -14,7 +14,7 @@
                     <h3 style="color: white;">Our Services</h3>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing"><i class="ti-angle-right"></i> 3D Printing</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Scanning"><i class="ti-angle-right"></i> 3D Scanning</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Prototyping"><i class="ti-angle-right"></i> Rapid Prototyping</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Rapid"><i class="ti-angle-right"></i> Rapid Prototyping</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/cad"><i class="ti-angle-right"></i> 3D & 2D CAD Modelling</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/design"><i class="ti-angle-right"></i>Design for 3D Printing</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/reverse"><i class="ti-angle-right"></i> Reverse Engineering</a></li>

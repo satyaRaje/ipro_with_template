@@ -22,6 +22,29 @@
                        </div>
                     </div><br>
 </div>
+<hr>
+    <div class="container">
+        <div class="row" align="center">
+            <div class="col-md-3" >
+            </div>
+            <div class="col-md-6" >
+                <div class="thumbnail center well well-sm text-center">
+                    <h2>Newsletter</h2> 
+                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <form action="" method="post" role="form">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="fa fa-envelope"></i>
+                          </span>
+                          <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                        </div><br>
+                        <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
+                  </form>
+                </div>    
+            </div>
+        </div><br>
+    </div>
+
 <script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
 <!-- Bootstrap tether Core JavaScript -->
 <script src="<?php echo base_url()."style/full/assets/plugins/popper/popper.min.js";?>"></script>

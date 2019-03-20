@@ -13,11 +13,34 @@
                            <p class="text font-normal;" style="text-align: justify;">
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.
           
-                          </p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>            
+                          </p><br><br><br><br><br>          
                        
                </div>
         </div><br>
 </div>
+<hr>
+    <div class="container">
+        <div class="row" align="center">
+            <div class="col-md-3" >
+            </div>
+            <div class="col-md-6" >
+                <div class="thumbnail center well well-sm text-center">
+                    <h2>Newsletter</h2> 
+                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <form action="" method="post" role="form">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="fa fa-envelope"></i>
+                          </span>
+                          <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                        </div><br>
+                        <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
+                  </form>
+                </div>    
+            </div>
+        </div><br>
+    </div>
+
 <script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
 <!-- Bootstrap tether Core JavaScript -->
 <script src="<?php echo base_url()."style/full/assets/plugins/popper/popper.min.js";?>"></script>
