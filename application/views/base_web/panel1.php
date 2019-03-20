@@ -17,75 +17,41 @@
     <div class="col-md-3" style="" class="text-white" width="100%">
         <br><br><br><br><br><br><br><br>
         <h2 style="font-family:'Philosopher';font-size: 40px;background-color: black;font-color:#ffffff" class="text-white" align="center">WE ARE HERE..<br><br>TO MAKE ANYTHING YOU WANT !!</h2><br><br><br><br>
+        <br><br>
+        <div class="carousel-caption d-md-block">
+                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">Instant Quotation</a> <br><br>     
+                <p style="font-weight: bold;font-size: 20px">Get Quotation </p>             
+        </div>
+         
     </div>
     <div class="col-md-3">
         <img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
-                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">BUY</a>      
-                <p style="font-weight: bold;font-size: 20px">Add ART to the CART</p>             
+                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">Design</a> <br><br>     
+                <p style="font-weight: bold;font-size: 20px">Idea to Design</p>             
         </div>
     </div>
     <div class="col-md-3" >
         <img src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
-                <a type="button" class="btn-rounded btn waves-effect waves-light  btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">DESIGN</a>        
-                <p style="font-weight: bold;font-size: 20px">Expect the Unexpected..!!</p>
+                <a type="button" class="btn-rounded btn waves-effect waves-light  btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">Start your Shop</a>  <br><br>      
+                <p style="font-weight: bold;font-size: 20px">Marketplace</p>    
                 
         </div>
     </div>
     <div class="col-md-3">
         <img src="<?php echo base_url();?>assets/images/slider/img1.jpg" height="550px" width="100%" style="opacity: 0.6">
         <div class="carousel-caption d-md-block">
-                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">SELL</a>        
-                <p style="font-weight: bold;font-size: 20px">Shop your creative product</p>
+            <br><br>
+<br>                <a  type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">Manufacture</a>
+                <br><br>        
+                <p style="font-weight: bold;font-size: 20px;">Manufacture your product</p>
                 
         </div>
     </div>
 </div>
-<div align="center" style="background-color: whitesmoke">
-    <hr>
-        <h2 class="font-weight-bold text-center">EVENT EXPO 2019</h2>
-        <hr>
-        <div class="row">
-               <div class="col-sm-3" id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/2.jpeg"  class="img img-rounded" height="200px" width="200px">
-            </div>
-            <div class="col-sm-3"  id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/3.jpeg"  class="img img-rounded" height="200px" width="200px">
-            </div>
-
-            <div class="col-sm-3" id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/4.jpeg" class="img img-rounded" height="200px" width="200px">
-                <br>
-            </div>
-            <div class="col-sm-3"  id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/5.jpeg" height="200px" width="200px" class="img img-rounded">
-            </div>
-        </div>
-<br><br>
-<div class="row">
-            <div class="col-sm-3" id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/7.jpeg" height="200px" width="200px" class="img img-rounded">
-
-            </div>
-            <div class="col-sm-3" id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/8.jpeg" height="200px" width="200px" class="img img-rounded">
-
-
-            </div>
-            <div class="col-sm-3"  id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/9.jpeg" height="200px" width="200px" class="img img-rounded">
-            </div>
-
-
-            <div class="col-sm-3"  id="">
-                <img src="<?php echo base_url(); ?>assets/images/ipevent/6.jpeg" height="200px" width="200px" class="img img-rounded">
-            </div>
-        </div>
-         <br>
-    </div>
-
-<div>
+  
+<div style="background-color: #F5F5F5">
     <hr>
      <h2 class="font-weight-bold text-center">Application</h2>
      <hr>
@@ -110,9 +76,11 @@
     </div>
 
 </div>
+<br>
 </div>
 
-     <div class="row">
+
+     <div class="row" style="background-color: #F5F5F5">
          <div class="col-md-2">
          </div>
          <div class="col-md-2">
@@ -127,10 +95,11 @@
          <div class="col-md-2">
              <img src='<?php echo base_url()."images/application/Packaging.png"?>' style="width:100%;height:100%;">
          </div>
-     </div>
-     <br>
+ </div>
 
-    <div style="background-color: #F5F5F5">
+
+
+        <div style="background-color: #F5F5F5">
      <hr>
      <h2 class=" font-weight-bold text-center" >How We Work</h2>
      <hr>
@@ -156,63 +125,15 @@
              <img src='<?php echo base_url()."images/how_we_work/3dadative.png"?>'>
              <h6 style="font-weight: bold;"> 3D Printing Additive manufacturing</h6>
          </div>
+
          <div class="col-md-2">
              <img src='<?php echo base_url()."images/how_we_work/delivery.png"?>' >
              <h6 style="font-weight: bold;">Delivery </h6>
          </div>
+         <div>     <h1 style="color:#F5F5F5">helloo</h1></div>
       </div>
       </div>
-     <br>
-
-    <div class="container-fluid" align="center">
-     <hr>
-     <h2 class=" font-weight-bold text-center" >Our Work</h2>
-     <hr>
-        <div class="row">
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/ww2.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/bottle.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/am1.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/am2.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/motor2.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/sla.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/wor4.jpg" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/teddy.jpg" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/shoes.jpg" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/ring.jpg" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/tower.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-                <div class="col-sm-2">
-                    <img src="<?php echo base_url(); ?>assets/images/ourwork/gyro.JPG" height="200px" width="200px" class="img img-rounded">
-                </div>
-            </div>
-            <br>
-        </div>
-    </div>
-</div>
+    
 
      
      <div style="background-color: whitesmoke">
@@ -293,6 +214,7 @@
     <br>
     </div>
     <br>
+
  
 
 <script src="<?php echo base_url()."style/full/assets/plugins/jquery/jquery.min.js";?>"></script>
@@ -311,7 +233,7 @@
 <!--Custom JavaScript -->
 <script src="<?php echo base_url()."style/full/js/custom.min.js"?>"></script>
 <script>
-    // This is for the sticky sidebar
+    // This isfor the sticky sidebar
     $(".stickyside").stick_in_parent({
         offset_top: 100
     });
