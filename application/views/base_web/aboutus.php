@@ -35,10 +35,10 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-xlg-10 col-md-8">
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="1" align="center" style="font-weight: bold;font-family: Philosiphers">1. Overview</h2>
-                            <p style="text-align: justify;">    We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.
+                            <p style="text-align: justify;">We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.
                                <br><br>
                                 IPRO3D provides access to wide range of materials, finishes, techniques and manufacturing processes as well as superior optimization tools for file repair and analysis. We provide delivery of our 3d printed and traditionally manufactured products PAN India. We also process worldwide delivery according to the order quantity.</p>
                             <h5>IPRO3D a socially responsible business:</h5>
@@ -49,12 +49,9 @@
                             </ol>
                            <br><br><br><br><br><br><br><br>
                         </div>
-
-                    </div>
-               <br>
-
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    </div><br>
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="2" align="center" style="font-weight: bold;font-family: Philosiphers">2. History</h2>
                             <div class="row">
                                 <div class="col-md-6">
@@ -101,8 +98,8 @@
 
                     </div>
                     <br>
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="3" align="center" style="font-weight: bold;font-family: Philosiphers">3. Our Approach</h2>
                           <p style="text-align: justify;">
                               Our approach is to work towards bringing every innovative idea or product to reality (Actual 3d object/part) by using a disruptive technology of Additive Manufacturing also popularly known as 3D printing and make the world a better place to live by changing the face of manufacturing industry by removing its currently involved hierarchy of traditional manufacturing and to become the global leader of digital manufacturing industry. We work with Additive Manufacturing technology majorly involved in Industry 4.0. As Additive Manufacturing is an integral part of Industry 4.0 the 4th industrial revolution.
@@ -111,8 +108,8 @@
                         </div>
                     </div><br>
 
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="4" align="center" style="font-weight: bold;font-family: Philosiphers">4. Our Team</h2>
                             <h6 class="text-center text-info">  The ones who runs this company...<br>
                                 IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.
@@ -196,8 +193,8 @@
                         </div>
                     </div>
                     <br>
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="5" align="center" style="font-weight: bold;font-family: Philosiphers">5. Company Ethics</h2>
                             <p style="text-align: justify;">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every business has its risks and security associated with it. IPRO3D is a leading 3d Printing and 3D CAD modeling company. Whether you are establishing a 3D Model or getting printing services with us, security is our prime concern and responsibility. We understand the importance of valuable designs made by invelsting a lot of time, efforts and creative thinking. You can upload designs with confidence as we take care that no one could download / hack the design. Similarly, all our transmissionas are safe with transcripted environment. Your designs are safe with us and never misused or published without your permission.
@@ -222,8 +219,8 @@
 
                     </div>
 <br>
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="6" align="center" style="font-weight: bold;font-family: Philosiphers">6. Authentic</h2>
                             <p style="text-align: justify;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality  </p>
                             <h5 style="text-align: center;">Material Used</h5>
@@ -233,8 +230,8 @@
                         </div>
                     </div><br>
 
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="7" align="center" style="font-weight: bold;font-family: Philosiphers">7. Accuracy </h2>
                             <p style="text-align:justify;padding:20px;">
               &nbsp;&nbsp;&nbsp;You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
@@ -258,8 +255,8 @@
                     </div>
 
                     <br>
-                    <div class="card">
-                        <div class="card-body" style="background-color:#F5F5F5">
+                    <div class="card" style="background-image: url(<?php echo base_url()."images/background/About-us-Background.jpg";?>);background-position: center; ">
+                        <div class="card-body">
                             <h2 class="card-title" id="8" align="center" style="font-weight: bold;font-family: Philosiphers">8. Careers </h2>
                             <p style="text-align:justify;padding:20px;">"If you are passionate about 3d printing and want to work with a technology driven startup IPRO3D is the perfect place for you.Currently we do not have no Job openings but who knows where you could fit in so don’t miss on this opportunity and upload your resume here."</p>
                  <div style="text-align: right;">
@@ -271,8 +268,6 @@
                   <p style="text-align:justify;padding:20px;">IPRO3D is a 3D printing additive manufacturing startup. We provide Idea to product design and prototyping service in various 3D printing additive manufacturing technologies. IPRO3D is a recognized startup by DIPP (Department of Industrial Policy and Promotion), Ministry of Commerce and Industries, Government of India.</p>
                   <h5 style="text-align:justify;">Internship</h5>
                   <p style="text-align:justify;padding:20px;">Currently we don’t have any openings For internship but if you don’t want to miss any future opportunity working with us as an intern upload your resume here.</p>
-                  <h5 style="text-align: justify;">3D PRINTING BASIC</h5>
-                  <p style="text-align:justify;padding:20px;">3D printing is a prototyping process whereby an real object is created from a 3D design. The digital 3D-model is saved in STL format and then sent to a 3D printer.</p>
                   <br><br>
                         </div>
                     </div><br>
@@ -364,7 +359,6 @@
 <!-- ============================================================== -->
 <!-- Style switcher -->
 <!-- ============================================================== -->
-<script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+<script src="<?php echo base_url();?>assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
 </body>
-
 </html>
