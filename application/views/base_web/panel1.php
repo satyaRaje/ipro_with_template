@@ -25,22 +25,23 @@
          
     </div>
     <div class="col-md-3">
-        <img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity: 0.6">
+        <a href="URL ADDRESS"><img src="<?php echo base_url();?>assets/images/slider/img4.jpg" onmouseover="this.src='<?php echo base_url();?>assets/images/slider/img7.jpg'" onmouseout="this.src='<?php echo base_url();?>assets/images/slider/img4.jpg'" height="550px" width="100%"/></a>
         <div class="carousel-caption d-md-block">
                 <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">Design</a> <br><br>     
                 <p style="font-weight: bold;font-size: 20px">Idea to Design</p>             
         </div>
     </div>
     <div class="col-md-3" >
-        <img src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" height="550px" width="100%" style="opacity: 0.6">
+        <a href="URL ADDRESS"><img src="<?php echo base_url();?>assets/images/slider/slide-2.jpg" onmouseover="this.src='<?php echo base_url();?>assets/images/slider/showpiece.jpg'" onmouseout="this.src='<?php echo base_url();?>assets/images/slider/slide-2.jpg'" height="550px" width="100%"/></a>
         <div class="carousel-caption d-md-block">
+            <br><br>
                 <a type="button" class="btn-rounded btn waves-effect waves-light  btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">Start your Shop</a>  <br><br>      
                 <p style="font-weight: bold;font-size: 20px">Marketplace</p>    
                 
         </div>
     </div>
     <div class="col-md-3">
-        <img src="<?php echo base_url();?>assets/images/slider/img1.jpg" height="550px" width="100%" style="opacity: 0.6">
+        <a href="URL ADDRESS"><img src="<?php echo base_url();?>assets/images/slider/img1.jpg" onmouseover="this.src='<?php echo base_url();?>assets/images/slider/img10.jpg'" onmouseout="this.src='<?php echo base_url();?>assets/images/slider/img1.jpg'" height="550px" width="100%"/></a>
         <div class="carousel-caption d-md-block">
             <br><br>
 <br>                <a  type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">Manufacture</a>
