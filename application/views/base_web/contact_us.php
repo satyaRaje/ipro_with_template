@@ -4,8 +4,12 @@
         <svg class="circular" viewBox="25 25 50 50">
             <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
     </div>
-<div class="row" style="padding-left: 10%;padding-right: 10%;">
-                      <div class="col-lg-12"><br>
+    <div class="ribbon-wrapper card">
+                                    <div class="ribbon ribbon-default">Ribbon</div>
+                                    <p class="ribbon-content">Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p>
+                                </div>
+<div class="row" style="padding-left: 40%;padding-right: 5%;">
+                      <div class="col-lg-8"><br>
                       <div class="card">
                         <div class="card-body" style="background-color: #F5F5F5F5;background-image:url('<?php echo base_url();?>assets/images/slider/b1.png')">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Contact Us</h2>
