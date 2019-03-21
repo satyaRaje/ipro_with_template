@@ -2,10 +2,7 @@
 
 <head>
 <title>IPRO3D</title>
-
 <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/images/favicon.png">
-
-
 </head>
     
 <body>
@@ -177,7 +174,29 @@
          </div>
      </div>
  </div>
-
+    <div style="background-color: whitesmoke">
+    <hr>
+     <h2 class=" font-weight-bold text-center">Statistics</h2>
+     <hr>
+        <div class="row">
+        <div class="col-md-3">
+            <h1 align="center"><b>8+</b></h1>
+            <h3 align="center">Partners</h3>
+        </div>
+        <div class="col-md-3">
+            <h1 align="center"><b>550+</b></h1>
+            <h3 align="center">Parts Printed</h3>
+        </div>
+        <div class="col-md-3">
+            <h1 align="center"><b>89+</b></h1>
+            <h3 align="center">Happy Clients</h3>
+        </div>
+        <div class="col-md-3">
+            <h1 align="center"><b>150+</b></h1>
+            <h3 align="center">Meetings</h3>
+        </div>
+    </div>
+</div>
 
     <div style="background-color: #F5F5F5">
     <hr>
