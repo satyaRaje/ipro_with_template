@@ -185,31 +185,32 @@
     <hr>
      <div class="row" align="center">
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/startup.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/startup.png" style="height: 100px;width: 150px;background-color: #F5F5F5;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/make.jpg" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/make.jpg" style="height: 100px;width: 150px;background-color: #F5F5F5;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/ikea.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/ikea.png" style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/cc.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/cc.png"  style="height: 100px;width: 150px;">
         </div>
     </div>
+    <br>
 
     <div class="row" align="center">
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/blue.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/blue.png" style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/paytm.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/paytm.png" style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/savera.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/savera.png"  style="height: 100px;width: 150px;">
         </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/clients/sbi.png" class="img-circle" style="height: 100px;width: 150px;">
+            <img src="<?php echo base_url(); ?>assets/images/clients/sbi.png" style="height: 100px;width: 150px;">
         </div>
     </div>
     <br>
