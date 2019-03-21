@@ -24,7 +24,7 @@
             <div class="col-md-6" >
                 <div class="thumbnail center well well-sm text-center">
                     <h2>Newsletter</h2> 
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
                     <form action="" method="post" role="form">
                         <div class="input-group">
                           <span class="input-group-text">
