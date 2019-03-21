@@ -70,12 +70,10 @@
                                         <option value="other">Other</option>
                                     </select>
                                 </div>
-
                                    <div class="form-group">
                                     <label>Add Enquiry</label>
                                     <input type="text" class="form-control" placeholder="placeholder">
-                                </div>
-                
+                                </div>              
                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
                                     <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 </form>
