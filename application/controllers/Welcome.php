@@ -163,6 +163,12 @@ public function Cnc(){
         $this->load->view('base_web/register.php');
         $this->load->view('base_web/footer.php');
     }
+    public function careers_form()
+    {
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/careers_form.php');
+        $this->load->view('base_web/footer.php');
+    }
 
 
     public function view_blog()
