@@ -52,8 +52,12 @@
     <!-- Topbar header - style you can find in pages.scss -->
     <!-- ============================================================== -->
     <header class="topheader font-bold" id="top">
+
         <div class="fix-width">
+            <h6 class="font-weight-bold text-danger">
+                <span>Email: hello@ipro3d.io </span>              <span class="text" style="margin-left: 60%;">Mobile / Whatsapp: 9821413663</span> </h6>
             <nav class="navbar navbar-expand-md navbar-light p-l-0">
+
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                 <!-- Logo will be here -->
                 <a class="navbar-brand" href="index.html"><img src='<?php echo base_url()."images/logo/logo.png"?>' height="80px" width="200px" alt="admin template" /></a>
@@ -63,11 +67,11 @@
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/index">Home</a> </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1">Overview</a> 
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#1">Overview</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#2">
-                                    History</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3"> Our Approaches</a> 
+                                    History</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#3"> Our Approaches</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#4">
                                     Our team</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/About_us#5 ">Company Ethics</a>
@@ -79,10 +83,10 @@
                          </li>
                         <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Printing#printing">3D Printing</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Scanning#scanning">3D Scanning</a> 
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Rapid#rapid">Rapid Prototyping</a> 
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Printing#printing">3D Printing</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Scanning#scanning">3D Scanning</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Rapid#rapid">Rapid Prototyping</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Cad#cad">CAD Modeling</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Design#design ">Design for 3D Printing</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Reverse#reverse">Reverse Engineering</a>
@@ -113,7 +117,7 @@
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url(); ?>bootstrap/js/popper.min.js"></script>
     <script src="<?php echo base_url(); ?>js/waves.js"></script>
-    <script src="<?php echo base_url(); ?>js/sticky-kit.min.js"></script>
+        <script src="<?php echo base_url(); ?>js/sticky-kit.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/owl.carousel/owl.carousel.min.js"></script>
     <script src="<?php echo base_url(); ?>js/custom.min.js"></script>
 
