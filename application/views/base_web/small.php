@@ -14,7 +14,7 @@
         </a>
         <br>
         <a href="#1" class="list-group-item">
-            <b class="text font-weight-bold text-primary">Our Clients</b>
+            <b class="text font-weight-bold text-primary">Testimonial</b>
             <p class="text">Ipro3d blog read more..</p>
         </a>
 
