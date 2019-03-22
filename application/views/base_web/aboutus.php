@@ -25,6 +25,17 @@
                 <div class="col-lg-3 col-xlg-2 col-md-4">
                     <div class="stickyside">
                         <div class="list-group" id="top-menu">
+
+                            <a href="#1" class="list-group-item">
+                                <b class="text font-weight-bold text-danger">Email : hello@ipro3d.io
+                                    <br>
+                                    Mobile No. : 9821413663</b>
+                            </a>
+
+                            <a href="#1" class="list-group-item">
+                                <b class="text font-weight-bold text-primary">Blog</b>
+                                <p class="text">Ipro3d blog read more..</p>
+                            </a>
                             <a href="#1" class="list-group-item active">Overview</a>
                             <a href="#2" class="list-group-item">History</a>
                             <a href="#3" class="list-group-item">Our Approaches</a>
@@ -33,6 +44,7 @@
                             <a href="#6" class="list-group-item">Authentic</a>
                             <a href="#7" class="list-group-item">Accuracy</a>
                             <a href="#8" class="list-group-item">Careers</a>
+
                         </div>
                     </div>
                 </div>
