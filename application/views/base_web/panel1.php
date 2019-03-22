@@ -41,7 +41,7 @@
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img1.jpg" onmouseover="this.src='<?php echo base_url();?>assets/images/slider/img10.jpg'" onmouseout="this.src='<?php echo base_url();?>assets/images/slider/img1.jpg'" height="550px" width="100%"/></a>
         <div class="carousel-caption d-md-block">
             <br><br>
-<br>                <a  type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">Manufacture</a>
+<br>                <a  type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url();?>index.php/dynamic/Login/login/user_login_page">Manufacture</a>
                 <br><br>        
                 <p style="font-weight: bold;font-size: 20px;">Manufacture your product</p>
                 
@@ -130,9 +130,62 @@
          </div>
          <div>     <h1 style="color:#F5F5F5">helloo</h1></div>
       </div>
-      </div>
+      </div><br>
+    <div class="card" style="background-color:#F5F5F5F5;background-position: center;">
+                        <div class="card-body">
+                            
+                            <h2 class=" font-weight-bold text-center" >Testimonials</h2>
+                             <hr><br>
+                            <div>
+                            <div class="row">
+                                <div class="col-md-3" align="center">
+                                    <img src='<?php echo base_url()."images/team/t1.jpg"?>' width="120">
+                                </div>
+                                <div class="col-md-3" align="left">
+                                    <h4 class="card-title m-t-10"><b>Er. Yogesh C. Pawar</b></h4>
+                                              <h6 class="card-subtitle">Founder and Director Department</h6>
+                                                  <p style="font-weight: bold;font-family: Philosophers"><i>
+                                                      "Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur."</i><br>
+                                                  </p>  
+                                </div>  
+                                 <div class="col-md-3" align="center">
+                                    <img src='<?php echo base_url()."images/team/t1.jpg"?>' width="120">
+                                </div>
+                                <div class="col-md-3" align="left">
+                                    <h4 class="card-title m-t-10"><b>Er. Yogesh C. Pawar</b></h4>
+                                              <h6 class="card-subtitle">Founder and Director Department</h6>
+                                                  <p style="font-weight: bold;font-family: Philosophers"><i>
+                                                      "Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur."</i><br>
+                                                  </p>    
+                                  </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col-md-3" align="center">
+                                    <img src='<?php echo base_url()."images/team/t1.jpg"?>' width="120">
+                                </div>
+                                <div class="col-md-3" align="left">
+                                    <h4 class="card-title m-t-10"><b>Er. Yogesh C. Pawar</b></h4>
+                                              <h6 class="card-subtitle">Founder and Director Department</h6>
+                                                  <p style="font-weight: bold;font-family: Philosophers"><i>
+                                                      "Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur."</i><br>
+                                                  </p>  
+                                </div>  
+                                 <div class="col-md-3" align="center">
+                                    <img src='<?php echo base_url()."images/team/t1.jpg"?>' width="120">
+                                </div>
+                                <div class="col-md-3" align="left">
+                                    <h4 class="card-title m-t-10"><b>Er. Yogesh C. Pawar</b></h4>
+                                              <h6 class="card-subtitle">Founder and Director Department</h6>
+                                                  <p style="font-weight: bold;font-family: Philosophers"><i>
+                                                      "Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur."<br></i>
+                                                  </p>    
+                                  </div>
+                            </div><br>
+                        </div>
+                    </div>
+                </div>
+                    
     
-
      
      <div style="background-color: whitesmoke">
     <hr>
