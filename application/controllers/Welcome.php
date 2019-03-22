@@ -29,7 +29,7 @@ class Welcome extends CI_Controller {
     public function index()
     {
     	$this->load->view('base_web/header.php');
-        $this->load->view('base_web/panel1.php');
+        $this->load->view('base_web/panel2.php');
         $this->load->view('base_web/footer.php');
 
     }
