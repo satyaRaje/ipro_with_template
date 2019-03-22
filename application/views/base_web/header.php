@@ -54,8 +54,16 @@
     <header class="topheader font-bold" id="top">
 
         <div class="fix-width">
-            <h6 class="font-weight-bold text-danger">
-                <span>Email: hello@ipro3d.io </span>              <span class="text" style="margin-left: 60%;">Mobile / Whatsapp: 9821413663</span> </h6>
+              <span class="text" style="margin-right: 80%">
+                <button class="btn btn-facebook waves-effect btn-circle waves-light" type="button"> <i class="fab fa-facebook"></i> </button>
+              <button class="btn btn-twitter waves-effect btn-circle waves-light" type="button"> <i class="fab fa-twitter"></i> </button>
+              <button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button>
+              <button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button>
+              <button class="btn btn-youtube waves-effect btn-circle waves-light" type="button"> <i class="fab fa-youtube"></i> </button>
+          
+            <h6 class="font-weight-bold text-danger" style="margin-left: 80%"> <i class="ti-email"> <b>Email: hello@ipro3d.io </b></i><br> 
+                 <i class="ti-mobile"> <b>Mobile/Whatsapp: 9821413663</b></i> </h6>
+             </span>
             <nav class="navbar navbar-expand-md navbar-light p-l-0">
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
