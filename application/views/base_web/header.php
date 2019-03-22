@@ -55,12 +55,11 @@
 
         <div class="fix-width">
               <span class="text" style="margin-right: 80%">
-                <button class="btn btn-facebook waves-effect btn-circle waves-light" type="button"> <i class="fab fa-facebook"></i> </button>
-              <button class="btn btn-twitter waves-effect btn-circle waves-light" type="button"> <i class="fab fa-twitter"></i> </button>
-              <button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button>
-              <button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button>
-              <button class="btn btn-youtube waves-effect btn-circle waves-light" type="button"> <i class="fab fa-youtube"></i> </button>
-          
+                 <a href="https://www.facebook.com/ipro3d.tech"><button class="btn btn-facebook waves-effect btn-circle waves-light" type="button"> <i class="fab fa-facebook"></i> </button></a>
+              <a href=" https://twitter.com/ipro3d"><button class="btn btn-twitter waves-effect btn-circle waves-light" type="button"> <i class="fab fa-twitter"></i> </button></a>
+              <a href="https://www.linkedin.com/company/ipro3d-technologies-llp"><button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button></a>
+              <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a>
+             
             <h6 class="font-weight-bold text-danger" style="margin-left: 80%"> <i class="ti-email"> <b>Email: hello@ipro3d.io </b></i><br> 
                  <i class="ti-mobile"> <b>Mobile/Whatsapp: 9821413663</b></i> </h6>
              </span>
