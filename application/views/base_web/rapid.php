@@ -30,7 +30,21 @@
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
                            <p class="text font-normal;" style="text-align: justify;">
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.
-                          </p><br><br><br><br><br>          
+                          </p><br><br><br>
+                          <div class="row">
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img1.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img7.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+              </div>         
                </div>
         </div><br>
 </div>

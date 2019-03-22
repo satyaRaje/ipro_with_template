@@ -26,7 +26,21 @@
                             <h2 class="card-title" id="injectionmodeling" align="center" style="font-weight: bold;font-family: Philosiphers">13. Injection Modeling</h2>
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
                             <p class="text font-normal;" style="text-align: justify;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Injection molding is a process for producing parts by injecting molten materials into a mold.It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p></br></br></br><br><br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Injection molding is a process for producing parts by injecting molten materials into a mold.It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p></br></br></br>
+<div class="row">
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img1.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img7.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+              </div>
                </div>
         </div><br>
 </div>

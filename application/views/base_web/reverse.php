@@ -31,13 +31,27 @@
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
                             <p class="text font-normal;" style="text-align: justify;">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</p></br></br>
+ <div class="row">
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img1.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img7.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+              </div>
     
 
 </br></br><br>
 
                                   </p>
-                           <br><br><br><br>
-                            <br><br><br><br>
+        
+                            <br><br>
                </div>
         </div><br>
 </div>

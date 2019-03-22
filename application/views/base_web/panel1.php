@@ -51,48 +51,16 @@
   
 <div style="background-color: #F5F5F5">
     <hr>
-     <h2 class="font-weight-bold text-center">Application</h2>
+     <h2 class="font-weight-bold text-center" height="100%">Application</h2>
      <hr>
     <div class="row">
- <div class="col-md-2">
- <img src='<?php echo base_url()."images/application/Aerospace.png"?>' style="width:100%;height:100%;">
- </div>
-    <div class="col-md-2">
-        <img src='<?php echo base_url()."images/application/Architecture.png"?>' style="width:100%;height:100%;">
-    </div>
-    <div class="col-md-2">
-        <img src='<?php echo base_url()."images/application/Automotive.png"?>' style="width:100%;height:100%;">
-    </div>
-    <div class="col-md-2">
-        <img src='<?php echo base_url()."images/application/Consumer_Goods.png"?>' style="width:100%;height:100%;">
-    </div>
-    <div class="col-md-2">
-        <img src='<?php echo base_url()."images/application/Electronics.png"?>' style="width:100%;height:100%;">
-    </div>
-    <div class="col-md-2">
-        <img src='<?php echo base_url()."images/application/Foundry.png"?>' style="width:100%;height:100%;">
-    </div>
-
+ <img src="<?php echo base_url();?>assets/images/Applications.png" width="100%" height="100%">
 </div>
 <br>
 </div>
 
 
-     <div class="row" style="background-color: #F5F5F5">
-         <div class="col-md-2">
-         </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/application/Jewelry.png"?>' style="width:100%;height:100%;">
-         </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/application/Lifestyle.png"?>' style="width:100%;height:100%;">
-         </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/application/Medical.png"?>' style="width:100%;height:100%;">
-         </div>
-         <div class="col-md-2">
-             <img src='<?php echo base_url()."images/application/Packaging.png"?>' style="width:100%;height:100%;">
-         </div>
+    
  </div>
 
 
@@ -102,33 +70,24 @@
      <h2 class=" font-weight-bold text-center" >How We Work</h2>
      <hr>
      <div class="row text-center">
-         <div class="col-md-2">
+         <div class="col-sm-4">
              <img src='<?php echo base_url()."images/how_we_work/idea.png"?>'>
              <h6 style="font-weight: bold;"> Idea</h6>
-         </div>
-         <div class="col-md-2">
              <img src='<?php echo base_url()."images/how_we_work/3dCAD.png"?>'>
              <h6 style="font-weight: bold;"> 3D Cad Model</h6>
          </div>
-         <div class="col-md-2">
+         <div class="col-sm-4">
              <img src='<?php echo base_url()."images/how_we_work/stlUpload.png"?>'>
              <h6 style="font-weight: bold;"> Upload STL file</h6>
-         </div>
-
-         <div class="col-md-2">
              <img src='<?php echo base_url()."images/how_we_work/getQUta.png"?>'>
              <h6 style="font-weight: bold;">Get Quotationng</h6>
          </div>
-         <div class="col-md-2">
+         <div class="col-sm-4">
              <img src='<?php echo base_url()."images/how_we_work/3dadative.png"?>'>
              <h6 style="font-weight: bold;"> 3D Printing Additive manufacturing</h6>
-         </div>
-
-         <div class="col-md-2">
              <img src='<?php echo base_url()."images/how_we_work/delivery.png"?>' >
              <h6 style="font-weight: bold;">Delivery </h6>
          </div>
-         <div>     <h1 style="color:#F5F5F5">helloo</h1></div>
       </div>
       </div><br>
     <div class="card" style="background-color:#F5F5F5F5;background-position: center;">

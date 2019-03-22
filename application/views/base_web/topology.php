@@ -30,7 +30,21 @@
                             <h2 class="card-title" id="topology" align="center" style="font-weight: bold;font-family: Philosiphers">7. Design topology optimization</h2>
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
                             <p class="text font-normal;" style="text-align: justify;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topology optimization is a mathematical modeling approach that can optimizes material layouts digitally and simulate various iterations for within a given set of design space, for a given set of loads and boundary conditions such that the resulting layout meets a prescribed set of performance that targets to optimize the overall end result.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topology optimization is a mathematical modeling approach that can optimizes material layouts digitally and simulate various iterations for within a given set of design space, for a given set of loads and boundary conditions such that the resulting layout meets a prescribed set of performance that targets to optimize the overall end result.</br><br>
+<div class="row">
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img1.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="<?php echo base_url();?>assets/images/slider/img7.jpg"  height="200px" width="250px"/>
+                      <div><br></div>
+                  </div>
+              </div><br><br>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The topology optimization technique is a very helpful tool for optimizing a design/part and make it more efficient in every aspect. The technology was not used before as the result output for most of the time s was not manufacturable due to the manufacturing constraints but due to additive manufacturing technology or popularly known name as 3d printing has now made it is possible to manufacture all critical parts/components by removing all the barriers of manufacturing constraints.</br></br></p></br></br><br><br><br><br><br><br><br>
                </div>
         </div><br>
