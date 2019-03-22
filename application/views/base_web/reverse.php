@@ -7,12 +7,26 @@
     <div class="col-md-2 col-xlg-3">
 
         <a href="#1" class="list-group-item">
-            <b class="text font-weight-bold text-danger">Email : hello@ipro3d.io
-                <br>
-                Mobile No. : 9821413663</b>
-        </a>
-        <br>
-        <a href="#1" class="list-group-item">
+         <h6 class="text font-normal m-l-10">
+                               <b> Corporate office Manufacturing Facility</b><br>
+                            C/O Er. Yogesh Pawar,<br>
+                            Meridian Status-B, F-7,<br>
+                            Near Youth Hostel, Kesarsingpura,<br>
+                            Aurangabad-431005, Maharashtra,<br>
+                            India.
+                            </h6>
+                             <br>
+                            
+        <font color="Grey">
+        <b class="text font-weight-bold">Email : hello@ipro3d.io
+            <br>Mobile No. : 9821413663</b>
+            
+            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
+            </font>
+            <br>
+    </a>
+    <br>
+    <a href="#1" class="list-group-item">
             <b class="text font-weight-bold text-primary">Testimonial</b>
             <p class="text">Ipro3d blog read more..</p>
         </a>
@@ -27,8 +41,9 @@
 
                 <div class="card">
 <div class="card-body" style="background-color:#F5F5F5;">
-                            <h2 class="card-title" id="reverse" align="center" style="font-weight: bold;font-family: Philosiphers">6. Reverse Engineering</h2>
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
+                            <h2 class="card-title" id="reverse" align="center" style="font-weight: bold;font-family: Philosiphers">6. Reverse Engineering</h2>
+                            
                             <p class="text font-normal;" style="text-align: justify;">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</p></br></br>
  <div class="row">

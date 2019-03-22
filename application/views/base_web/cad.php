@@ -5,11 +5,23 @@
 <div class="col-md-2 col-xlg-3">
 
     <a href="#1" class="list-group-item">
+         <h6 class="text font-normal m-l-10">
+                               <b> Corporate office Manufacturing Facility</b><br>
+                            C/O Er. Yogesh Pawar,<br>
+                            Meridian Status-B, F-7,<br>
+                            Near Youth Hostel, Kesarsingpura,<br>
+                            Aurangabad-431005, Maharashtra,<br>
+                            India.
+                            </h6>
+                             <br>
+                            
         <font color="Grey">
         <b class="text font-weight-bold">Email : hello@ipro3d.io
             <br>Mobile No. : 9821413663</b>
+            
+            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
             </font>
-            <button class="btn-primary">Contact Us</button>
+            <br>
     </a>
     <br>
     <a href="#1" class="list-group-item">
@@ -22,8 +34,9 @@
 <div class="col-md-8 col-xlg-6">
               <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5;">                        
-                            <h2 class="card-title" id="cadmodeling" align="center" style="font-weight: bold;font-family: Philosiphers">4. 3D & 2D CAD Modeling</h2>
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
+                             <h2 class="card-title" id="cadmodeling" align="center" style="font-weight: bold;font-family: Philosiphers">4. 3D & 2D CAD Modeling</h2>
+                           
                             <p class="text font-normal;" style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D and 2d Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals. 3D CAD modeling provides an extra dimension to precisely visualize and share designs concepts and iterate it many times in real time.</br></br></br></br></br>
                             </p>
              <div class="row">

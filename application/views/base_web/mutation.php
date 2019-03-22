@@ -21,13 +21,27 @@
                 <div class="row">
                     <div class="col-md-2 col-xlg-3">
 
-                        <a href="#1" class="list-group-item">
-                            <b class="text font-weight-bold text-danger">Email : hello@ipro3d.io
-                                <br>
-                                Mobile No. : 9821413663</b>
-                        </a>
-                        <br>
-                        <a href="#1" class="list-group-item">
+                      <a href="#1" class="list-group-item">
+         <h6 class="text font-normal m-l-10">
+                               <b> Corporate office Manufacturing Facility</b><br>
+                            C/O Er. Yogesh Pawar,<br>
+                            Meridian Status-B, F-7,<br>
+                            Near Youth Hostel, Kesarsingpura,<br>
+                            Aurangabad-431005, Maharashtra,<br>
+                            India.
+                            </h6>
+                             <br>
+                            
+        <font color="Grey">
+        <b class="text font-weight-bold">Email : hello@ipro3d.io
+            <br>Mobile No. : 9821413663</b>
+            
+            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
+            </font>
+            <br>
+    </a>
+    <br>
+      <a href="#1" class="list-group-item">
                             <b class="text font-weight-bold text-primary">Our Clients</b>
                             <p class="text">Ipro3d blog read more..</p>
                         </a>
