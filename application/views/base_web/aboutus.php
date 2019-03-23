@@ -26,16 +26,7 @@
                     <div class="stickyside">
                         <div class="list-group" id="top-menu">
 
-                            <a href="#1" class="list-group-item">
-                                <b class="text font-weight-bold text-danger">Email : hello@ipro3d.io
-                                    <br>
-                                    Mobile No. : 9821413663</b>
-                            </a>
-
-                            <a href="#1" class="list-group-item">
-                                <b class="text font-weight-bold text-primary">Blog</b>
-                                <p class="text">Ipro3d blog read more..</p>
-                            </a>
+                                
                             <a href="#1" class="list-group-item active">Overview</a>
                             <a href="#2" class="list-group-item">History</a>
                             <a href="#3" class="list-group-item">Our Approaches</a>
@@ -126,53 +117,59 @@
                         </div>
                     </div><br>
 
-                    <div class="card" style="background-color:#F5F5F5F5;background-position: center;">
+                    <div class="card" style="background-color:#F5F5F5F5;background-position: center; ">
                         <div class="card-body">
                             <h2 class="card-title" id="4" align="center" style="font-weight: bold;font-family: Philosiphers">4. Our Team</h2>
-                            <div style="padding-left: 10%">
                             <h6 class="text-center text-info">  The ones who runs this company...<br>
                                 IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.
 
                             </h6><br>
                             <div class="row">
-                                <div class="col-md-3">
-                                    <img src='<?php echo base_url()."images/team/t1.jpg"?>' width="170">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4 class="card-title m-t-10"><b>Er. Yogesh C. Pawar</b></h4>
+                            <div class="col-lg-4 col-xlg-4 col-md-5">
+                                  <div class="card">
+                                          <center class="m-t-30"> <img src='<?php echo base_url()."images/team/t1.jpg"?>' width="150">
+                                              <h4 class="card-title m-t-10"><b>Er. Yogesh C. Pawar</b></h4>
                                               <h6 class="card-subtitle">Founder and Director Department</h6>
                                                   <p>
                                                       Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur.<br>
                                                   </p>
-                                </div>
-                            </div><br>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src='<?php echo base_url()."images/team/t2.png"?>' width="170">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4 class="card-title m-t-10"><b>Dr.Chandrakant T Pawar</b></h4>
+                                          </center>
+                                      </div>
+
+
+                                      </div>
+                            <div class="col-lg-4 col-xlg-4 col-md-5">
+                                <div class="card">
+                                    <center class="m-t-30"> <img src='<?php echo base_url()."images/team/t2.png"?>' width="150">
+                                        <h4 class="card-title m-t-10"><b>Dr.Chandrakant T Pawar</b></h4>
                                         <h6 class="card-subtitle">Co-Founder and Director</h6>
                                         <p>
                                             Department- Finance
                                             Doctor by profession.<br><br><br>
                                         </p>
+                                    </center>
                                 </div>
-                            </div><br>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src='<?php echo base_url()."images/team/t4.jpg"?>' width="170">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4 class="card-title m-t-10"><b>Mr. Yash C. Pawar</b></h4>
-                                        <h6 class="card-subtitle">Intern<br>Department-Business Development (Graphic design, Arts and animated modeling)</h6>
-                                            <p>
-                                                Passionate artist and graphic designer.<br>
-                                            </p>
-                                </div>
+
+
                             </div>
-                        </div><br>
                             
+                            <div class="col-lg-4 col-xlg-4 col-md-5">
+                                <div class="card">
+                                    <center class="m-t-30"> <img src='<?php echo base_url()."images/team/t4.jpg"?>' width="150">
+                                        <h4 class="card-title m-t-10"><b>Mr. Yash C. Pawar</b></h4>
+                                        <h6 class="card-subtitle">Intern<br> (Graphic design, Arts and animated modeling)</h6>
+                                        <div class="row text-center justify-content-md-center">
+                                            <p>
+                                                Department-Business Development<br> Passionate artist and graphic designer.<br>
+                                            </p>
+                                        </div>
+                                    </center>
+                                </div>
+
+
+                            </div>
+                            </div>
+                            <br>
                             <h3 style="font-weight: bolder"><font color="black">We have two teams working towards same goal</font></h3>
                              <ul style="text-align: justify;"><font color="black">
                                  <li>

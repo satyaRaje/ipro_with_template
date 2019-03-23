@@ -94,8 +94,8 @@
                       <div class="col-lg-12">
                           <div class="card" style="">
                               <div class="row" style="">
-                              <div class="col-lg-6">
-                                  <h2 class="text text-primary"><b>Address</b></h2>
+                              <div class="col-lg-6"><br>
+                                <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Address</h2><br>
                                 <h4 class="text font-normal m-l-10">
                                <b> IPRO3D TECHNOLOGIES LLP
                                   Incubation Office </b><br>
@@ -203,15 +203,40 @@
                                     <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 </form>
                             </div>
-
-                            
-                          </div>
+                          </div><br>
                         </div>
-                          </div>
+                          </div><br><br>
+
                     </div>
 
                 </div>
-                </div>
+                </div><br>
+                <div class="row" style="background-color: #bbbbbb;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.2523532716305!2d75.31352311425753!3d19.871563331647998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb99e84cc7f4e7%3A0x8ef52048513cb04!2sIPRO3D+Technologies+LLP!5e0!3m2!1sen!2sin!4v1534930979184" style="width:100%;height: 250px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div><br>
+
+    <hr>
+    <div class="container">
+        <div class="row" align="center">
+            <div class="col-md-3" >
+            </div>
+            <div class="col-md-6" >
+                <div class="thumbnail center well well-sm text-center">
+                    <h2>Newsletter</h2> 
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
+                    <form action="" method="post" role="form">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="fa fa-envelope"></i>
+                          </span>
+                          <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                        </div><br>
+                        <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
+                  </form>
+                </div>    
+            </div>
+        </div><br>
+    </div>
                  
 
                     
@@ -239,7 +264,7 @@
 <!-- ============================================================== -->
 <!-- All Jquery -->
 <!-- ============================================================== -->
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!-- jQuery for carousel -->
 <script src="http://ipro3d.io/final/ipro_with_template/style/assets/owl.carousel/owl.carousel.min.js"></script>
 <!--Custom JavaScript -->
