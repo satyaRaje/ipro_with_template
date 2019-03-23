@@ -48,11 +48,22 @@
                     <li><a href="#"><i class="mdi mdi-gmail" style="font-size: large;"></i> hello@ipro3d.io</a></li>
                 </ul>
             </div>
+            
             <div class="clearfix"></div>
-            <div class="col-md-12 sub-footer">
+            
+        </div><br><br>
+        <div align="center">
+            <span class="text" align="center">
+                 <a href="https://www.facebook.com/ipro3d.tech"><button class="btn btn-facebook waves-effect btn-circle waves-light" type="button"> <i class="fab fa-facebook"></i> </button></a>
+              <a href=" https://twitter.com/ipro3d"><button class="btn btn-twitter waves-effect btn-circle waves-light" type="button"> <i class="fab fa-twitter"></i> </button></a>
+              <a href="https://www.linkedin.com/company/ipro3d-technologies-llp"><button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button></a>
+              <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a>
+             </span>
+             <div class="col-md-12 sub-footer">
                 <span>Copyright 2019. All Rights Reserved by <a class="text-white" href="#" target="_blank">Ipro3d Technologies.</a></span>
             </div>
-        </div>
+             </div>
+             
     </div>
 </footer>
 <!-- ============================================================== -->
