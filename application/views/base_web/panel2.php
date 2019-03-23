@@ -87,7 +87,7 @@
          </div>
          <div class="col-sm-2">
              <img src='<?php echo base_url()."images/how_we_work/getQUta.png"?>'>
-             <h6 style="font-weight: bold;">Get Quotationng</h6>
+             <h6 style="font-weight: bold;">Get Quotation</h6>
          </div>
          <div class="col-sm-2">
              <img src='<?php echo base_url()."images/how_we_work/3dadative.png"?>'>
@@ -101,83 +101,93 @@
       </div><br>
       
 <div class="row light-blue">
-                    <div class="col-md-12">
-                        <div class="fix-width text-center"> <small class="text-info">ALMOST COVERED EVERYTHING</small>
-                            <h2 class="display-7">What Real Buyers have to <br>Say about MaterialPro Admin</h2>
-                            <div class="tesimonial-box owl-carousel owl-theme owl-loaded owl-drag" id="owl-demo2">
+    <div class="col-md-12">
+        <div class="fix-width text-center">
+            <small class="text-info">ALMOST COVERED EVERYTHING</small>
+            <h2 class="display-7">What Real Buyers have to <br>Say about MaterialPro Admin</h2>
+            <div class="tesimonial-box owl-carousel owl-theme owl-loaded owl-drag" id="owl-demo2">
+                <div class="owl-stage-outer">
+                        <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                            <div class="item">
+                                <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
+                                <div class="username"><b>Shinwu Ch<br>
+                                    <small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
+                                </div>
+                            </div>
+                        </div>          
+                </div>               
                 
-                            <div class="owl-stage-outer">
-                                <div class="owl-stage" style="transform: translate3d(-2824.8px, 0px, 0px); transition: all 0.25s ease 0s; width: 6592px;">
-                                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
-                                    <div class="item">
-                                    <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
-                                    <div class="username"><b>Shinwu Ch<br>
-                                        <small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
-                                <div class="item">
-                                    <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
-                                    <div class="username">
-                                        <b>Mohammed Shameem<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 891.6px; margin-right: 50px;">
-                                <div class="item">
-                                    <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
-                                    <div class="username">
-                                        <b>Nick Stanbridge<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 891.6px; margin-right: 50px;">
-                                <div class="item">
-                                    <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
-                                    <div class="username"><b>Shinwu Ch<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b></div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 891.6px; margin-right: 50px;">
-                                <div class="item">
-                                    <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
-                                    <div class="username">
-                                        <b>Mohammed Shameem<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
-                                <div class="item">
-                                    <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
-                                    <div class="username">
-                                        <b>Nick Stanbridge<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;"><div class="item">
-                                    <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
-                                    <div class="username"><b>Shinwu Ch<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                    <div class="item">
+                        <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
+                        <div class="username">
+                                <b>Mohammed Shameem<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
                         </div>
                     </div>
-                    <div class="owl-nav disabled">
-                        <div class="owl-prev">prev</div>
-                        <div class="owl-next">next</div>
+                </div>
+                        
+                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                    <div class="item">
+                        <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
+                        <div class="username">
+                            <b>Nick Stanbridge<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
+                        </div>
                     </div>
-                    <div class="owl-dots">
-                        <div class="owl-dot"><span></span>
+                </div>
+             
+                <div class="owl-item active" style="width: 891.6px; margin-right: 50px;">
+                    <div class="item">
+                        <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
+                        <div class="username"><b>Shinwu Ch<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
+                        </div>
                     </div>
-                    <div class="owl-dot active"><span></span>
+                </div>
+                
+                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                    <div class="item">
+                        <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
+                        <div class="username">
+                        <b>Mohammed Shameem<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
+                        </div>
                     </div>
-                    <div class="owl-dot"><span></span>
+                </div>
+                
+                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                    <div class="item">
+                        <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
+                        <div class="username">
+                            <b>Nick Stanbridge<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                    <div class="item">
+                        <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
+                        <div class="username"><b>Shinwu Ch<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
+                        </div>
                     </div>
                 </div>
             </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        
+        <!--div class="owl-nav disabled">
+            <div class="owl-prev">prev
+            </div>
+            <div class="owl-next">next
+            </div>
+        </div-->
+        <div class="owl-dots">
+            <div class="owl-dot"><span></span>
+            </div>
+            <div class="owl-dot active"><span></span>
+            </div>
+            <div class="owl-dot"><span></span>
+            </div>
+        </div>
+    </div>
+</div>
+        
      <div style="background-color: whitesmoke">
     <hr>
      <h2 class=" font-weight-bold text-center">Prototype Your Product</h2>
