@@ -4,11 +4,11 @@
 <body background="<?php echo base_url();?>assets/images/background/error-bg.jpg">
 
 
-<div class="row">
+<div class="row" align="center">
     <div class="col-md-2 col-xlg-3">
 
          <a href="#1" class="list-group-item">
-         <h6 class="text font-normal m-l-10">
+         <h6 class="text font-normal m-l-10" align="left">
                                <b> Corporate office Manufacturing Facility</b><br>
                             C/O Er. Yogesh Pawar,<br>
                             Meridian Status-B, F-7,<br>
@@ -19,9 +19,8 @@
                              <br>
                             
         <font color="Grey">
-        <b class="text font-weight-bold">Email : hello@ipro3d.io
-            <br>Mobile No. : 9821413663</b>
-            
+        <p class="text font-weight-bold">Email : hello@ipro3d.io</p>
+            <p class="text font-weight-bold" style="font-size: 15px">Mobile No. :9821413663</p>            
             <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
             </font>
             <br>

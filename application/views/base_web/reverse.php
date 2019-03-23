@@ -3,28 +3,26 @@
 <title>IPRO3D-Services</title>
 
 <body background="<?php echo base_url();?>assets/images/background/error-bg.jpg">
-<div class="row">
+<div class="row" align="center">
     <div class="col-md-2 col-xlg-3">
 
-        <a href="#1" class="list-group-item">
-         <h6 class="text font-normal m-l-10">
+      <a href="#1" class="list-group-item">
+         <h6 class="text font-normal m-l-10" align="left">
                                <b> Corporate office Manufacturing Facility</b><br>
                             C/O Er. Yogesh Pawar,<br>
                             Meridian Status-B, F-7,<br>
                             Near Youth Hostel, Kesarsingpura,<br>
                             Aurangabad-431005, Maharashtra,<br>
                             India.
-                            </h6>
-                             <br>
-                            
+        </h6> 
+      </a> 
+      <a href="#1" class="list-group-item">
         <font color="Grey">
-        <b class="text font-weight-bold">Email : hello@ipro3d.io
-            <br>Mobile No. : 9821413663</b>
-            
-            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
-            </font>
-            <br>
-    </a>
+            <p class="text font-weight-bold">Email : hello@ipro3d.io<br></p>
+            <p class="text font-weight-bold" style="font-size: 15px">Mobile No. :9821413663</p>
+            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button  class="btn-primary" align="right"> Contact Us</button></a>
+        </font><br>
+      </a>
     <br>
     <a href="#1" class="list-group-item">
             <b class="text font-weight-bold text-primary">Testimonial</b>
@@ -34,10 +32,9 @@
 
     </div>
 
+
+
     <div class="col-md-8 col-xlg-6">
-
-
-<div class="col-lg-12 col-xlg-12">
 
                 <div class="card">
 <div class="card-body" style="background-color:#F5F5F5;">
@@ -90,7 +87,7 @@
             <div class="col-md-6" >
                 <div class="thumbnail center well well-sm text-center">
                     <h2>Newsletter</h2> 
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
                     <form action="" method="post" role="form">
                         <div class="input-group">
                           <span class="input-group-text">
