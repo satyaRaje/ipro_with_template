@@ -20,7 +20,7 @@
         <font color="Grey">
             <p class="text font-weight-bold">Email : hello@ipro3d.io</p>
             <p class="text font-weight-bold" style="font-size: 15px">Mobile No. :9821413663</p>         
-            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
+            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us" class="list-group-item"><button class="btn-primary" align="right"> Contact Us</button></a>
             </font>
             <br>
     </a>

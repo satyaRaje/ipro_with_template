@@ -54,17 +54,18 @@
     <header class="topheader font-bold" id="top">
 
         <div class="fix-width">
-              <span class="text" style="margin-right: 80%">
+            <div class="row">
+              <p class="text" >
                  <a href="https://www.facebook.com/ipro3d.tech"><button class="btn btn-facebook waves-effect btn-circle waves-light" type="button"> <i class="fab fa-facebook"></i> </button></a>
               <a href=" https://twitter.com/ipro3d"><button class="btn btn-twitter waves-effect btn-circle waves-light" type="button"> <i class="fab fa-twitter"></i> </button></a>
               <a href="https://www.linkedin.com/company/ipro3d-technologies-llp"><button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button></a>
-              <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a>
+              <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a></p>
              
-            <p class="font-weight-bold text-danger" style="text-align: right;"> <i class="ti-email"> <b>Email: hello@ipro3d.io </b></i>
-                 <i class="ti-mobile"><b>Mobile/Whatsapp: 9821413663</b></i> </p>
-             </span>
+            <p class="font-weight-bold text-primary" style="text-align: right;margin-left: 58%">
+                <i class="ti-email"> <b>Email: hello@ipro3d.io </b></i>
+                <i class="ti-mobile" style="padding-left: 15px"><b>Mobile/Whatsapp: 9821413663</b></i> </p>
+         </div>
             <nav class="navbar navbar-expand-md navbar-light p-l-0">
-
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                 <!-- Logo will be here -->
                 <a class="navbar-brand" href="index.html"><img src='<?php echo base_url()."images/logo/logo.png"?>' height="80px" width="200px" alt="admin template" /></a>

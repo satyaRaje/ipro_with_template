@@ -12,11 +12,6 @@
 <!-- ============================================================== -->
 <!-- Main wrapper - style you can find in pages.scss -->
 <!-- ============================================================== -->
-<div id="main-wrapper">
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <div class="page-wrapper">
-            <div class="row">
 
                 <div class="row" align="center">
                     <div class="col-md-2 col-xlg-3">
@@ -36,7 +31,7 @@
         <font color="Grey">
             <p class="text font-weight-bold">Email : hello@ipro3d.io</p>
             <p class="text font-weight-bold" style="font-size: 15px">Mobile No. :9821413663</p>            
-            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><button class="btn-primary" align="right"> Contact Us</button></a>
+            <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us" class="list-group-item"><button class="btn-primary" align="right"> Contact Us</button></a>
             </font>
             <br>
     </a>
@@ -45,8 +40,6 @@
                             <b class="text font-weight-bold text-primary">Our Clients</b>
                             <p class="text">Ipro3d blog read more..</p>
                         </a>
-
-
                     </div>
 
                     <div class="col-md-8 col-xlg-6">
@@ -58,21 +51,16 @@
               <p class="text font-normal;" style="text-align: justify;">IPRO3D mutation program is for students to develop their creative ideas/products and prototype them using the hi-tech 3d printing technology. The mutation program helps students to fabricate their ideas to product and get expert help if needed by the students. Students can also discuss their problems with the 3d printing community forums and get help from people working in 3d printing, 3d designing, etc.</p>
               <p class="text font-normal;" style="text-align: justify;">Prototyping the innovative ideas and testing them in the real word are the basic need to the time. Being a student, it is not possible for them to get access individually to these hi-tech technologies to make a presentable prototype of their ideas but don’t you worry the mutation program helps students to get access to these hi-tech technologies and use it for prototyping their innovative and creative ideas.</p>
               <p class="text font-normal;" style="text-align: justify;">Students just have to do a free registration in mutation program and access to hi-tech 3d printing latest technology. </p>
-              <p class="text font-normal;" style="text-align: justify;">Students registered in mutation program get special privileges of educational pricing and student discounts.<a href="<?php echo base_url(); ?>index.php/welcome/Stud"> click here for registration</p>
+              <p class="text font-normal;" style="text-align: justify;">Students registered in mutation program get special privileges of educational pricing and student discounts.</p><a href="<?php echo base_url(); ?>index.php/welcome/Stud"> click here for registration</a>
               <br><br>
+          
                              </div>
-
                         </div>
-
                   <div>
-
             </div>
-
-
     </div>
 
                     <div class="col-md-2 col-xlg-3">
-
                         <a href="#1" class="list-group-item">
                             <b class="text font-weight-bold text-primary">Blog</b>
                             <p class="text">Ipro3d blog read more..</p>
@@ -80,9 +68,7 @@
                         <br>
 
                     </div>
-                </div>
-<br><br>
-                    
+                </div><br>                  
     <!-- ============================================================== -->
     <!-- End Page wrapper  -->
     <!-- ============================================================== -->
@@ -95,7 +81,7 @@
             <div class="col-md-6" >
                 <div class="thumbnail center well well-sm text-center">
                     <h2>Newsletter</h2> 
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
                     <form action="" method="post" role="form">
                         <div class="input-group">
                           <span class="input-group-text">
@@ -109,7 +95,7 @@
             </div>
         </div><br>
     </div>
-
+</div>
 <!-- ============================================================== -->
 <!-- End Wrapper -->
 <!-- ============================================================== -->
