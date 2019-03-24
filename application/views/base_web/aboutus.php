@@ -81,7 +81,6 @@
                                     <font color="black">
                                     <ul style="text-align: justify;">
                                         <li>Company Incorporation as IPRO3D TECHNOLOGIES LLP (October 2017)</li>
-                                        <li>Company Incorporation as IPRO3D TECHNOLOGIES LLP (October 2017)</li>
                                     </ul>
                                 </font>
                                 </div>
