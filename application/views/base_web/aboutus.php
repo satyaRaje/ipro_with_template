@@ -110,7 +110,7 @@
                         <div class="card-body">
                             <h2 class="card-title" id="3" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">3. Our Approach</font></h2>
                           <p style="text-align: justify;"><font color="black">
-                              Our approach is to work towards bringing every innovative idea or product to reality (Actual 3d object/part) by using a disruptive technology of Additive Manufacturing also popularly known as 3D printing and make the world a better place to live by changing the face of manufacturing industry by removing its currently involved hierarchy of traditional manufacturing and to become the global leader of digital manufacturing industry. We work with Additive Manufacturing technology majorly involved in Industry 4.0. As Additive Manufacturing is an integral part of Industry 4.0 the 4th industrial revolution.
+                              Our approach is to work towards bringing every innovative idea or product to reality (Actual 3d object/part) by using a disruptive technology of Additive Manufacturing also popularly known as 3D printing and make the world a better place to live by changing the face of manufacturing industry by removing its currently involved hierarchy of traditional manufacturing and to become the global leader of digital manufacturing industry.
                           </p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                          </font> 
                         </div>
