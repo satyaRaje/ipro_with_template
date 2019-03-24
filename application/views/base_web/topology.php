@@ -42,10 +42,10 @@
                 <div class="card">
 <div class="card-body" style="background-color:#F5F5F5;">
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                              <h2 class="card-title" id="topology" align="center" style="font-weight: bold;font-family: Philosiphers">7. Design topology optimization</h2>
+                              <h2 class="card-title" id="topology" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">7. Design topology optimization</font></h2>
                           
-                            <p class="text font-normal;" style="text-align: justify;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topology optimization is a mathematical modeling approach that can optimizes material layouts digitally and simulate various iterations for within a given set of design space, for a given set of loads and boundary conditions such that the resulting layout meets a prescribed set of performance that targets to optimize the overall end result.</br><br>
+                            <p class="text font-normal;" style="text-align: justify;"><font color="black">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topology optimization is a mathematical modeling approach that can optimizes material layouts digitally and simulate various iterations for within a given set of design space, for a given set of loads and boundary conditions such that the resulting layout meets a prescribed set of performance that targets to optimize the overall end result.</br><br></font>
 <div class="row">
                   <div class="col-md-4">
                       <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>

@@ -41,10 +41,10 @@
                         <div class="card-body" style="background-color:#F5F5F5;">
                         
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                             <h2 class="card-title" id="cncmachine" align="center" style="font-weight: bold;font-family: Philosiphers">14. CNC Machining</h2>
+                             <h2 class="card-title" id="cncmachine" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">14. CNC Machining</font></h2>
                            
-                            <p style="text-align: justify;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNC (Computer Numeric Control) machining process used in the manufacturing industry that involves the use of computers to control machine tools.Tools that can be controlled in this manner include lathes, mills, routers, grinders, etc.</p></br></br><br>
+                            <p style="text-align: justify;"><font color="black">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNC (Computer Numeric Control) machining process used in the manufacturing industry that involves the use of computers to control machine tools.Tools that can be controlled in this manner include lathes, mills, routers, grinders, etc.</p></br></br><br></font>
 
                                   </p>
                            <br><br>

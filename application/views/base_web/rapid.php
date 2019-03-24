@@ -41,11 +41,11 @@
 <div class="card">
                         <div class="card-body" style="background-color:#F5F5F5;">
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                            <h2 class="card-title" id="injectionmodeling" align="center" style="font-weight: bold;font-family: Philosiphers">3. Rapid Prototyping</h2>
+                            <h2 class="card-title" id="injectionmodeling" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">3. Rapid Prototyping</font></h2>
                             
-                           <p class="text font-normal;" style="text-align: justify;">
+                           <p class="text font-normal;" style="text-align: justify;"><font color="black">
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.
-                          </p><br><br><br>
+                          </p><br><br><br></font>
                           <div class="row">
                   <div class="col-md-4">
                       <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>

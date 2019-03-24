@@ -39,12 +39,12 @@
 <div class="card">
 <div class="card-body" style="background-color:#F5F5F5;">
                             <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                            <h2 class="card-title" id="vaccumecast" align="center" style="font-weight: bold;font-family: Philosiphers">9. Vaccum casting</h2>
+                            <h2 class="card-title" id="vaccumecast" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">9. Vaccum casting</font></h2>
                             
-                            <p class="text font-normal;" style="text-align: justify;">
+                            <p class="text font-normal;" style="text-align: justify;"><font color="black">
 &nbsp;&nbsp;&nbsp;&nbsp;It is a highly adaptable technology that is capable of producing parts in a wide range of polyurethane(PU) resins and cast nylon. 
         It can create, replicate and replace engineering polymers for prototypes and end-use parts.</p>
-</br></br><br>
+</br></br><br></font>
 
                                   </p>
                            <br><br><br>

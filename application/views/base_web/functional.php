@@ -43,12 +43,12 @@
 <div class="card">
 <div class="card-body" style="background-color:#F5F5F5;">
                                 <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                                   <h2 class="card-title" id="functional" align="center" style="font-weight: bold;font-family: Philosiphers">11. Functional Part Manufacturing</h2>
+                                   <h2 class="card-title" id="functional" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">11. Functional Part Manufacturing</font></h2>
                      
-                            <p class="text font-normal;" style="text-align: justify;">
+                            <p class="text font-normal;" style="text-align: justify;"><font color="black">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additive manufacturing (3d printing) showing a lot of promise is in integrated assemblies. It helps reduce the 3d print time of your object simply by integrating an assembly plan into your 3D model before actually 3d printing it. This will reduce the items you need to manufacture and save you time in the 3d printing process.</p>
 
-</br></br><br>
+</br></br><br></font>
 
                                   </p>
                            <br><br>
