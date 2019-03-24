@@ -208,7 +208,9 @@
                                 </ul>
                                 <li>Our Promise</li>
                                 <ul type="none" style="text-align: justify;">
-                                    <li>At IPRO3D we follow all legal and mutual confidentiality agreements at priority because we don’t want our customers worry about it. We assure and promises our customers that their designs, ideas and files safe with us as its security is our prime concern. The files are copyrighted once they are safely uploaded to our secure server by you. We believe in new collaborations, mututal co-operation and trust. We have consistent business policies and strong business ethics in this concern.</li>
+                                    <li>At IPRO3D we follow all legal and mutual confidentiality agreements at priority because we don’t want our customers worry about it. We assure and promises our customers that their designs, ideas and files safe with us as its security is our prime concern. The files are copyrighted once they are safely uploaded to our secure server by you. We believe in new collaborations, mututal co-operation and trust. We have consistent business policies and strong business ethics in this concern.The files are copyrighted once they are safely uploaded to our secure server by you.</li>
+                                    <br>We believe in new collaborations, mututal co-operation and trust. We have consistent business policies and strong business ethics in this concern.
+
                                 </ul></font>
                             </ul><br><br><br><br>
                         </div>
@@ -262,7 +264,6 @@
                     <b style="color: #999999;">Managing Director</b>
                   </div>
                   <br>
-                  <p style="text-align:justify;padding:20px;">IPRO3D is a 3D printing additive manufacturing startup. We provide Idea to product design and prototyping service in various 3D printing additive manufacturing technologies. IPRO3D is a recognized startup by DIPP (Department of Industrial Policy and Promotion), Ministry of Commerce and Industries, Government of India.</p>
                   <h5 style="text-align:justify;"><font color="black">Internship</font></h5>
                   <p style="text-align:justify;padding:20px;">Currently we don’t have any openings For internship but if you don’t want to miss any future opportunity working with us as an intern<a href="<?php echo base_url();?>index.php/Welcome/careers_form"> upload your resume here.</a></p>
                   <br><br></font>
