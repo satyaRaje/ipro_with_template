@@ -1,3 +1,4 @@
+<script src="https://cdn.ckeditor.com/4.11.3/standard/ckeditor.js"></script>
 <div class="page-wrapper">
     <div class="col-12">
 
@@ -7,7 +8,7 @@
                         <div class="card-body" style="background-color: #F5F5F5F5">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Add Blog</h2>
 
-                     <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/blog/ci_blog/insert_data";?>">
+                     <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/blog/ci_blog/insert_data";?>" enctype="multipart/form-data">
                                     <div class="form-group">
                                         <label for="exampleInputuname"> Topic Name</label>
                                         <div class="input-group">
@@ -20,13 +21,37 @@
                                             <input type="email" class="form-control" name="writer_name" placeholder="">
                                         </div>
                                     </div>
-                                   
-                                <div class="form-group">
+                         <div class="form-group">
+                             <label>Upload File 1</label>
+                             <div class="input-group">
+                                 <input type="file" class="form-control" name="img1" placeholder="">
+                             </div>
+                         </div>
+
+                         <div class="form-group">
+                             <label>Upload File 2</label>
+                             <div class="input-group">
+                                 <input type="file" class="form-control" name="img2" placeholder="">
+                             </div>
+                         </div>
+
+                         <div class="form-group">
+                             <label>Upload File 3</label>
+                             <div class="input-group">
+                                 <input type="file" class="form-control" name="img3" placeholder="">
+                             </div>
+                         </div>
+
+
+                         <div class="form-group">
                                     <label>Blog</label>
-                                  
+
                                     <textarea class="form-control" rows="8" name="message">
+
                                 </textarea> </div>
-                                  
+                         <script>
+                             CKEDITOR.replace( 'message' );
+                         </script>
                                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" >Add Blog</button>
                                     <button type="reset" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 </form>

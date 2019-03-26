@@ -19,8 +19,18 @@
                                 <a href="app-contact-detail.html"><button class="btn btn-circle btn-danger" ></button></a>
                             </div>
                             <div class="col-md-8 col-lg-9">
+                                
                                 <h3 class="box-title m-b-0"><?php echo $d->title;?></h3> <small><?php echo $d->fname;?></small>
-                                <p><?php echo $d->blog_cont;?></p>
+                                <div class="col-md-4 col-lg-4" >
+                                    <img src="<?php if($d->img1!=""){echo base_url()."uploads/blog/".$d->img1;}?>" height="150" width="350">
+                                </div>
+                                <?php echo $d->blog_cont;?>
+                                <div class="col-md-4 col-lg-4" >
+                                    <img src="<?php if($d->img2!=""){echo base_url()."uploads/blog/".$d->img2;}?>" height="150" width="350">
+                                    </div>
+                                <div class="col-md-4 col-lg-4" >
+                                    <img src="<?php if($d->img3!=""){echo base_url()."uploads/blog/".$d->img3;}?>" height="150" width="350">
+                                    </div>
                             </div>
                         </div>
                     </div>

@@ -41,11 +41,52 @@ class Ci_blog extends CI_Controller {
         $writer =htmlentities($_POST['writer_name']); //Taking attribute using post
         $message=htmlentities($_POST['message']); //Taking attribute using post
 
+        $config['upload_path']   = getcwd().'/uploads/blog/';
+        $config['allowed_types'] = 'jpg|png|jpeg';
+        $config['max_size']      = 200000;
+        //$config['file_name'] = ;
+        //$config['max_width']     = 1024;
+        ///$config['max_height']    = 768;
+      @  $this->load->library('upload', $config);
+
+        $img1="";
+        $img2="";
+        $img3="";
+        if (! @$this->upload->do_upload('img1')) {
+            @$error = array('error' => $this->upload->display_errors());
+            //$this->load->view('upload_passage', $error);
+            print_r($error);
+        }
+        else {
+            @$img1=$this->upload->data('file_name');
+        }
+
+            if (! @$this->upload->do_upload('img2')) {
+                @$error = array('error' => $this->upload->display_errors());
+                //$this->load->view('upload_passage', $error);
+                print_r($error);
+            }
+            else {
+                @$img2=$this->upload->data('file_name');
+            }
+
+            if (!@ $this->upload->do_upload('img3')) {
+                @$error = array('error' => $this->upload->display_errors());
+                //$this->load->view('upload_passage', $error);
+                print_r($error);
+            }
+            else {
+                @$img3=$this->upload->data('file_name');
+            }
         $data = array(
             'title'=>$tname,//Attribute list ( , ) separated
             'fname'=>$writer,
             'blog_cont'=>$message,
-            'cust_id'=>3// last doesnot contain comma
+            'cust_id'=>3,
+            'img1'=>$img1,
+            'img2'=>$img2,
+            'img3'=>$img3
+            // last doesnot contain comma
         );
         if($this->db->insert('tblblog',$data)==true){
             $this->load_admin_blog();

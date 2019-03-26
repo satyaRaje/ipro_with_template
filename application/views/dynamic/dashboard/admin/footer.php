@@ -38,6 +38,31 @@
 <!-- Style switcher -->
 <!-- ============================================================== -->
 <script src='<?php echo base_url()."style/full/assets/plugins/styleswitcher/jQuery.style.switcher.js";?>'></script>
+
+<script src='<?php echo base_url()."style/assets/plugins/summernote/dist/summernote-bs4.min.js"?>'></script>
+<script>
+    $(function () {
+
+        $('.summernote').summernote({
+            height: 350, // set editor height
+            minHeight: null, // set minimum height of editor
+            maxHeight: null, // set maximum height of editor
+            focus: false // set focus to editable area after initializing summernote
+        });
+
+        $('.inline-editor').summernote({
+            airMode: true
+        });
+
+    });
+
+    window.edit = function () {
+        $(".click2edit").summernote()
+    },
+        window.save = function () {
+            $(".click2edit").summernote('destroy');
+        }
+</script>
 </body>
 
 </html>
