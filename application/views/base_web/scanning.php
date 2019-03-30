@@ -34,14 +34,13 @@
 
     </div>
 
-    <div class="col-md-8 col-xlg-6">
- <div class="card">
-<div class="card-body" style="background-color:#F5F5F5;">
-                            <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                              <h2 class="card-title" id="scanning" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">2. 3D Scanning</font></h2>
-                          
-                           <p class="text font-normal;" style="text-align: justify;"><font color="black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file.<br></font>
-                            <div class="row">
+ <div class="col-md-8 col-xlg-6">
+      <div class="card">
+          <div class="card-body" style="background-color:#F5F5F5;">
+              <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
+              <h2 class="card-title" id="scanning" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">2. 3D Scanning</font></h2>                          
+              <p class="text font-normal;" style="text-align: justify;"><font color="black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file.<br></font>
+              <div class="row">
                   <div class="col-md-4">
                       <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
                       <div><br></div>
@@ -55,13 +54,10 @@
                       <div><br></div>
                   </div>
               </div>
-
-                            </br><font color="black">3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br></br>
-           There are Different 3d scanners and 3d scanning techniques for different applications like industrial, novelty, architecture, reverse engineering, etc.</font></p> </br></br></br></br>
-</br></br></br></br></br></br></br></br>
-               </div>
+              <p class="text font-normal;" style="text-align: justify;"></br><font color="black">3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br></br>There are Different 3d scanners and 3d scanning techniques for different applications like industrial, novelty, architecture, reverse engineering, etc.</font></p> </br></br></p>
+            </div>
         </div><br>
-</div>
+    </div>
     <div class="col-md-2 col-xlg-3">
 
         <a href="#1" class="list-group-item">
@@ -81,7 +77,7 @@
             <div class="col-md-6" >
                 <div class="thumbnail center well well-sm text-center">
                     <h2>Newsletter</h2> 
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
                     <form action="" method="post" role="form">
                         <div class="input-group">
                           <span class="input-group-text">

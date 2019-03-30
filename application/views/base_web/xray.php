@@ -33,14 +33,12 @@
     </div>
 
     <div class="col-md-8 col-xlg-6">
-<div class="card">
-<div class="card-body" style="background-color:#F5F5F5;">
-                            <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                            <h2 class="card-title" id="xraytopology" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">10. Xray-Topology</font></h2>
-                            
-                            <p class="text font-normal;" style="text-align: justify;"><font color="black">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-ray topography is technology that is widely used to investigate dislocation and other defects, such as stacking faults and precipitates in single crystals. It is mainly used to determine the Burgers vector of the dislocations. The Spatial resolution of the topography is very important for visualizing the individual dislocations in the crystals.</p></br></br></br><br></font>
-<div class="row">
+        <div class="card">
+            <div class="card-body" style="background-color:#F5F5F5;">
+                <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
+                <h2 class="card-title" id="xraytopology" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">10. Xray-Topology</font></h2>            
+                <p class="text font-normal;" style="text-align: justify;"><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-ray topography is technology that is widely used to investigate dislocation and other defects, such as stacking faults and precipitates in single crystals. It is mainly used to determine the Burgers vector of the dislocations. The Spatial resolution of the topography is very important for visualizing the individual dislocations in the crystals.</p></br></br></br><br></font>
+                <div class="row">
                   <div class="col-md-4">
                       <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
                       <div><br></div>
@@ -54,7 +52,7 @@
                       <div><br></div>
                   </div>
               </div>
-                </div>
+            </div>
         </div><br>
 </div>
 <div class="col-md-2 col-xlg-3">
@@ -64,7 +62,6 @@
         <p class="text">Ipro3d blog read more..</p>
     </a>
     <br>
-
 </div>
 </div>
 
@@ -76,7 +73,7 @@
             <div class="col-md-6" >
                 <div class="thumbnail center well well-sm text-center">
                     <h2>Newsletter</h2> 
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
                     <form action="" method="post" role="form">
                         <div class="input-group">
                           <span class="input-group-text">

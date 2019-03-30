@@ -35,15 +35,12 @@
 
 
     <div class="col-md-8 col-xlg-6">
-
-                <div class="card">
-<div class="card-body" style="background-color:#F5F5F5;">
-                            <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                            <h2 class="card-title" id="reverse" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">6. Reverse Engineering</font></h2>
-                            
-                            <p class="text font-normal;" style="text-align: justify;"><font color="black">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</p></br></br></font>
- <div class="row">
+        <div class="card">
+           <div class="card-body" style="background-color:#F5F5F5;">
+              <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
+              <h2 class="card-title" id="reverse" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">6. Reverse Engineering</font></h2>                          
+              <p class="text font-normal;" style="text-align: justify;"><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</p></br></br></font>
+              <div class="row">
                   <div class="col-md-4">
                       <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
                       <div><br></div>
@@ -56,18 +53,10 @@
                       <img src="<?php echo base_url();?>assets/images/slider/img7.jpg"  height="200px" width="250px"/>
                       <div><br></div>
                   </div>
-              </div>
-    
-
-</br></br><br>
-
-                                  </p>
-        
-                            <br><br>
-               </div>
+              </div></br></br></p>
+            </div>
         </div><br>
 </div>
-
 
 <div class="col-md-2 col-xlg-3">
 
@@ -76,7 +65,6 @@
         <p class="text">Ipro3d blog read more..</p>
     </a>
     <br>
-
 </div>
 </div>
 <hr>

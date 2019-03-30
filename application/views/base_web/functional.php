@@ -38,21 +38,13 @@
     </div>
 
     <div class="col-md-8 col-xlg-6">
-
-
-<div class="card">
-<div class="card-body" style="background-color:#F5F5F5;">
-                                <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
-                                   <h2 class="card-title" id="functional" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">11. Functional Part Manufacturing</font></h2>
-                     
-                            <p class="text font-normal;" style="text-align: justify;"><font color="black">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additive manufacturing (3d printing) showing a lot of promise is in integrated assemblies. It helps reduce the 3d print time of your object simply by integrating an assembly plan into your 3D model before actually 3d printing it. This will reduce the items you need to manufacture and save you time in the 3d printing process.</p>
-
-</br></br><br></font>
-
-                                  </p>
-                           <br><br>
-                           <div class="row">
+      <div class="card">
+          <div class="card-body" style="background-color:#F5F5F5;">
+                <img src="<?php echo base_url();?>assets/images/slider/img5.jpg" height="400px" width="100%" align="center"><br><br>
+                <h2 class="card-title" id="functional" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">11. Functional Part Manufacturing</font></h2>
+                <p class="text font-normal;" style="text-align: justify;"><font color="black">
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additive manufacturing (3d printing) showing a lot of promise is in integrated assemblies. It helps reduce the 3d print time of your object simply by integrating an assembly plan into your 3D model before actually 3d printing it. This will reduce the items you need to manufacture and save you time in the 3d printing process.</br></font></p><br><br>
+                <div class="row">
                   <div class="col-md-4">
                       <img src="<?php echo base_url();?>assets/images/slider/img4.jpg"  height="200px" width="250px"/>
                       <div><br></div>
@@ -66,30 +58,26 @@
                       <div><br></div>
                   </div>
               </div>
-                       </div>
-                    </div><br>
-</div>
+        </div>
+    </div><br>
+  </div>
 
-    <div class="col-md-2 col-xlg-3">
-
+  <div class="col-md-2 col-xlg-3">
         <a href="#1" class="list-group-item">
             <b class="text font-weight-bold text-primary">Blog</b>
             <p class="text">Ipro3d blog read more..</p>
-        </a>
-        <br>
-
+        </a><br>
     </div>
-</div>
-
+  </div>
     <hr>
-    <div class="container">
-        <div class="row" align="center">
-            <div class="col-md-3" >
-            </div>
-            <div class="col-md-6" >
+  <div class="container">
+      <div class="row" align="center">
+          <div class="col-md-3" >
+          </div>
+          <div class="col-md-6" >
                 <div class="thumbnail center well well-sm text-center">
                     <h2>Newsletter</h2> 
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                    <p>Subscribe to our Newsletter and stay tuned.</p>
                     <form action="" method="post" role="form">
                         <div class="input-group">
                           <span class="input-group-text">
