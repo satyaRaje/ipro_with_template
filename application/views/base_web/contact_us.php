@@ -117,7 +117,7 @@
 
                              <br>
                              <h4 class="text font-normal m-l-10">
-                               <b> Address 3</b><br>
+                               <b> Australia Address</b><br>
                             C/O Er. Yogesh Pawar,<br>
                             14, Erandale Avenue<br>
                             Ripponlea, Melbourn,<br>
