@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>assets/images/favicon.png">
     
     <!-- Bootstrap Core CSS -->
     <link href="http://ipro3d.io/final/ipro_with_template/style/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -95,8 +95,8 @@
                           <div class="card" style="">
                               <div class="row" style="">
                               <div class="col-lg-6"><br>
-                                <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Address</h2><br>
-                                <h4 class="text font-normal m-l-10">
+                                <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">Address</font></h2><br>
+                                <h4 class="text font-normal m-l-10"><font color="black">
                                <b> IPRO3D TECHNOLOGIES LLP
                                   Incubation Office </b><br>
                                 C/O Er. Yogesh Pawar,<br>
@@ -104,32 +104,42 @@
                                 Bajaj Bhavan, Near MIDC office,<br>
                                 Railway Station Road, Aurangabad,<br>
                                 Maharashtra, India.
-                                </h4>
+                                </font></h4>
                              <br>
-                             <h4 class="text font-normal m-l-10">
+                             <h4 class="text font-normal m-l-10"><font color="black">
                                <b> Corporate office Manufacturing Facility</b><br>
                             C/O Er. Yogesh Pawar,<br>
                             Meridian Status-B, F-7,<br>
                             Near Youth Hostel, Kesarsingpura,<br>
                             Aurangabad-431005, Maharashtra,<br>
-                            India.
+                            India.</font>
                             </h4>
 
                              <br>
                              <h4 class="text font-normal m-l-10">
+                                <font color="black">
                                <b> Australia Address</b><br>
                             14, Erandale Avenue<br>
                             Ripponlea, Melbourn,<br>
                             VIC 3183, Australia.<br>
+                        </font>
                             </h4>
                             
                             <br><br>
-                            <h3 class="text font-normal m-l-10"><b>Email: hello@ipro3d.io<br>
-                                Mobile / Whatsapp: 9821413663 </b></h3>
+                            <h3 class="text font-normal m-l-10"><font color="black"><b>Email: hello@ipro3d.io<br>
+                                Mobile / Whatsapp: 9821413663 </b></font></h3>
                             
+                        <div>
+                             <span class="text" align="center" style="padding-left: 3%">
+                                <a href="https://www.facebook.com/ipro3d.tech"><button class="btn btn-facebook waves-effect btn-circle waves-light" type="button"> <i class="fab fa-facebook"></i> </button></a>
+                                  <a href=" https://twitter.com/ipro3d"><button class="btn btn-twitter waves-effect btn-circle waves-light" type="button"> <i class="fab fa-twitter"></i> </button></a>
+                                  <a href="https://www.linkedin.com/company/ipro3d-technologies-llp"><button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button></a>
+                                  <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a>
+                            </span>
+                        </div>
                               </div>
                           <div class=" col-lg-6">
-                        <div class="card-body">
+                        <div class="card-body"><font color="black">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Contact Us</h2>
 
                      <form class="form p-t-20" method="post" action="http://ipro3d.io/final/ipro_with_template/index.php/dynamic/enquiry/enquiry/add_contact">
@@ -201,6 +211,7 @@
                                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" name="send">Send Message</button>
                                     <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 </form>
+                            </font>
                             </div>
                           </div><br>
                         </div>

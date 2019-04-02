@@ -1,7 +1,8 @@
 
-
+<html>
 <head>
 <title>IPRO3D</title>
+<link rel="icon" type="image/png" href="<?php echo base_url();?>assets/images/icon/ipro_small_icon.png" />
 <link href="<?php echo base_url();?>bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>style/full/assets/owl.carousel/owl.carousel.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>style/full/assets/owl.carousel/owl.theme.default.css" rel="stylesheet">
@@ -384,3 +385,4 @@
 
 
      </body>
+     </html>

@@ -7,7 +7,13 @@
 <footer class="footer row">
     <div class="fix-width">
         <div class="row">
-            <div class="col-lg-3 col-md-6"><img src="<?php echo base_url();?>images/logo/logo.png" height="80px" width="200px" alt="logo" />
+            <div class="col-lg-3 col-md-6">
+               <img src="<?php echo base_url();?>images/logo/logo.png" height="80px" width="200px" alt="logo" /><br><br><br>
+                    <ul class="footer-link list-icons">               
+                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Mutation""><i class="ti-angle-right"></i> Add Mutation</a></li>
+                     <li><a href="#"><i class="ti-angle-right"></i> Shop</a></li>
+                     <li><a href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page"><i class="ti-angle-right"></i> Login</a></li>
+                    </ul>   
             </div>
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
@@ -61,6 +67,7 @@
              </span>
              <div class="col-md-12 sub-footer">
                 <span>Copyright 2019. All Rights Reserved by <a class="text-white" href="#" target="_blank">Ipro3d Technologies.</a></span>
+                <p style="font-size: 12px">Designed and developed by IPRO3D Technologies LPP.</p>
             </div>
              </div>
              
