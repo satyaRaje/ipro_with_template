@@ -26,10 +26,10 @@
             <br>
     </a>
     <br>
-   <a href="#1" class="list-group-item">
-            <b class="text font-weight-bold text-primary">Testimonial</b>
-            <p class="text">Ipro3d blog read more..</p>
-        </a>
+   <a href="<?php echo base_url();?>index.php/welcome/#test" class="list-group-item">
+          <b class="text font-weight-bold text-primary">Testimonial</b>
+          <p class="text">Ipro3d Testimonials read more..</p>
+      </a>
 
 
     </div>

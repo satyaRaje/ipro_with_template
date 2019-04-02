@@ -19,17 +19,17 @@
          </a>
          <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us" class="list-group-item">                   
         <font color="Grey">
-            <p class="text font-weight-bold">Email : hello@ipro3d.io</p>
-            <p class="text font-weight-bold" style="font-size: 15px">Mobile No. :9821413663</p>            
+            <p align="left" class="text font-weight-bold ti-email" style="font-size: 18px" > Email : hello@ipro3d.io</p>
+            <p align="left" class="text font-weight-bold ti-mobile" style="font-size: 18px"> Mobile No. :9821413663</p>            
             <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us" class="list-group-item"><button class="btn-primary" align="right"> Contact Us</button></a>
             </font>
             <br>
     </a>
     <br>
-  <a href="#1" class="list-group-item">
-            <b class="text font-weight-bold text-primary">Testimonial</b>
-            <p class="text">Ipro3d blog read more..</p>
-        </a>
+      <a href="<?php echo base_url();?>index.php/welcome/#test" class="list-group-item">
+          <b class="text font-weight-bold text-primary">Testimonial</b>
+          <p class="text">Ipro3d Testimonials read more..</p>
+      </a>
 
 
     </div>

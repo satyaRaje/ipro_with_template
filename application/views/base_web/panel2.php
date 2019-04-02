@@ -13,40 +13,40 @@
         <svg class="circular" viewBox="25 25 50 50">
             <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
     </div>
-<div class="row" style="background-color: black">
-    <div class="col-md-3" style="" class="text-white" width="100%">
-        <br><br><br><br><br><br><br><br>
-        <h2 style="font-family:'Philosopher';font-size: 40px;background-color: black;font-color:#ffffff" class="text-white" align="center">WE ARE HERE..<br><br>TO MAKE ANYTHING YOU WANT !!</h2><br><br><br><br>
-        <br><br>
+<div class="row" style="background-color: whitesmoke">
+    <div class="col-md-3">
+        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity:0.9" /></a>
         <div class="carousel-caption d-md-block">
-                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">Instant Quotation</a> <br><br>     
-                <p style="font-weight: bold;font-size: 20px">Get Quotation </p>             
+            <p style="font-weight: bold;font-size: 50px;font-family:" align="center"><font color="#E40B32">Get Quotation</font></p>
+                <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Instant Quotation</a> <br><br>     
+                             
         </div>
          
     </div>
     <div class="col-md-3">
-        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img7.jpg" height="550px" width="100%"/></a>
+        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img8.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
         <div class="carousel-caption d-md-block">
-                <a type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="#">Design</a> <br><br>     
-                <p style="font-weight: bold;font-size: 20px">Idea to Design</p>             
+            <p style="font-weight: bold;font-size: 50px" align="center"><font color="#E40B32">Idea to Design</font></p>             
+                <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Design</a> <br><br>  
         </div>
     </div>
     <div class="col-md-3" >
-        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/showpiece.jpg" height="550px" width="100%"/></a>
+        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img7.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
         <div class="carousel-caption d-md-block">
             <br><br>
-                <a type="button" class="btn-rounded btn waves-effect waves-light  btn-danger" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page">Start your Shop</a>  <br><br>      
-                <p style="font-weight: bold;font-size: 20px">Marketplace</p>    
+            <p style="font-weight: bold;font-size: 49px" align="center"><font color="#E40B32">Marketplace </font></p>    
+                <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Start your Shop</a>  <br><br>      
                 
         </div>
     </div>
     <div class="col-md-3">
-        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img10.jpg" height="550px" width="100%"/></a>
+        <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img10.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
         <div class="carousel-caption d-md-block">
-            <br><br>
-<br>                <a  type="button" class="btn waves-effect waves-light btn-rounded btn-danger" href="<?php echo base_url();?>index.php/dynamic/Login/login/user_login_page">Manufacture</a>
+            <br><br><br>
+            <p style="font-weight: bold;font-size: 47px;" align="center"><font color="#E40B32">Manufacture your product</font></p>
+            <a  type="button" class="btn btn-rounded btn-success" href="<?php echo base_url();?>index.php/dynamic/Login/login/user_login_page" style="font-size:20px">Manufacture</a>
                 <br><br>        
-                <p style="font-weight: bold;font-size: 20px;">Manufacture your product</p>
+                
                 
         </div>
     </div>
@@ -61,9 +61,6 @@
 </div>
 <br>
 </div>
-
-
-    
  </div>
 
 
@@ -100,14 +97,13 @@
       </div>
       </div><br>
       
-<div class="row light-blue">
+<div class="row light-blue" id="test">
     <div class="col-md-12">
         <div class="fix-width text-center">
-            <small class="text-info">ALMOST COVERED EVERYTHING</small>
-            <h2 class="display-7">What Real Buyers have to <br>Say about MaterialPro Admin</h2>
+            <h2 class="display-7">IPRO3D Technologies LPP.<br>Testimonials</h2>
             <div class="tesimonial-box owl-carousel owl-theme owl-loaded owl-drag" id="owl-demo2">
                 <div class="owl-stage-outer">
-                        <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                        <div class="owl-item cloned" style="width:100%;padding-right: 5%;padding-left: 5%">
                             <div class="item">
                                 <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
                                 <div class="username"><b>Shinwu Ch<br>
@@ -117,7 +113,7 @@
                         </div>          
                 </div>               
                 
-                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
                         <div class="username">
@@ -126,7 +122,7 @@
                     </div>
                 </div>
                         
-                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
                         <div class="username">
@@ -135,7 +131,7 @@
                     </div>
                 </div>
              
-                <div class="owl-item active" style="width: 891.6px; margin-right: 50px;">
+                <div class="owl-item active" style="width: 100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
                         <div class="username"><b>Shinwu Ch<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>
@@ -143,7 +139,7 @@
                     </div>
                 </div>
                 
-                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                <div class="owl-item cloned" style="width:100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
                         <div class="username">
@@ -152,7 +148,7 @@
                     </div>
                 </div>
                 
-                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
                         <div class="username">
@@ -161,7 +157,7 @@
                     </div>
                 </div>
         
-                <div class="owl-item cloned" style="width: 891.6px; margin-right: 50px;">
+                <div class="owl-item cloned" style="width:100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
                         <div class="username"><b>Shinwu Ch<br><small class="text-danger"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></small></b>

@@ -36,11 +36,11 @@
             <br>
     </a>
     <br>
-      <a href="#1" class="list-group-item">
-                            <b class="text font-weight-bold text-primary">Testimonials</b>
-                            <p class="text">Ipro3d blog read more..</p>
-                        </a>
-                    </div>
+    <a href="<?php echo base_url();?>index.php/welcome/#test" class="list-group-item">
+          <b class="text font-weight-bold text-primary">Testimonial</b>
+          <p class="text">Ipro3d Testimonials read more..</p>
+      </a>
+    </div>
 
                     <div class="col-md-8 col-xlg-6">
 
