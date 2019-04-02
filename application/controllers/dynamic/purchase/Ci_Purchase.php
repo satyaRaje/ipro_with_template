@@ -37,19 +37,23 @@ class ci_Purchase extends CI_Controller {
     }
 
     public function add_quantity_cart(){
+
+
         if(isset($_POST['plus'])){
             $data = array('qty'=>$_POST['qty']+1);
-            $where ="id=".$_POST['pid'];
+            $where ="pid=".$_POST['pid'];
             $this->db->update('tblcart', $data, $where);
         }else if(isset($_POST['minus'])){
             $data = array('qty'=>$_POST['qty']-1);
-            $where ="id=".$_POST['pid'];
+            $where ="pid=".$_POST['pid'];
             $this->db->update('tblcart', $data, $where);
         }else{
-            $this->db->where('id', $_POST['pid']);
+            $this->db->where('pid', $_POST['pid']);
             $this->db->delete('tblcart');
         }
        $this->view_cart();
+
+
     }
 
     public function add_to_cart(){
@@ -61,6 +65,8 @@ class ci_Purchase extends CI_Controller {
         //$price = htmlentities($_POST['dis']);
         $img = htmlentities($_POST['img']);
         $user_id = htmlentities("3");
+
+    if($this->session->login=='1'){
 
         $data = array(
             'pid'=>$pid,
@@ -81,7 +87,12 @@ class ci_Purchase extends CI_Controller {
             $result['otp_message']="Unable to Add Product to Cart";
             echo json_encode($result);
         }
+    }else{
+        $this->load->view('base_web/header');
+        $this->load->view('dynamic/login/user_login');
+        $this->load->view('base_web/footer');
 
+    }
     }
 }
 

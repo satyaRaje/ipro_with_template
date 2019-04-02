@@ -10,7 +10,7 @@
                             <p><?php echo $d->pname;?> </p>
                         </div>
                         <div class="panel-body">
-                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_front_view";?>'>
+                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_front_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'/>
                                 <label class="label label-warning form-control">Front View</label>
@@ -18,7 +18,7 @@
                                 <button type="submit" class="form-control btn btn-primary">Upload</button>
                             </form>
 
-                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_top_view";?>'>
+                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_top_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <label class="label label-warning form-control">Top View</label>
@@ -26,14 +26,14 @@
                                 <button type="submit" class="form-control btn btn-primary">Upload</button>
                             </form>
 
-                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_bottom_view";?>'>
+                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_bottom_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <label class="label label-warning form-control">Bottom View</label>
                             <input type="file" name="userfile" class="form-control btn btn-file" required>
                                 <button type="submit" class="form-control btn btn-primary">Upload</button>
                             </form >
-                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_right_view";?>'>
+                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_right_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>' >
                                 <label class="label label-warning form-control">Right View</label>
@@ -41,7 +41,7 @@
                                 <button type="submit" class="form-control btn btn-primary">Upload</button>
                             </form>
 
-                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_left_view";?>'>
+                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_left_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <label class="label label-warning form-control">Left View</label>
@@ -49,7 +49,7 @@
                                 <button type="submit" class="form-control btn btn-primary">Upload</button>
                             </form>
 
-                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_isometric_view";?>'>
+                            <form class="col-lg-2" method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_isometric_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <label class="label label-warning form-control">Isometric View</label>

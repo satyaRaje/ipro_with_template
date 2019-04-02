@@ -192,5 +192,21 @@ public function Cnc(){
         $this->load->view('base_web/stud_register.php');
         $this->load->view('base_web/footer.php');  
     }
-    
+
+
+    public function Marketplace()
+    {
+        $d=array('flag' => '18');
+        $query = $this->db->get_where('tblproduct',$d);
+        $data['data'] = $query->result();
+        $this->load->view('base_web/header.php');
+        $this->load->view('dynamic/marketplace/market',$data);
+        $this->load->view('base_web/footer.php');
+    }
+ public function logout(){
+        $this->load->view('base_web/header.php');
+     $this->load->view('base_web/panel1');
+     $this->load->view('base_web/footer.php');
+
+ }
 }

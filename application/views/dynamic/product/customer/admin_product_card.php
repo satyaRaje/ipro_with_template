@@ -11,22 +11,22 @@
                      <h2 class="text-danger font-weight-bold"><?php echo $d->pname; ?></h2>
                         <?php if($d->flag==11){ ?>
 
-                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_product_on_marketplace";?>' >
+                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_product_on_marketplace";?>' >
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                <button type="submit" class=" btn btn-rounded btn-primary" style="margin-left: 80px;"> <i class="mdi mdi-briefcase-upload"></i>Upload on Marketplace</button>
+                                <button type="submit" class=" btn btn-rounded btn-primary" style="margin-left: 80px;"> <i class="mdi mdi-briefcase-upload"></i>Send to Review</button>
                             </form>
                             <?php } ?>
                             <?php if($d->flag==18){ ?>
-                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/remove_product_on_marketplace";?>' >
+                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/remove_product_on_marketplace";?>' >
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                <button type="submit" class=" btn btn-rounded btn-danger" style="margin-left: 80px;"><i class="mdi mdi-briefcase-upload"></i>Remove Product From Marketplace</button>
+                                <button type="submit" class=" btn btn-rounded btn-danger" style="margin-left: 80px;"><i class="mdi mdi-briefcase-upload"></i>Request to Remove</button>
                             </form>
                             <?php } ?>
                  </div>
             </div>
                      <div class="row pull-center">
                         <div class="col-md-2">
-                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_front_view";?>'>
+                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_front_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'/>
                                 <h5 class="text font-weight-bold text-center">Front View</h5>
@@ -35,7 +35,7 @@
                             </form>
                         </div>
                          <div class="col-md-2">
-                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_top_view";?>'>
+                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_top_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <h5 class="text font-weight-bold text-center">Top View</h5>
@@ -44,7 +44,7 @@
                             </form>
                          </div>
                          <div class="col-md-2">
-                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_bottom_view";?>'>
+                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_bottom_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <h5 class="text font-weight-bold text-center">Bottom View</h5>
@@ -53,7 +53,7 @@
                             </form >
                          </div>
                          <div class="col-md-2">
-                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_right_view";?>'>
+                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_right_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>' >
                                 <h5 class="text font-weight-bold text-center">Right View</h5>
@@ -62,7 +62,7 @@
                             </form>
                          </div>
                          <div class="col-md-2">
-                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_left_view";?>'>
+                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_left_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <h5 class="text font-weight-bold text-center">Left View</h5>
@@ -71,7 +71,7 @@
                             </form>
                          </div>
                          <div class="col-md-2">
-                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/upload_isometric_view";?>'>
+                            <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_isometric_view";?>'>
                                 <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
                                 <input type="hidden" name="pname" value='<?php echo $d->pname;?>'>
                                 <h5 class="text font-weight-bold text-center">Isometric View</h5>

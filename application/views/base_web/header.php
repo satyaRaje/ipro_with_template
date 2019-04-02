@@ -111,7 +111,7 @@
                             </li>
                         <li class="nav-item"> <a class="nav-link" href="#">Shop</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" >Mutation</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#" target="_blank">Marketplace</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Marketplace" target="_blank">Marketplace</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us">Contact Us</a> </li>
                         <li class="nav-item"> <a class="m-t-5 btn btn-info font-13" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page" target="_blank" style="width:120px;">Login</a> </li>
                     </ul>

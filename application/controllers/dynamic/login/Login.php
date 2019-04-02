@@ -164,6 +164,8 @@ class Login extends CI_Controller {
             $result['user_id']=$row->id;
             $result['dir_url']=$row->dir_url;
             $result['flag']=$row->flag;
+            $result['login']='1';
+
         }
         if($result['password']!=null){
 
@@ -240,6 +242,14 @@ class Login extends CI_Controller {
         //}
         
      
+     }
+
+
+     function logout(){
+        session_destroy();
+        $this->load->view('base_view/header');
+         $this->load->view('base_view/panel1');
+         $this->load->view('base_view/footer');
      }
 
 }

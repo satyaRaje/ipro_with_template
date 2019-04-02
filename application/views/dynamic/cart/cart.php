@@ -20,7 +20,7 @@
                 <?php foreach ($data as $d){?>
                 <tr>
                   <form method="post" action="<?php echo base_url()."index.php/dynamic/purchase/ci_purchase/add_quantity_cart"?>">
-                      <input type="hidden" value="<?php echo $d->id;?>" name="pid">
+                      <input type="hidden" value="<?php echo $d->pid;?>" name="pid">
                     <td><img src="<?php echo $d->img;?>" style="height: 80px;width: 80px;"></td>
                     <td><?php echo $d->pname;?></td>
                     <td><?php echo $d->price;?></td>

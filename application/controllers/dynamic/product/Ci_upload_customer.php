@@ -391,7 +391,7 @@ class Ci_upload_customer extends CI_Controller {
 
     public function upload_product_on_marketplace(){
         $test = array(
-            'flag' =>18
+            'flag' =>100
         );
         //echo $_POST['pid'];
         //  $this->load->model('upload_product');
@@ -406,7 +406,7 @@ class Ci_upload_customer extends CI_Controller {
 
     public function select_product_on_marketplace(){
         $this->load->view('dynamic/dashboard/customer/header');
-        $d=array('flag' => '18','user_id'=>$this->session->user_id);
+        $d=array('flag' => '100','user_id'=>$this->session->user_id);
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
         $this->load->view('dynamic/product/customer/admin_product_card',$data);
@@ -418,7 +418,7 @@ class Ci_upload_customer extends CI_Controller {
 
     public function remove_product_on_marketplace(){
         $test = array(
-            'flag' =>11
+            'flag' =>99
         );
         //echo $_POST['pid'];
         //  $this->load->model('upload_product');

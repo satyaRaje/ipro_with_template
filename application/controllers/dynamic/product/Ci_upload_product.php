@@ -164,7 +164,7 @@ $this->db->update('tblproduct', $data, $where);
 
     public function select_view_upload(){
         $this->load->view('dynamic/dashboard/admin/header');
-        $d=array('flag' => '11');
+        $d=array('flag' => '11','uploaded_by'=>$this->session->user_id);
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
   //      print_r($data);
