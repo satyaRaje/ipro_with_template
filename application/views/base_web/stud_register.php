@@ -17,7 +17,7 @@
                                 <h2 class="card-title" align="center"><font color="black">Mutation Student Registration Form</font></h2>                     <form class="form-material m-t-40">
                                     <div class="form-group">
                                         <label for="example-email">Email <span class="help"></span></label>
-                                        <input type="email" id="example-email2" name="example-email" class="form-control" placeholder="Email"> </div>
+                                        <input type="email" id="example-email2" name="example-email" class="form-control" placeholder="Email" required="" data-validation-required-message="This field is required"> </div>
 
                                         <div class="form-group">
                                         <label for="example-email">Full Name<span class="help"></span></label>

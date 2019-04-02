@@ -61,7 +61,7 @@
               <a href="https://www.linkedin.com/company/ipro3d-technologies-llp"><button class="btn btn-linkedin waves-effect btn-circle waves-light" type="button"> <i class="fab fa-linkedin"></i> </button></a>
               <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a></p>
              
-            <p class="font-weight-bold text-primary" style="text-align: right;margin-left: 58%">
+            <p class="font-weight-bold text-info" style="text-align: right;margin-left: 58%">
                 <i class="ti-email"> <b>Email: hello@ipro3d.io </b></i>
                 <i class="ti-mobile" style="padding-left: 15px"><b>Mobile/Whatsapp: 9821413663</b></i> </p>
          </div>

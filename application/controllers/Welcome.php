@@ -186,10 +186,10 @@ public function Cnc(){
         $this->load->view('base_web/faqs.php');
         $this->load->view('base_web/footer.php');
     }
-    public function Stud()
+    public function mutation_form()
     {
        $this->load->view('base_web/header.php');
-        $this->load->view('base_web/stud_register.php');
+        $this->load->view('base_web/mutation_form.php');
         $this->load->view('base_web/footer.php');  
     }
 
