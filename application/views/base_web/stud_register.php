@@ -128,7 +128,7 @@
                                         <input type="email" id="example-email2" name="example-email" class="form-control" placeholder=""> </div>
 
 
-                                             <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" name="send">Send Message</button>
+                                             <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" name="send">Submit</button>
                                     <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 
 

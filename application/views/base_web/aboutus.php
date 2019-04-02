@@ -118,7 +118,7 @@
 
                     <div class="card" style="background-color:#F5F5F5F5;background-position: center; ">
                         <div class="card-body">
-                            <h2 class="card-title" id="4" align="center" style="font-weight: bold;font-family: Philosiphers">4. Our Team</h2>
+                            <h2 class="card-title" id="4" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">4. Our Team</font></h2>
                             <h6 class="text-center text-info">  The ones who runs this company...<br>
                                 IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.
 
