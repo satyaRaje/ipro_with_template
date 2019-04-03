@@ -68,10 +68,10 @@
      <h2 class="font-weight-bold text-center" height="100%">How we Work</h2>
      <hr>
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
  <img src="<?php echo base_url();?>assets/images/work1.png" width="100%" height="100%">
 </div>
-<div class="col-6">
+<div class="col-md-6">
  <img src="<?php echo base_url();?>assets/images/work2.png" width="100%" height="100%">
 </div>
 
@@ -174,10 +174,10 @@
      <h2 class="font-weight-bold text-center" height="100%">Prototype your Product</h2>
      <hr>
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
  <img src="<?php echo base_url();?>assets/images/Prototype1.png" width="100%" height="100%">
 </div>
-<div class="col-6">
+<div class="col-md-6">
  <img src="<?php echo base_url();?>assets/images/Prototype2.png" width="100%" height="100%">
 </div>
 
