@@ -68,7 +68,7 @@
             <nav class="navbar navbar-expand-md navbar-light p-l-0">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                 <!-- Logo will be here -->
-                <a class="navbar-brand" href="index.html"><img src='<?php echo base_url()."images/logo/logo.png"?>' height="80px" width="200px" alt="admin template" /></a>
+                <a class="navbar-brand" href="#"><img src='<?php echo base_url()."images/logo/logo.png"?>' height="80px" width="200px" alt="admin template" /></a>
                 <!-- This is the navigation menu -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto stylish-nav">
