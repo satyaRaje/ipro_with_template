@@ -1,27 +1,3 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Register</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <!-- You can change the theme colors from here -->
-    <link href="<?php echo base_url();?>css/colors/default-dark.css" id="theme" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
-
-
 <body>
     <div class="preloader" style="display: none;">
         <svg class="circular" viewBox="25 25 50 50">
@@ -104,22 +80,22 @@
         </div><br>
     </div>
 
- <script src="<?php echo base_url();?>assets/plugins/jquery/jquery.min.js"></script>
+ <script src="../assets/plugins/jquery/jquery.min.js"></script>
         <!-- Bootstrap tether Core JavaScript -->
-        <script src="<?php echo base_url();?>assets/plugins/popper/popper.min.js"></script>
-        <script src="<?php echo base_url();?>assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../assets/plugins/popper/popper.min.js"></script>
+        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <!-- slimscrollbar scrollbar JavaScript -->
-        <script src="<?php echo base_url();?>js/jquery.slimscroll.js"></script>
+        <script src="js/jquery.slimscroll.js"></script>
         <!--Wave Effects -->
-        <script src="<?php echo base_url();?>js/waves.js"></script>
+        <script src="js/waves.js"></script>
         <!--Menu sidebar -->
-        <script src="<?php echo base_url();?>js/sidebarmenu.js"></script>
+        <script src="js/sidebarmenu.js"></script>
         <!--stickey kit -->
-        <script src="<?php echo base_url();?>assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
-        <script src="<?php echo base_url();?>assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+        <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
         <!--Custom JavaScript -->
-        <script src="<?php echo base_url();?>js/custom.min.js"></script>
-        <script src="<?php echo base_url();?>js/validation.js"></script>
+        <script src="js/custom.min.js"></script>
+        <script src="js/validation.js"></script>
         <script>
         ! function(window, document, $) {
             "use strict";

@@ -61,13 +61,14 @@ class Login extends CI_Controller {
     }
 
     public function user_login_page(){
-        $this->load->view('base_web/header1');
+        $this->load->view('base_web/header');
         $this->load->view('dynamic/login/user_login');
         $this->load->view('base_web/footer');
     }
     public function login_page(){
+        $this->load->view('base_web/header');
         $this->load->view('dynamic/login/login');
-        $this->load->view('dynamic/login/footer_view1');
+        $this->load->view('base_web/footer');
     }
     public function send_email_otp(){
         header('Access-Control-Allow-Origin: *');
