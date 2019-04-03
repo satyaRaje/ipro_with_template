@@ -58,45 +58,30 @@
      <h2 class="font-weight-bold text-center" height="100%">Application</h2>
      <hr>
     <div class="row">
- <img src="<?php echo base_url();?>assets/images/Applications.png" width="100%" height="100%">
+ <img src="<?php echo base_url();?>assets/images/Applications1.png" width="100%" height="100%">
 </div>
 <br>
 </div>
  </div>
-
-
-
-        <div style="background-color: #F5F5F5">
+ <div style="background-color: #F5F5F5">
+    <hr>
+     <h2 class="font-weight-bold text-center" height="100%">How we Work</h2>
      <hr>
-     <h2 class=" font-weight-bold text-center" >How We Work</h2>
-     <hr>
-     <div class="row text-center">
-         <div class="col-sm-2">
-             <img src='<?php echo base_url()."images/how_we_work/idea.png"?>'>
-             <h6 style="font-weight: bold;"> Idea</h6>
-         </div>
-         <div class="col-sm-2">
-             <img src='<?php echo base_url()."images/how_we_work/3dCAD.png"?>'>
-             <h6 style="font-weight: bold;"> 3D Cad Model</h6>
-         </div>
-         <div class="col-sm-2">
-             <img src='<?php echo base_url()."images/how_we_work/stlUpload.png"?>'>
-             <h6 style="font-weight: bold;"> Upload STL file</h6>
-         </div>
-         <div class="col-sm-2">
-             <img src='<?php echo base_url()."images/how_we_work/getQUta.png"?>'>
-             <h6 style="font-weight: bold;">Get Quotation</h6>
-         </div>
-         <div class="col-sm-2">
-             <img src='<?php echo base_url()."images/how_we_work/3dadative.png"?>'>
-             <h6 style="font-weight: bold;"> 3D Printing Additive manufacturing</h6>
-         </div>
-         <div class="col-sm-2">
-             <img src='<?php echo base_url()."images/how_we_work/delivery.png"?>' >
-             <h6 style="font-weight: bold;">Delivery </h6>
-         </div>
-      </div>
-      </div><br>
+    <div class="row">
+        <div class="col-6">
+ <img src="<?php echo base_url();?>assets/images/work1.png" width="100%" height="100%">
+</div>
+<div class="col-6">
+ <img src="<?php echo base_url();?>assets/images/work2.png" width="100%" height="100%">
+</div>
+
+</div>
+<br>
+</div>
+ </div><br>
+
+
+
       
 <div class="row light-blue" id="test">
     <div class="col-md-12">
@@ -184,46 +169,22 @@
     </div>
 </div>
         
-     <div style="background-color: whitesmoke">
+      <div style="background-color: #F5F5F5">
     <hr>
-     <h2 class=" font-weight-bold text-center">Prototype Your Product</h2>
+     <h2 class="font-weight-bold text-center" height="100%">Prototype your Product</h2>
      <hr>
-     <div class="row"   >
-         <div class="col-md-2" align="center">
-             <img src='<?php echo base_url()."images/prototype/material.png"?>' style="height: 150px;" >
-             <h6><b>Material</b></h6>
-             <p class="text" style="font-size: 15px">Select materials from a wide
-             variety in plastics,
-                 metals, metal alloys and plastic composites</p>
-         </div>
-         <div class="col-md-2" align="center">
-             <img src='<?php echo base_url()."images/prototype/quality.png"?>' style="height: 150px;">
-             <h6><b>Quality
-                 </b></h6>
-             <p class="text" style="font-size: 15px">We don’t
-                 compromise on part" / product quality</p>
-         </div>
-         <div class="col-md-2" align="center">
-             <img src='<?php echo base_url()."images/prototype/price.png"?>' style="height: 150px;">
-             <h6><b>Price</b></h6>
-             <p class="text" style="font-size: 15px">We provide the best competitive price compared to any other competitor in India and world 3D printing market.</p>
-         </div>
+    <div class="row">
+        <div class="col-6">
+ <img src="<?php echo base_url();?>assets/images/Prototype1.png" width="100%" height="100%">
+</div>
+<div class="col-6">
+ <img src="<?php echo base_url();?>assets/images/Prototype2.png" width="100%" height="100%">
+</div>
 
-         <div class="col-md-2" align="center">
-             <img src='<?php echo base_url()."images/prototype/production.png"?>' style="height: 150px;">
-             <h6 align="center"><b>Production</b></h6>
-             <p class="text" style="font-size: 15px">We manufacture all products at a time and help reduce the manufacturing time and cost while maintaining the optimum part quality</p>
-         </div>
-         <div class="col-md-2" align="center">
-             <img src='<?php echo base_url()."images/prototype/delivery.png"?>' style="height: 150px;">
-             <h6><b>Delivery all over India</b></h6>
-         </div>
-         <div class="col-md-2" align="center">
-             <img src='<?php echo base_url()."images/prototype/world.png"?>' style="height: 150px;">
-             <h6><b>World wide delivery</b></h6>
-         </div>
-     </div>
- </div>
+</div>
+<br>
+</div>
+ </div><br>
     <div style="background-color: whitesmoke">
     <hr>
      <h2 class=" font-weight-bold text-center">Statistics</h2>
