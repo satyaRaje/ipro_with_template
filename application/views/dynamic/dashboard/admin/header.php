@@ -61,7 +61,7 @@
                     <span>
                          <!-- dark Logo text -->
 
-                        <img src="http://localhost/ipro_with_template/images/logo/logo.png" height="80px" width="200px" alt="admin template">
+                        <img src="<?php echo base_url();?>/images/logo/logo.png" height="80px" width="200px" alt="admin template">
                          <!--img src='<?php echo base_url()."style/assets/images/logo-text.png";?>' alt="homepage" class="dark-logo" />
                         <!-- Light Logo text -->
                          <!--img src='<?php echo base_url()."style/assets/images/logo-light-text.png";?>' class="light-logo" alt="homepage" /--></span> </a>
@@ -229,35 +229,54 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav active " style="background-color: white;">
                     <ul id="sidebarnav" class="in">
-                     
+
                         <li class=""> <a href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Product</span></a>
                         <ul aria-expanded="false" class="collapse" style="height: 262px;">
 
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Upload Product</a>
 
 
                             <li>
-                                <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_pending">Pending For Review</a>
+                                <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_pending">Pending For Review</a>
                             </li>
                             <li>
-                                <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
+                                <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
                             </li>
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
                         </li>
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
                         </li>
                         </ul></li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Shop</span></a>
+                            <ul aria-expanded="false" class="collapse" style="height: 262px;">
+
+                                <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/upload_admin_product">Upload Product</a>
+
+
+                                <li>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_pending">Pending For Review</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_upload">View Product</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_upload">View Product</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_product_on_marketplace">Marketplace Product</a>
+                                </li>
+                            </ul></li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
                               <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/view_stl">View STL File</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/view_stl">View STL File</a>
                         </li>
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
                         </li>
                           <li>
                             <a href="<?php echo base_url()."/index.php/dynamic/enquiry/enquiry/select_enquiry";?>">View Enquiry</a>
@@ -271,13 +290,13 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
                              <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
                         </li>
                          <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Payment History</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Payment History</a>
                         </li>
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Product History</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Product History</a>
                         </li>
                     </ul>
                         </li>
@@ -287,10 +306,10 @@
                             <a href="<?php echo base_url()."index.php/dynamic/blog/Ci_blog/load_admin_blog";?>">Add Blog</a>
                         </li>
                        <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/view_news">Add Newsletter</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/view_news">Add Newsletter</a>
                         </li>
                        <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>
                         </li>
                     </ul>
 
@@ -298,10 +317,10 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Customer</span></a>
                             <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Contact</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Contact</a>
                         </li>
                        <li>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Data</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Data</a>
                         </li>
                        </ul>
                 </li>

@@ -204,7 +204,18 @@ public function Cnc(){
         $this->load->view('dynamic/marketplace/market',$data);
         $this->load->view('base_web/footer.php');
     }
- public function logout(){
+
+    public function Shop()
+    {
+        $d=array('flag' => '18');
+        $query = $this->db->get_where('tblshop',$d);
+        $data['data'] = $query->result();
+        $this->load->view('base_web/header.php');
+        $this->load->view('dynamic/marketplace/shop',$data);
+        $this->load->view('base_web/footer.php');
+    }
+
+    public function logout(){
         $this->load->view('base_web/header.php');
      $this->load->view('base_web/panel2');
      $this->load->view('base_web/footer.php');

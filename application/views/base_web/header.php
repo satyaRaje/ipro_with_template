@@ -109,7 +109,7 @@
 
                                  </div>
                             </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Shop</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Shop">Shop</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Mutation" >Mutation</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Marketplace" target="_blank">Marketplace</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>index.php/welcome/Contact_us">Contact Us</a> </li>
