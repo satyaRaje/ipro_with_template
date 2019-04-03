@@ -61,10 +61,10 @@
     </div>
 
                     <div class="col-md-2 col-xlg-3">
-                        <a href="#1" class="list-group-item">
-                            <b class="text font-weight-bold text-primary">Blog</b>
-                            <p class="text">Ipro3d blog read more..</p>
-                        </a>
+                        <a href="<?php echo base_url(); ?>index.php/welcome/view_blog" class="list-group-item">
+        <b class="text font-weight-bold text-primary">Blog</b>
+        <p class="text">iPRO3D blog read more..</p>
+    </a>
                         <br>
 
                     </div>
