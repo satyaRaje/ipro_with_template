@@ -164,7 +164,7 @@ $this->db->update('tblproduct', $data, $where);
 
     public function select_view_upload(){
         $this->load->view('dynamic/dashboard/admin/header');
-        $d=array('flag' => '11','uploaded_by'=>$this->session->user_id);
+        $d=array('flag' => '11');
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
   //      print_r($data);
@@ -450,7 +450,17 @@ $this->db->update('tblproduct', $data, $where);
             $this->db->query($str);
             $this->select_view_upload();
      }
-     
+
+
+    public function select_view_pending(){
+        $this->load->view('dynamic/dashboard/admin/header');
+        $d=array('flag' => '100');
+        $query = $this->db->get_where('tblproduct',$d);
+        $data['data'] = $query->result();
+        //      print_r($data);
+        $this->load->view('dynamic/product/customer/pending_under_review',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+    }
 }
 
 ?>

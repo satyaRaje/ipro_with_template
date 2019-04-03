@@ -2,7 +2,7 @@
         <div class="row">
             <div class="col-md-3"></div>
            <div class="col-6">
-            <form method="post" action="<?php echo base_url().'index.php/dynamic/product/ci_upload_product/upload_admin_product_save_admin'; ?>">
+            <form method="post" action="<?php echo base_url().'index.php/dynamic/product/ci_upload_customer/upload_admin_product_save_admin'; ?>">
                             <div class="form-group">
                                 <label style="font-size: 20px;text-align: center;font-weight: bold;margin-left: 30%;">Upload Products</b></label>
                             </div>

@@ -142,7 +142,7 @@ class Ci_upload_customer extends CI_Controller {
 
     public function select_view_upload(){
         $this->load->view('dynamic/dashboard/customer/header');
-        $d=array('flag' => '11','uploaded_by'=>$this->session->user_id);
+        $d=array('uploaded_by'=>$this->session->user_id);
         $query = $this->db->get_where('tblproduct',$d);
         $data['data'] = $query->result();
         //      print_r($data);
@@ -374,7 +374,7 @@ class Ci_upload_customer extends CI_Controller {
             'color'=>$_POST['pcolor'],
             'diameter'=>$_POST['pdiameter'],
             'MRP'=>$_POST['pmrp'],
-            'flag'=>11,
+            'flag'=>99,
             'uploaded_by'=>$this->session->user_id
         );
 
