@@ -50,7 +50,6 @@
 
                                 </textarea> </div>
                          <script>
-                             CKEDITOR.replace( 'message' );
                          </script>
                                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" >Add Blog</button>
                                     <button type="reset" class="btn btn-inverse waves-effect waves-light">Cancel</button>
