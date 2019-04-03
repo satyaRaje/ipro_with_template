@@ -4,54 +4,78 @@
 <!-- footer -->
 <!-- ============================================================== -->
 <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
-<footer class="footer row">
+<footer class="footer row" style="background-color: #AFABAD">
     <div class="fix-width">
-        <div class="row">
+        <div class="row" ">
             <div class="col-lg-3 col-md-6">
                <img src="<?php echo base_url();?>images/logo/logo.png" height="80px" width="200px" alt="logo" /><br><br><br>
                     <ul class="footer-link list-icons">               
-                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Mutation""><i class="ti-angle-right"></i> Add Mutation</a></li>
-                     <li><a href="#"><i class="ti-angle-right"></i> Shop</a></li>
-                     <li><a href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page"><i class="ti-angle-right"></i> Login</a></li>
+                     <li><a href="<?php echo base_url(); ?>index.php/welcome/Mutation""><i style="color: black" class="ti-angle-right"></i><font color="black"> Add Mutation</font></a></li>
+                     <li><a href="#"><i style="color: black" class="ti-angle-right"></i><font color="black"> Shop</font></a></li>
+                     <li><a href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page"><i style="color: black" class="ti-angle-right"></i><font color="black"> Login</font></a></li>
                     </ul>   
             </div>
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
-                    <h3 style="color: white;">Our Services</h3>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing"><i class="ti-angle-right"></i> 3D Printing</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Scanning"><i class="ti-angle-right"></i> 3D Scanning</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Rapid"><i class="ti-angle-right"></i> Rapid Prototyping</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/cad"><i class="ti-angle-right"></i> 3D & 2D CAD Modelling</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/design"><i class="ti-angle-right"></i>Design for 3D Printing</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/reverse"><i class="ti-angle-right"></i> Reverse Engineering</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing"><i class="ti-angle-right"></i> and many more..</a></li>
+                    <h3 style="color: black;">Our Services</h3>
+
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing" ><i style="color: black" class="ti-angle-right" ></i>
+                    <font color="black"> 3D Printing</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Scanning"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> 3D Scanning</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Rapid"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Rapid Prototyping</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/cad"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> 3D & 2D CAD Modelling</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/design"><i style="color: black" class="ti-angle-right"></i>
+                    	<font color="black">Design for 3D Printing</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/reverse"><i style="color: black" class="ti-angle-right"></i> 
+                    	<font color="black">Reverse Engineering</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Printing"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> and many more..</font></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
-                    <h3 style="color: white;">About Us</h3>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#1"><i class="ti-angle-right"></i> Overview</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#2"><i class="ti-angle-right"></i> History</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#3"><i class="ti-angle-right"></i> Our Approach</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#4"><i class="ti-angle-right"></i> Our Team</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#5"><i class="ti-angle-right"></i> Company Ethics</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#6"><i class="ti-angle-right"></i> Authentic</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#7"><i class="ti-angle-right"></i> Accuracy</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#8"><i class="ti-angle-right"></i> Careers</a></li>
+                    <h3 style="color: black;">About Us</h3>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#1"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Overview</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#2"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> History</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#3"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Our Approach</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#4"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Our Team</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#5"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Company Ethics</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#6"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Authentic</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#7"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Accuracy</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/About_us#8"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Careers</font></a></li>
 
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
                 <ul class="footer-link list-icons">
-                    <h3 style="color: white;">Contact us</h3>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/faq"><i class="ti-angle-right"></i> Support/FAQs</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Enquiry" class="ti-angle-right"></i> Enquiries</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i class="ti-angle-right"></i> Contact</a></li>
-                    <li><a href="#"><i class="ti-angle-right"></i> Feedback Form</a></li>
-                    <li><a href="#"><i class="ti-angle-right"></i> Get Quotation</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/view_blog"><i class="ti-angle-right"></i> Blog</a></li>
-                    <li><a href="#"><i class="mdi mdi-cellphone-basic" style="font-size: large;"></i> +91 9821413663</a></li>
-                    <li><a href="#"><i class="mdi mdi-gmail" style="font-size: large;"></i> hello@ipro3d.io</a></li>
+                    <h3 style="color: black;">Contact us</h3>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/faq"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Support/FAQs</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/faq"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Enquiries</font></a></li>
+                  <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Contact</font></a></li>
+                    <li><a href="#"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Feedback Form</font></a></li>
+                    <li><a href="#"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Get Quotation</font></a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/welcome/view_blog"><i style="color: black" class="ti-angle-right"></i>
+                    <font color="black"> Blog</font></a></li>
+                    <li><a href="#"><i style="color: black" class="mdi mdi-cellphone-basic" style="font-size: large;"></i> 
+                    	<font color="black">+91 9821413663</font></a></li>
+                    <li><a href="#"><i style="color: black" class="mdi mdi-gmail" style="font-size: large;"></i> 
+                    	<font color="black">hello@ipro3d.io</font></a></li>
                 </ul>
             </div>
             
@@ -66,8 +90,8 @@
               <a href="https://www.instagram.com/ipro3d"><button class="btn btn-instagram waves-effect btn-circle waves-light" type="button"> <i class="fab fa-instagram"></i> </button></a>
              </span>
              <div class="col-md-12 sub-footer">
-                <span>Copyright 2019. All Rights Reserved by <a class="text-white" href="#" target="_blank">Ipro3d Technologies.</a></span>
-                <p style="font-size: 12px">Designed and developed by IPRO3D Technologies LPP.</p>
+                <span><font color="black">Copyright 2019. All Rights Reserved by </font><a class="text-white" href="#" target="_blank"><font color="black">Ipro3d Technologies.</font></a></span>
+                <p style="font-size: 12px"><font color="black">Designed and developed by IPRO3D Technologies LLP.</font></p>
             </div>
              </div>
              
