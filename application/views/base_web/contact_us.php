@@ -178,7 +178,7 @@
                                     </div>
                                    <div class="form-group">
                                     <label>Info</label>
-                                    <select class="custom-select col-12" name="inlineFormCustomSelect">
+                                    <select class="custom-select col-12" name="info">
                                         <option selected="">select</option>
                                         <option value="worker">Student</option>
                                         <option value="businessman">Industry</option>
@@ -192,7 +192,7 @@
 
                                 <div class="form-group">
                                     <label>How you know about us</label>
-                                    <select class="custom-select col-12" name="inlineFormCustomSelect2">
+                                    <select class="custom-select col-12" name="aboutus">
                                         <option selected="">select</option>
                                         <option value="news">Newspaper</option>
                                         <option value="news">Google</option>

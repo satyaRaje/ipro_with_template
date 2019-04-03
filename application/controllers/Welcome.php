@@ -135,6 +135,7 @@ public function Cnc(){
         $this->load->view('base_web/footer.php');
     }
     public function Contact_us(){
+
         $this->load->view('base_web/header.php');
         $this->load->view('base_web/contact_us.php');
         $this->load->view('base_web/footer.php');
@@ -205,8 +206,25 @@ public function Cnc(){
     }
  public function logout(){
         $this->load->view('base_web/header.php');
-     $this->load->view('base_web/panel1');
+     $this->load->view('base_web/panel2');
      $this->load->view('base_web/footer.php');
 
  }
+ /*function savingdataof_contact()  
+    {  
+        //this array is used to get fetch data from the view page.  
+        $data = array(  
+                        'name'     => $this->input->post('fname'),  
+                        'mobile_no'  => $this->input->post('mobileno'),  
+                        'email'   => $this->input->post('email'),  
+                        'info' => $this->input->post('info')  
+                        'aboutus' => $this->input->post('aboutus')  
+                        'message' => $this->input->post('message')  
+                        );  
+        //insert data into database table.  
+        $this->db->insert('tblcontactus',$data);  
+  
+        redirect("<?php echo base_url();?>index.php/welcome/Contact_us");  
+    }*/
+     
 }
