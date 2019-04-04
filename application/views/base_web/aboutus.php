@@ -119,8 +119,8 @@
                     <div class="card" style="background-color:#F5F5F5F5;background-position: center; ">
                         <div class="card-body">
                             <h2 class="card-title" id="4" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">4. Our Team</font></h2>
-                            <h6 class="text-center text-info">  The ones who runs this company...<br>
-                                IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.
+                            <p style="text-align: justify;" align="center"><font color="black">The ones who runs this company...<br>
+                                IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.</font></p>
 
                             </h6><br>
                             <div class="row">
@@ -257,6 +257,7 @@
                         <div class="card-body">
                             <h2 class="card-title" id="8" align="center" style="font-weight: bold;font-family: Philosiphers">
                             	<font color="black">8. Careers</font></h2><font color="black">
+                                <h5 style="text-align:justify;"><font color="black">Job openings</font></h5>
                             <p style="text-align:justify;padding:20px;">"If you are passionate about 3d printing and want to work with a technology driven startup IPRO3D is the perfect place for you.Currently we do not have no Job openings but who knows where you could fit in so don’t miss on this opportunity and <a href="<?php echo base_url();?>index.php/Welcome/careers_form"> upload your resume here."</a></p>
                  <div style="text-align: right;">
                    <b>Yogesh Pawar</b>
