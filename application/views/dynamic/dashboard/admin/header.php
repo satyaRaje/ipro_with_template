@@ -256,18 +256,11 @@
 
                                 <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/upload_admin_product">Upload Product</a>
 
-
                                 <li>
-                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_pending">Pending For Review</a>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_upload">View Shop Product</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_upload">View Product</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_view_upload">View Product</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_product_on_marketplace">Marketplace Product</a>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_product_on_marketplace">View Online Product</a>
                                 </li>
                             </ul></li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
