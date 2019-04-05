@@ -8,7 +8,8 @@
                       <div class="col-lg-12"><br>
                       <div class="card">
                         <div class="card-body" style="background-color: #F5F5F5F5">
-                            <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Newsletter</h2>
+                          <font color="black">
+                            <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">Newsletter</font></h2>
 
                      <form class="form p-t-20">
                                     <div class="form-group">
@@ -33,6 +34,7 @@
                                   
                                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" name="send">Submit</button>
                                   </form>
+                                </font>
                             </div>
                         </div>
                     </div>

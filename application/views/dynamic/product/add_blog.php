@@ -6,7 +6,8 @@
                       <div class="col-lg-12"><br>
                       <div class="card">
                         <div class="card-body" style="background-color: #F5F5F5F5">
-                            <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers">Add Blog</h2>
+                            <font color="black">
+                            <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">Add Blog</font></h2>
 
                      <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/blog/ci_blog/insert_data";?>" enctype="multipart/form-data">
                                     <div class="form-group">
@@ -54,6 +55,7 @@
                                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10" >Add Blog</button>
                                     <button type="reset" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                 </form>
+                            </font>
                             </div>
                         </div>
                     </div>
@@ -90,8 +92,8 @@
                                                 <td><?php echo $d->dt;?></td>
                                                 <td><form method="post" action="<?php echo base_url()."index.php/dynamic/blog/ci_blog/upload_blog"; ?>">
                                                         <input type="hidden" name="pid"  value="<?php echo $d->id;?>">
-                                                        <input type="submit" class="btn btn-rounded btn-primary" value="Upload Blog">
-                                                        <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove">
+                                                        <input type="submit" class="btn btn-rounded btn-primary" value="Upload Blog"><br><br>
+                                                        <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove"><br><br>
                                                     </form></td>
                                             </tr>
                                          <?php } ?>

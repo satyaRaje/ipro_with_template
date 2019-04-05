@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href='<?php echo base_url()."style/assets/images/favicon.png";?>'>
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>assets/images/icon/ipro_small_icon.png">
     <title>IPRO3D Marketplace-Admin</title>
     <!-- Bootstrap Core CSS -->
     <link href='<?php echo base_url()."style/full/assets/plugins/bootstrap/css/bootstrap.min.css";?>' rel="stylesheet">
