@@ -3,6 +3,7 @@
 <!-- ============================================================== -->
 <!-- footer -->
 <!-- ============================================================== -->
+
 <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
 <footer class="footer row" style="background-color: #F9F9F9">
     <div class="fix-width">
