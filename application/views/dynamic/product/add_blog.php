@@ -94,7 +94,8 @@
                                                         <input type="hidden" name="pid"  value="<?php echo $d->id;?>">
                                                         <input type="submit" class="btn btn-rounded btn-primary" value="Upload Blog"><br><br>
                                                         <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove"><br><br>
-                                                    </form></td>
+                                                    </form>
+                                                </td>
                                             </tr>
                                          <?php } ?>
                                         </tbody>

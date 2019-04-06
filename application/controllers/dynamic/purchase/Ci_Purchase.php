@@ -56,6 +56,17 @@ class ci_Purchase extends CI_Controller {
 
     }
 
+    public function product_description1(){
+        $user=$this->session->userdata('user');
+        $this->db->where('pid',3);
+        $query = $this->db->get_where('tblproduct', array());
+        $data['data'] = $query->result();
+        $this->load->view('base_web/header');
+        $this->load->view('dynamic/marketplace/product_description',$data);
+        $this->load->view('base_web/footer');
+
+    }
+
     public function add_to_cart(){
         //header('Access-Control-Allow-Origin: *');
         $pid=htmlentities($_POST['pid']);

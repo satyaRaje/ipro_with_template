@@ -226,9 +226,8 @@
                                 </li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#"><i class="ti-wallet"></i> <?php echo $this->session->email;?></a></li>
-                                <li><a href="#"><i class="ti-user"></i> <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/user_profile">My Profile</a></li>
-                                <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
-                                
+                                <li><a href="href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/user_profile""><i class="ti-user"></i> My Profile</a></li> 
+                                <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li> 
                                 <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
@@ -285,16 +284,8 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
                              <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-<<<<<<< HEAD
 
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/addblog_view">Add Blog</a>
-  
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
-
-=======
-                            <a href="<?php echo base_url(); ?>index.php/dynamic/product/ci_upload_product/addblog_view">Add Blog</a>
-                            <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
->>>>>>> 002e69757793bc3a0bea8a4c567d6994bfad4374
                         </li>
                          <li>
                             <a href="http://localhost/ipro_with_template/index.php/dynamic/product/ci_upload_product/upload_admin_product">Buy History</a>

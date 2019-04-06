@@ -1,8 +1,6 @@
-
 <html>
 <head>
 <title>IPRO3D</title>
-<link rel="icon" type="image/png" href="<?php echo base_url();?>assets/images/icon/ipro_small_icon.png" />
 <link href="<?php echo base_url();?>bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>style/full/assets/owl.carousel/owl.carousel.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>style/full/assets/owl.carousel/owl.theme.default.css" rel="stylesheet">
@@ -17,7 +15,7 @@
 <div class="row" style="background-color: whitesmoke">
     <div class="col-md-3">
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity:0.9" /></a>
-        <div class="carousel-caption d-md-block">
+        <div class="carousel-caption d-md-block" align="center">
             <p style="font-weight: bold;font-size: 50px;font-family:" align="center"><font color="#E40B32">Get Quotation</font></p>
                 <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Instant Quotation</a> <br><br>     
                              
@@ -26,14 +24,14 @@
     </div>
     <div class="col-md-3">
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img8.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
-        <div class="carousel-caption d-md-block">
+        <div class="carousel-caption d-md-block" align="center">
             <p style="font-weight: bold;font-size: 50px" align="center"><font color="#E40B32">Idea to Design</font></p>             
                 <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Design</a> <br><br>  
         </div>
     </div>
     <div class="col-md-3" >
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img7.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
-        <div class="carousel-caption d-md-block">
+        <div class="carousel-caption d-md-block" align="center">
             <br><br>
             <p style="font-weight: bold;font-size: 49px" align="center"><font color="#E40B32">Marketplace </font></p>    
                 <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Start your Shop</a>  <br><br>      
@@ -42,7 +40,7 @@
     </div>
     <div class="col-md-3">
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img10.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
-        <div class="carousel-caption d-md-block">
+        <div class="carousel-caption d-md-block" align="center">
             <br><br><br>
             <p style="font-weight: bold;font-size: 47px;" align="center"><font color="#E40B32">Manufacture your product</font></p>
             <a  type="button" class="btn btn-rounded btn-success" href="<?php echo base_url();?>index.php/dynamic/Login/login/user_login_page" style="font-size:20px">Manufacture</a>
@@ -79,10 +77,7 @@
 <br>
 </div>
  </div><br>
-
-
-
-      
+   
 <div class="row light-blue" id="test">
     <div class="col-md-12">
         <div class="fix-width text-center">
