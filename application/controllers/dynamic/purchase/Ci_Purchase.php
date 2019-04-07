@@ -58,7 +58,7 @@ class ci_Purchase extends CI_Controller {
 
     public function product_description1(){
         $user=$this->session->userdata('user');
-        $this->db->where('pid',3);
+        $this->db->where('pid',$_GET['pid']);
         $query = $this->db->get_where('tblproduct', array());
         $data['data'] = $query->result();
         $this->load->view('base_web/header');

@@ -14,7 +14,7 @@
            <input type="hidden" value="<?php echo $d->discount;?>" name="discount">
            <input type="hidden" value="<?php echo $d->pid;?>" name="img">
         <div class="card">
-            <a href="<?php echo base_url();?>index.php/dynamic/purchase/ci_Purchase/product_description1"><img class="card-img-top img-responsive" style="height: 250px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?> alt="Card image cap" ></a>
+            <a href="<?php echo base_url();?>index.php/dynamic/purchase/ci_Purchase/product_description1?pid=<?php echo $d->pid;?>"><img class="card-img-top img-responsive" style="height: 250px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?> alt="Card image cap" ></a>
             <div class="card-body">
                 <h3 class="card-title font-weight-bold"><?php echo $d->pname;?></h3>
                 <p class="card-text"><?php echo $d->description;?></p>
