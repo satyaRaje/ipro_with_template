@@ -35,18 +35,15 @@ class ci_upload_product extends CI_Controller {
        $this->load->model('dynamic/product/product_model','up');
 
             $rand = rand(55555,444444);
-       if(!is_file( getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname'])){
-           mkdir( getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname'], 0777, true);
+       if(!is_file( getcwd().'/uploads/admin_product/'.$rand.$_POST['pname'])){
+           mkdir( getcwd().'/uploads/admin_product/'.$rand.$_POST['pname'], 0777, true);
        }
 
-       if(!is_file( getcwd().'/uploads/user/'.$this->session->dir_url."/product/stl")){
-           mkdir( getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname']."/stl", 0777, true);
-       }
-       if(!is_file( getcwd().'/uploads/user/'.$this->session->dir_url."/product/view")){
-           mkdir( getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname']."/view", 0777, true);
+       if(!is_file( getcwd().'/uploads/admin_product/'.$rand.$_POST['pname']."/stl")){
+           mkdir( getcwd().'/uploads/admin_product/'.$rand.$_POST['pname']."/stl", 0777, true);
        }
 
-       $config['upload_path']   = getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname']."/stl/";
+       $config['upload_path']   = getcwd().'/uploads/admin_product/'.$rand.$_POST['pname']."/stl/";
        $config['allowed_types'] = 'pdf|zip';
        $config['max_size']      = 200000000000000;
        //$config['max_width']     = 1024;
@@ -65,7 +62,8 @@ class ci_upload_product extends CI_Controller {
                'file_url'=>$this->upload->data('file_name'),
                'pname'=>$_POST['pname'],
                'flag'=>0,
-               'uploaded_by'=>$this->session->user_id
+               'uploaded_by'=>$this->session->user_id,
+               'rand'=>$rand
            );
          //  $this->load->model('upload_product');
            $this->db->insert('tblproduct',$test);
@@ -127,13 +125,14 @@ class ci_upload_product extends CI_Controller {
 
 
      public function update_company_quotation(){
-         $data = array('flag' => '2','product_price'=>$_POST['price']);
+         $data = array('flag' => '2','admin_quote'=>$_POST['price']);
 
          $where = "pid=".$_POST['pid'];
 
-$this->db->update('tblproduct', $data, $where);
+      $this->db->update('tblproduct', $data, $where);
          //$str = $this->db->update_string();
         // $this->db->query($str);
+         echo "success";
 
      }
      
@@ -454,8 +453,10 @@ $this->db->update('tblproduct', $data, $where);
 
     public function select_view_pending(){
         $this->load->view('dynamic/dashboard/admin/header');
-        $d=array('flag' => '100');
-        $query = $this->db->get_where('tblproduct',$d);
+        $names = array('0', '100', '99');
+        $this->db->where_in('flag', $names);
+        //$d=array('flag' => '100');
+        $query = $this->db->get('tblproduct');
         $data['data'] = $query->result();
         //      print_r($data);
         $this->load->view('dynamic/product/customer/pending_under_review',$data);

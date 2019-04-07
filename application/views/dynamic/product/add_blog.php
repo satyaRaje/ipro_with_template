@@ -19,7 +19,7 @@
                                      <div class="form-group">
                                         <label>Written By</label>
                                         <div class="input-group">
-                                            <input type="email" class="form-control" name="writer_name" placeholder="">
+                                            <input type="text" class="form-control" name="writer_name" placeholder="">
                                         </div>
                                     </div>
                          <div class="form-group">
