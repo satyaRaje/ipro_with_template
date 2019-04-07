@@ -6,7 +6,7 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-5">
 		<div class="col-md-1 "></div>
-		<div class="col-md-8 card-img-top img-responsive " style="width: 100% "  style="background-image: url('<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?>)';" >
+		<div class="col-md-10 card-img-top img-responsive " style="width: 100% "  style="background-image: url('<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?>)';" >
     	<img class="card-img-top img-responsive" id="myDiv" style="height: 250px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?> alt="Card image cap">
      </div><br>
      <div class="row">
@@ -31,6 +31,11 @@
       <div class="col-md-2 border-right border-bottom border-top" style="max-height: 150px" id="col4" onclick="col4()">
       	<br>
           <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->right_view"?> alt="Card image cap">
+          <br>
+      </div>
+      <div class="col-md-2 border-right border-bottom border-top" style="max-height: 150px" id="col5" onclick="col5()">
+      	<br>
+          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->isomatric_view"?> alt="Card image cap">
           <br>
       </div>
   </div>
@@ -66,6 +71,10 @@
             }
             function col4(){
                 document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->right_view"?>';
+                document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
+            }
+            function col5(){
+                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->isomatric_view"?>';
                 document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
             }
         </script>
