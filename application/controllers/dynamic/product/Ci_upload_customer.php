@@ -83,7 +83,7 @@ class Ci_upload_customer extends CI_Controller {
         $query = $this->db->get_where('tblproduct', array('userId' =>$this->session->user_id,'flag'=>'0'));
         $data['data'] = $query->result();
         $this->load->view('dynamic/dashboard/customer/header');
-        $this->load->view('dynamic/product/customer/upload_product',$data);
+        $this->load->view('dynamic/product/upload_product',$data);
         $this->load->view('dynamic/dashboard/admin/footer');
 
     }

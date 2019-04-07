@@ -102,7 +102,7 @@
         $("#email_otp_send").click(function(event){
             var email=$("#email_address").val();
             console.log(email);
-            $.post('<?php echo base_url()."index.php/TeamA/login/login/send_email_otp";?>',
+            $.post('<?php echo base_url()."index.php/dynamic/Login/login/send_email_otp";?>',
                 {
                     name: email
                 },
@@ -148,7 +148,7 @@
     $("#btn_mobile_otp_send").click(function(event){
         var email=$("#mobile_no").val();
         console.log(email)
-        $.post('<?php echo base_url()."index.php/TeamA/login/login/send_mobile_otp";?>',
+        $.post('<?php echo base_url()."index.php/dynamic/Login/login/send_mobile_otp";?>',
             {
                 name: email
             },
@@ -186,7 +186,7 @@
                 var email = $("#email_address").val();
                 var mobile=$("#mobile_no").val();
                 var pass = $("#password").val();
-                 $.post('<?php echo base_url()."index.php/TeamA/login/login/register_user";?>',
+                 $.post('<?php echo base_url()."index.php/dynamic/login/login/register_user";?>',
                      {
                          email: email,
                          mobile:mobile,

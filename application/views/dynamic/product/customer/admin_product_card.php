@@ -3,10 +3,41 @@
     <div class="row" style="margin:5px;">
 
 
-                <?php foreach ($data as $d ){?>
+                <?php foreach ($data as $d ){
+                    if($d->flag==0 || $d->flag==1) {
+                  ?>
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card card-header" style="background-color: white;">
+                                    <div class="row">
+                                        <h2 class="text-danger font-weight-bold"><?php echo $d->pname; ?></h2>
+                                        <?php if($d->flag==0){ ?>
+                                            <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
+                                            <button type="submit" class=" btn btn-rounded btn-success" style="margin-left: 80px;"><i class="mdi mdi-briefcase-upload"></i>Pending For Review</button>
+                                        <?php } ?>
+
+                                        <?php if($d->flag==1){ ?>
+                                            <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
+                                            <button type="submit" class=" btn btn-rounded btn-info" style="margin-left: 80px;"><i class="mdi mdi-briefcase-upload"></i>Update Quotation</button>
+                                        <?php } ?>
+
+                                    </div>
+                                            <p class="text text-info"><?php echo $d->file_url;?></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    <?php }else{ ?>
+
            <div class="col-12">
             <div class="card">
             <div class="card card-header" style="background-color: white;">
+
+
+
                  <div class="row">
                      <h2 class="text-danger font-weight-bold"><?php echo $d->pname; ?></h2>
                         <?php if($d->flag==99){ ?>
@@ -129,6 +160,6 @@
                 </div>
             </div>
            </div>
-                <?php } ?>
+                <?php }} ?>
 
 </div>

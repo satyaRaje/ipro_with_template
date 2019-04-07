@@ -48,7 +48,7 @@ class ci_upload_product extends CI_Controller {
 
        $config['upload_path']   = getcwd().'/uploads/user/'.$this->session->dir_url."/product/".$_POST['pname']."/stl/";
        $config['allowed_types'] = 'pdf|zip';
-       $config['max_size']      = 200000000;
+       $config['max_size']      = 200000000000000;
        //$config['max_width']     = 1024;
        ///$config['max_height']    = 768;
        $this->load->library('upload', $config);
@@ -80,7 +80,7 @@ class ci_upload_product extends CI_Controller {
 
     public function load_panel_data(){
         $user=$this->session->userdata('user');
-        $query = $this->db->get_where('tblproduct', array('userId' =>$this->session->user_id,'flag'=>'0'));
+        $query = $this->db->get_where('tblproduct', array('uploaded_by' =>$this->session->user_id,'flag'=>'0'));
         $data['data'] = $query->result();
         $this->load->view('dynamic/dashboard/admin/header');
         $this->load->view('dynamic/product/upload_product',$data);
@@ -91,7 +91,7 @@ class ci_upload_product extends CI_Controller {
      public function remove_stl_file(){
          $data = array('flag' => '1');
 
-         $where = "userId =".$this->session->user_id." and id=".$_POST['product_id'];
+         $where = "uploaded_by =".$this->session->user_id." and pid=".$_POST['product_id'];
 
          $str = $this->db->update_string('tblproduct', $data, $where);
          $this->db->query($str);

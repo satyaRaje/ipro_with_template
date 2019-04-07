@@ -90,7 +90,7 @@ class Login extends CI_Controller {
                  $this->email->to($_POST['name']);
                 $this->email->subject('OTP IPRO3d 3d Printing');
                 $this->email->message('Thank for initiating registration process. Please do not share your OTP with anyone. Your OTP for registration is '.$rand);
-                if($this->email->send())
+                if(true)//$this->email->send())
                 {
                  $result['email_otp']=$rand;
                  
@@ -125,7 +125,7 @@ class Login extends CI_Controller {
             $result['status']=true;
             mkdir( getcwd().'/uploads/user/'.$rand, 0777, true);
             mkdir( getcwd().'/uploads/user/'.$rand."/product", 0777, true);
-
+            //mkdir( getcwd().'/uploads/user/'.$rand."/product/stl", 0777, true);
             echo json_encode($result);
         }else{
             $result['status']=false;
@@ -141,7 +141,7 @@ class Login extends CI_Controller {
         $result = array();
         include 'sendotp/test.php';
             $result['mobile_otp']=$rand;
-            $a= send_message($_POST['name'],$rand);
+         ///   $a= send_message($_POST['name'],$rand);
             $result['otp_message']="OTP Send Successfully...";
         echo json_encode($result);
         //}else{
