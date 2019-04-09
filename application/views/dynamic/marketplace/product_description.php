@@ -7,35 +7,35 @@
 	<div class="col-md-5">
 		<div class="col-md-1 "></div>
 		<div class="col-md-10 card-img-top img-responsive " style="width: 100% "  style="background-image: url('<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?>)';" >
-    	<img class="card-img-top img-responsive" id="myDiv" style="height: 250px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?> alt="Card image cap">
+    	<img class="card-img-top img-responsive" id="myDiv" style="height: 250px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->front_View"?> alt="Card image cap">
      </div><br>
      <div class="row">
      
       <div class="col-md-2 border-right  border-bottom border-left border-top" style="max-height: 150px"  id="col1" onclick="col1()">
       	<br>
-             <img class="card-img-top img-responsive  border-bottom border-top" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?> alt="Card image cap">
+             <img class="card-img-top img-responsive  border-bottom border-top" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->front_View"?> alt="Card image cap">
              <br>
              
          
      </div>
       <div class="col-md-2 border-right  border-bottom border-top" style="max-height: 150px" id="col2" onclick="col2()">
       	<br>
-         <img class="card-img-top img-responsive border-bottom" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->bottom_view"?> alt="Card image cap">
+         <img class="card-img-top img-responsive border-bottom" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->bottom_view"?> alt="Card image cap">
           <br>
       </div>
       <div class="col-md-2 border-right border-bottom border-top" style="max-height: 150px" id="col3" onclick="col3()">
       	<br>
-          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->left_view"?> alt="Card image cap">
+          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->left_view"?> alt="Card image cap">
           <br>
       </div>
       <div class="col-md-2 border-right border-bottom border-top" style="max-height: 150px" id="col4" onclick="col4()">
       	<br>
-          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->right_view"?> alt="Card image cap">
+          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->right_view"?> alt="Card image cap">
           <br>
       </div>
       <div class="col-md-2 border-right border-bottom border-top" style="max-height: 150px" id="col5" onclick="col5()">
       	<br>
-          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->pname/$d->isomatric_view"?> alt="Card image cap">
+          <img class="card-img-top img-responsive" style="height: 100px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->isomatric_view"?> alt="Card image cap">
           <br>
       </div>
   </div>
@@ -58,23 +58,23 @@
 
         <script>
             function col1(){
-                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->front_View"?>';
+                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->rand/$d->front_View"?>';
                 document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
             }
             function col2(){
-                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->bottom_view"?>';
+                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->rand/$d->bottom_view"?>';
                 document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
             }
             function col3(){
-                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->left_view"?>';
+                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->rand/$d->left_view"?>';
                 document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
             }
             function col4(){
-                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->right_view"?>';
+                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->rand/$d->right_view"?>';
                 document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
             }
             function col5(){
-                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->pname/$d->isomatric_view"?>';
+                document.getElementById("myDiv").src = '<?php echo base_url()."uploads/admin_product/$d->rand/$d->isomatric_view"?>';
                 document.getElementById("myDiv").className += "col-lg-3 animated fadeIn";
             }
         </script>

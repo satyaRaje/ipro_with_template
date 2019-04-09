@@ -31,6 +31,48 @@ class Ci_upload_customer extends CI_Controller {
         $this->load_panel_data();
     }
 
+    public function select_view_pending(){
+        $this->load->view('dynamic/dashboard/customer/header');
+        $names = array('0', '100', '99','2');
+        $this->db->where_in('flag', $names);
+        //$d=array('flag' => '100');
+        $query = $this->db->get('tblproduct');
+        $data['data'] = $query->result();
+        //      print_r($data);
+        $this->load->view('dynamic/product/customer/customer_pending_review',$data);
+        $this->load->view('dynamic/dashboard/customer/footer');
+    }
+    public function update_product_form(){
+        $d=array('pid' => $_GET['pid']);
+       //var_dump($d);
+        $query = $this->db->get_where('tblproduct',$d);
+        $data['data'] = $query->result();
+        $this->load->view('dynamic/dashboard/admin/header');
+
+        $this->load->view('dynamic/product/update_product',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+
+    }
+     public function update_product(){
+         $data=array(
+             'description'=>$_POST['pdesc'],
+             'height'=>$_POST['pheight'],
+             'width'=>$_POST['pwidth'],
+             'volume'=>$_POST['pvolume'],
+             'color'=>$_POST['pcolor'],
+             'diameter'=>$_POST['pdiameter'],
+             'catageory'=>$_POST['catageory'],
+             'description'=>$_POST['pdesc']
+         );
+         $where = "pid=".$_POST['pid'];
+
+         $str=$this->db->update_string('tblproduct',$data,$where);
+         $this->db->query($str);
+
+         // $this->select_view_upload();
+            //echo $str;
+     }
+
     public function upload_stl_file(){
         $this->load->model('dynamic/product/customer/product_model','up');
 
@@ -58,7 +100,6 @@ class Ci_upload_customer extends CI_Controller {
             //$this->load->view('upload_passage', $error);
             print_r($error);
         }
-
         else {
             $data = array('upload_data' => $this->upload->data());
             $test=array(
@@ -69,7 +110,7 @@ class Ci_upload_customer extends CI_Controller {
             );
             //  $this->load->model('upload_product');
             $this->db->insert('tblproduct',$test);
-            $this->load_panel_data();
+            $this->select_view_pending();
             echo "Success";
             //$this->load->view('upload_success', $data);
 
@@ -78,6 +119,12 @@ class Ci_upload_customer extends CI_Controller {
 
     }
 
+
+    public function select_customer_pending(){
+        $this->load->view('dynamic/dashboard/customer/header');
+        $this->load->view('dynamic/customer/customer');
+        $this->load->view('dynamic/dashboard/customer/footer');
+    }
     public function load_panel_data(){
         $user=$this->session->userdata('user');
         $query = $this->db->get_where('tblproduct', array('userId' =>$this->session->user_id,'flag'=>'0'));
@@ -115,14 +162,16 @@ class Ci_upload_customer extends CI_Controller {
     }
 
     public function update_company_quotation(){
-        $data = array('flag' => '2','product_price'=>$_POST['price']);
+        $data = array('flag' => '2','customer_quote'=>$_POST['price']);
+        $data_msg = array('message' => "Pid ".$_POST['pid']." <br> Product : ".$_POST['pname']." Message : ".$_POST['message'],"from_msg"=>$_POST['uid']);
 
         $where = "pid=".$_POST['pid'];
 
         $this->db->update('tblproduct', $data, $where);
+        $this->db->insert('tbl_admin_message', $data_msg);
         //$str = $this->db->update_string();
         // $this->db->query($str);
-
+$this->select_view_pending();
     }
 
 
@@ -153,10 +202,11 @@ class Ci_upload_customer extends CI_Controller {
     public function upload_front_view(){
         //echo $_POST['pname'];
         $config['upload_path']   = getcwd().'/uploads/admin_product/'.$_POST['pname'].'/';
+
         $config['allowed_types'] = 'jpg|png|jpeg';
         $config['max_size']      = 200000;
         //$config['file_name'] = ;
-        //$config['max_width']     = 1024;
+           //$config['max_width']     = 1024;
         ///$config['max_height']    = 768;
         $this->load->library('upload', $config);
 
@@ -180,7 +230,7 @@ class Ci_upload_customer extends CI_Controller {
             $this->db->query($str);
 
             //$this->load_panel_data();
-            $this->select_view_upload();
+            $this->select_view_pending();
             //$this->load->view('upload_success', $data);
 
         }
@@ -218,7 +268,7 @@ class Ci_upload_customer extends CI_Controller {
             $this->db->query($str);
 
             //$this->load_panel_data();
-            $this->select_view_upload();
+            $this->select_view_pending();
             //$this->load->view('upload_success', $data);
 
         }
@@ -255,7 +305,7 @@ class Ci_upload_customer extends CI_Controller {
             //$this->load_panel_data();
             //echo "Success";
             //$this->load->view('upload_success', $data);
-            $this->select_view_upload();
+            $this->select_view_pending();
         }
     }
 
@@ -290,7 +340,7 @@ class Ci_upload_customer extends CI_Controller {
             //$this->load_panel_data();
             //echo "Success";
             //$this->load->view('upload_success', $data);
-            $this->select_view_upload();
+            $this->select_view_pending();
         }
     }
 
@@ -321,7 +371,7 @@ class Ci_upload_customer extends CI_Controller {
             $this->db->query($str);
 
             //$this->load_panel_data();
-            $this->select_view_upload();
+            $this->select_view_pending();
 
         }
     }
@@ -356,14 +406,14 @@ class Ci_upload_customer extends CI_Controller {
             //$this->load_panel_data();
             //  echo "Success";
             //$this->load->view('upload_success', $data);
-            $this->select_view_upload();
+            $this->select_view_pending();
         }
     }
 
 
 
     public function upload_admin_product_save_admin(){
-
+$rand=rand(66666666,44444444);
         $data=array(
             'pname'=>$_POST['pname'],
             'description'=>$_POST['pdesc'],
@@ -375,12 +425,14 @@ class Ci_upload_customer extends CI_Controller {
             'diameter'=>$_POST['pdiameter'],
             'MRP'=>$_POST['pmrp'],
             'flag'=>99,
-            'uploaded_by'=>$this->session->user_id
+            'uploaded_by'=>$this->session->user_id,
+            'rand'=>$rand
         );
 
+
         if($this->db->insert('tblproduct',$data)){
-            if(!is_file( getcwd().'/uploads/admin_product/'.$_POST['pname'])){
-                mkdir( getcwd().'/uploads/admin_product/'.$_POST['pname'], 0777, true);
+            if(!is_file( getcwd().'/uploads/admin_product/'.$rand)){
+                mkdir( getcwd().'/uploads/admin_product/'.$rand, 0777, true);
             }
             $this->select_view_upload();
         }else{

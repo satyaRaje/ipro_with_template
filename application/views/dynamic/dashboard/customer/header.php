@@ -272,7 +272,7 @@
                             <a href="<?php echo base_url()."/index.php/dynamic/product/ci_upload_customer/upload_admin_product";?>">Upload Product</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_customer/select_view_upload">Product Status</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_customer/select_view_pending">Product Status</a>
                         </li>
                         </ul></li>
                         <li>
