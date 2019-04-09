@@ -8,7 +8,7 @@
 
           <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us" class="list-group-item">
          <h6 class="text font-normal m-l-10" align="left">
-                               <b> </b><br>
+                               <b>Address </b><br><br>
                             C/O Er. Yogesh Pawar,<br>
                             Meridian Status-B, F-7,<br>
                             Near Youth Hostel, Kesarsingpura,<br>
@@ -58,7 +58,6 @@
                   </div>
               </div>
 
-          <p class="text font-normal;" style="text-align: justify;"></br><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small batch production can be done using 3d printing technology for directly producing end use parts.SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.</br></br><br></p><br><br></font></p>
                         </div>
            </div><br>
 </div>

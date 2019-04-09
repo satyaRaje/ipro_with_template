@@ -32,7 +32,7 @@
                             <a href="#topology" class="list-group-item">Design Topology Optimization</a>
                             <a href="#manufacturing" class="list-group-item">Small Batch Manufacturing</a>
                             <a href="#vaccumecast" class="list-group-item">Vaccum Casting</a>
-                            <a href="#xraytopology" class="list-group-item">Xray-Topology</a>
+                            <a href="#xraytopology" class="list-group-item">Xray-Topography</a>
                             <a href="#functional" class="list-group-item">Functional Part Manufacturing</a>
                             <a href="#tooling" class="list-group-item">Tooling Manufacturing</a>
                             <a href="#injectionmodeling" class="list-group-item">Injection Modeling</a>

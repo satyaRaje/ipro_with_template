@@ -18,10 +18,10 @@
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="basic-addon1">
-                                                    <i class="ti-user"></i>
+                                                    <i class="fas fa-pencil-alt"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" class="form-control" id="exampleInputuname" placeholder="First name">
+                                            <input type="text" class="form-control" id="exampleInputuname" placeholder="First name" disabled>
                                         </div>
                                     </div>
 
@@ -114,10 +114,15 @@
                                
 
                                 <div class="form-group">
-                                    <label>Alternative Address</label>
+                                    <label>Alternative Address 1</label>
                                     <textarea class="form-control" rows="5" id="message">
                                 </textarea> </div>
                                   
+                                <div class="form-group">
+                                    <label>Alternative Address 2</label>
+                                    <textarea class="form-control" rows="5" id="message">
+                                </textarea> </div>
+
                                 <!-- <div class="form-group">
                                         <label for="exampleInputuname">Flag</label>
                                         <div class="input-group">

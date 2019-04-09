@@ -101,7 +101,7 @@
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Topology#topology">Design Topology Optimization</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Small#small">Small Batch Manufacturing</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Vaccum#vaccum">Vaccum Casting</a>
-                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Xray#xray">X-Ray Topology</a>
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Xray#xray">X-Ray Topography</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Functional#functional">Functional Part Manufacturing</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Tooling#tooling">Tooling Manufacturing</a>
                                     <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/welcome/Injection#injection">Injection Modeling</a>

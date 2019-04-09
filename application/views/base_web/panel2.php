@@ -88,6 +88,8 @@
                             <div class="item">
                                 <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
                                 <div class="username"><b>Shinwu Ch<br></b>
+                                    <div class="designation">Customer<br>
+                                    </div>
                                 </div>
                             </div>
                         </div>          
@@ -96,8 +98,10 @@
                 <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
-                        <div class="username">
-                                <b>Mohammed Shameem<br></b>
+                        <div class="username"><b>Mohammed Shameem<br></b>
+                             <div class="designation">Product Manager,ABC<br>
+                                    </div>
+                                
                         </div>
                     </div>
                 </div>
@@ -105,8 +109,9 @@
                 <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
-                        <div class="username">
-                            <b>Nick Stanbridge<br></b>
+                        <div class="username"><b>Nick Stanbridge<br></b>
+                            <div class="designation">Customer,Pune<br>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,6 +120,9 @@
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
                         <div class="username"><b>Shinwu Ch<br></b>
+                            <div class="designation">Customer,Austria<br>
+                                    </div>
+                             
                         </div>
                     </div>
                 </div>
@@ -124,6 +132,8 @@
                         <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
                         <div class="username">
                         <b>Mohammed Shameem<br></b>
+                        <div class="designation">Owner of XYZ<br>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -133,6 +143,9 @@
                         <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
                         <div class="username">
                             <b>Nick Stanbridge<br></b>
+                            <div class="designation">Customer,Aurangabad<br>
+                                    </div>
+                             
                         </div>
                     </div>
                 </div>
@@ -141,6 +154,9 @@
                     <div class="item">
                         <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
                         <div class="username"><b>Shinwu Ch<br></b>
+                            <div class="designation">Customer,Delhi<br>
+                                    </div>
+                             
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
 
           <a href="<?php echo base_url(); ?>index.php/welcome/Contact_us" class="list-group-item">
          <h6 class="text font-normal m-l-10" align="left">
-                               <b> </b><br>
+                               <b>Address </b><br><br>
                             C/O Er. Yogesh Pawar,<br>
                             Meridian Status-B, F-7,<br>
                             Near Youth Hostel, Kesarsingpura,<br>
