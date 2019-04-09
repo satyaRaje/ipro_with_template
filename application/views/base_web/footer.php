@@ -3,6 +3,29 @@
 <!-- ============================================================== -->
 <!-- footer -->
 <!-- ============================================================== -->
+<style>
+    .float{
+        position:fixed;
+        width:50px;
+        height:50px;
+        bottom:90px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+
+    .my-float{
+        margin-top:18px;
+    }
+</style>
+<a href="https://api.whatsapp.com/send?phone=919821413663" class="float" target="_blank">
+    <i class="mdi mdi-whatsapp my-float"></i>
+</a>
 
 <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
 <footer class="footer row" style="background-color: #F9F9F9">

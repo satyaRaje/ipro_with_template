@@ -167,10 +167,14 @@ class ci_upload_product extends CI_Controller {
 
 
        public function user_profile(){
-         $this->load->view('dynamic/dashboard/admin/header');
-         $this->load->view('dynamic/product/user_profile');
-         $this->load->view('dynamic/dashboard/admin/footer');
-     }
+           $this->load->view('dynamic/dashboard/customer/header');
+           $d=array('id'=>$this->session->user_id);
+           $query = $this->db->get_where('tbllogin',$d);
+           $data['data'] = $query->result();
+           $this->load->view('dynamic/product/user_profile',$data);
+           $this->load->view('dynamic/dashboard/customer/footer');
+
+       }
 
 
 

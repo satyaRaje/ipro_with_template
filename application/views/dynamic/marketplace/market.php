@@ -10,14 +10,17 @@
        <form method="post" action='<?php echo base_url()."index.php/dynamic/purchase/ci_Purchase/add_to_cart"; ?>'>
            <input type="hidden" value="<?php echo $d->pid;?>" name="pid">
            <input type="hidden" value="<?php echo $d->pname;?>" name="pname">
-           <input type="hidden" value="<?php echo $d->product_price;?>" name="price">
+           <input type="hidden" value="<?php echo $d->admin_quote;?>" name="price">
            <input type="hidden" value="<?php echo $d->discount;?>" name="discount">
-           <input type="hidden" value="<?php echo $d->pid;?>" name="img">
+           <input type="hidden" value="<?php echo base_url()."uploads/admin_product/$d->rand/$d->front_View"?>" name="img">
+
         <div class="card">
             <a href="<?php echo base_url();?>index.php/dynamic/purchase/ci_Purchase/product_description1?pid=<?php echo $d->pid;?>"><img class="card-img-top img-responsive" style="height: 250px;" src=<?php echo base_url()."uploads/admin_product/$d->rand/$d->front_View"?> alt="Card image cap" ></a>
             <div class="card-body">
+                 <label class="label label-danger font-size-normal"><?php echo "Price : ".$d->admin_quote;?></label>
                 <h3 class="card-title font-weight-bold"><?php echo $d->pname;?></h3>
                 <p class="card-text"><?php echo $d->description;?></p>
+
                 <button class=" btn btn-circle btn-sm btn-danger"><i class="fa fa-heart"></i></button>
                 <button class="btn btn-circle btn-sm btn-primary"><i class="fa fa-list"></i></button>
                 <button class="btn btn-rounded btn-sm btn-info"><i class="mdi mdi-share-variant"></i> Share</button>
