@@ -28,62 +28,6 @@
 
                         </div>
                     </div>
-                        <div class="row pull-center">
-                            <div class="col-md-2">
-                                <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_front_view";?>'>
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="pname" value='<?php echo $d->rand;?>'/>
-                                    <h5 class="text font-weight-bold text-center">Front View</h5>
-                                    <input type="file" name="userfile" class="form-control btn btn-file" required>
-                                    <button type="submit" class="btn-circle btn-info m-b-5 m-t-5" style="margin-left: 20%;"><i class="mdi mdi-briefcase-upload"></i></button>
-                                </form>
-                            </div>
-                            <div class="col-md-2">
-                                <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_top_view";?>'>
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="pname" value='<?php echo $d->rand;?>'>
-                                    <h5 class="text font-weight-bold text-center">Top View</h5>
-                                    <input type="file" name="userfile"  class="form-control btn btn-file" required>
-                                    <button type="submit" class="btn-circle btn-info m-b-5 m-t-5" style="margin-left: 20%;"><i class="mdi mdi-briefcase-upload"></i></button>
-                                </form>
-                            </div>
-                            <div class="col-md-2">
-                                <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_bottom_view";?>'>
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="pname" value='<?php echo $d->rand;?>'>
-                                    <h5 class="text font-weight-bold text-center">Bottom View</h5>
-                                    <input type="file" name="userfile" class="form-control btn btn-file" required>
-                                    <button type="submit" class="btn-circle btn-info m-b-5 m-t-5" style="margin-left: 20%;"><i class="mdi mdi-briefcase-upload"></i></button>
-                                </form >
-                            </div>
-                            <div class="col-md-2">
-                                <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_right_view";?>'>
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="pname" value='<?php echo $d->rand;?>' >
-                                    <h5 class="text font-weight-bold text-center">Right View</h5>
-                                    <input type="file" name="userfile" class="form-control btn btn-file" required>
-                                    <button type="submit" class="btn-circle btn-info m-b-5 m-t-5" style="margin-left: 20%;"><i class="mdi mdi-briefcase-upload"></i></button>
-                                </form>
-                            </div>
-                            <div class="col-md-2">
-                                <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_left_view";?>'>
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="pname" value='<?php echo $d->rand;?>'>
-                                    <h5 class="text font-weight-bold text-center">Left View</h5>
-                                    <input type="file" name="userfile" class="form-control btn btn-file" required>
-                                    <button type="submit" class="btn-circle btn-info m-b-5 m-t-5" style="margin-left: 20%;"><i class="mdi mdi-briefcase-upload"></i></button>
-                                </form>
-                            </div>
-                            <div class="col-md-2">
-                                <form  method="post" enctype="multipart/form-data" action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/upload_isometric_view";?>'>
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="pname" value='<?php echo $d->rand;?>'>
-                                    <h5 class="text font-weight-bold text-center">Isometric View</h5>
-                                    <input type="file" name="userfile" class="form-control btn btn-file" required>
-                                    <button type="submit" class="btn-circle btn-info m-b-5 m-t-5" style="margin-left: 20%;"><i class="mdi mdi-briefcase-upload"></i></button>
-                                </form>
-                            </div>
-                        </div>
                     <div class="row">
                         <div class="col-md-2">
                             <?php
