@@ -26,9 +26,58 @@ class ci_Purchase extends CI_Controller {
         //$this->ci =& get_instance();
     }
 
+
+
+public function generate_bill()
+{
+
+
+    $arr = array(
+        'billing_add' => $_POST['bill_address'],
+        'tot' => $_POST['tot_amount'],
+        'user_id' => $this->session->user_id
+    );
+
+    //echo $t;
+    $t=$_POST['tot_count'];
+    if ($this->db->insert('tbldilivery', $arr)) {
+
+        //$this->load->view('student/header');
+        $query = $this->db->query('select * from tbldilivery where user_id=' . $this->session->user_id . " order by date_stamp desc limit 1");
+        $row = $query->result();
+       // echo $row[0]->bid;
+
+        $base = array();
+        $child = array();
+        //var_dump();
+        //$child.array_push()
+
+
+      for ($i = 0; $i <= $t; $i++) {
+            @$child['pname'] = $_POST[$i . "pname"];
+            @$child['cost'] = $_POST[$i . "price"];
+            @$child['bid'] = $row[0]->bid;
+            @$child['user_id'] = $this->session->user_id;
+            @$base[$i] = $child;
+        }
+        if ($this->db->insert_batch('tbltransaction', $base)) {
+               echo "done";
+        }
+    }
+
+
+}
+
+
+
+
+
     public function view_cart(){
         $query = $this->db->get_where('tblcart', array('user_id' =>3,'flag'=>'0'));
         $data['data'] = $query->result();
+
+        $query1 = $this->db->get_where('tbllogin',array('email'=>$this->session->email));
+        $data['data2'] = $query1->result();
 
         $this->load->view('dynamic/dashboard/customer/header');
         $this->load->view('dynamic/cart/cart',$data);
@@ -63,6 +112,18 @@ class ci_Purchase extends CI_Controller {
         $data['data'] = $query->result();
         $this->load->view('base_web/header');
         $this->load->view('dynamic/marketplace/product_description',$data);
+        $this->load->view('base_web/footer');
+
+    }
+
+
+    public function product_shop_description1(){
+        $user=$this->session->userdata('user');
+        $this->db->where('pid',$_GET['pid']);
+        $query = $this->db->get_where('tblshop', array());
+        $data['data'] = $query->result();
+        $this->load->view('base_web/header');
+        $this->load->view('dynamic/marketplace/product_shop_description',$data);
         $this->load->view('base_web/footer');
 
     }
