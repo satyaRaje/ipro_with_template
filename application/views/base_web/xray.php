@@ -28,7 +28,7 @@
     <br>
    <a href="<?php echo base_url();?>index.php/welcome/#test" class="list-group-item">
           <b class="text font-weight-bold text-primary">Testimonial</b>
-          <p class="text">Ipro3d Testimonials read more..</p>
+          <p class="text">" This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is..." Read more </p>
       </a>
    </div>
 
