@@ -59,6 +59,7 @@
                 <tr>
                   <form method="post" action="<?php echo base_url()."index.php/dynamic/purchase/ci_purchase/add_quantity_cart"?>">
                       <input type="hidden" value="<?php echo $d->pid;?>" name="<?php echo $count."pid";?>">
+                      <input type="hidden" value="<?php echo $d->pid;?>" name="<?php echo "pid";?>">
                       <input type="hidden" value="<?php echo $d->pname;?>" name="<?php echo $count."pname";?>">
                       <input type="hidden" value="<?php echo $d->price;?>" name="<?php echo $count."price";?>">
                       <input type="hidden" value="<?php echo $d->img;?>" name="<?php echo $count."img";?>">
@@ -66,7 +67,8 @@
                     <td><?php echo $d->pname;?></td>
                     <td><?php echo $d->price;?></td>
                     <td><button class="btn btn-circle btn-sm btn-inverse m-2" type="submit" value="minus" name="minus"><i class="mdi mdi-minus"></i></button>
-                        <input type="text" value="<?php echo $d->qty;?>" style="width: 30px;text-align: center;" name="qty" readonly>
+                        <input type="text" value="<?php echo $d->qty;?>" style="width: 30px;text-align: center;" name="<?php echo $count."qty";?>" readonly>
+                        <input type="hidden" value="<?php echo $d->qty;?>" style="width: 30px;text-align: center;" name="<?php echo "qty";?>" readonly>
 
 
                         <button class="btn btn-circle btn-sm btn-inverse m-2"  type="submit" value="plus" name="plus"><i class="mdi mdi-plus" value="minus"></i></button></td>

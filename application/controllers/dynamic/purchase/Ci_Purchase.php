@@ -58,6 +58,7 @@ public function generate_bill()
             @$child['cost'] = $_POST[$i . "price"];
             @$child['bid'] = $row[0]->bid;
             @$child['user_id'] = $this->session->user_id;
+          @$child['qty'] =$_POST[$i . "qty"];
             @$base[$i] = $child;
         }
         if ($this->db->insert_batch('tbltransaction', $base)) {

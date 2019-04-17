@@ -26,9 +26,11 @@ class Ci_bill_delivery extends CI_Controller {
         //$this->ci =& get_instance();
     }
 
-     public function getBill(){
+     public function get_all_bill(){
+         $query = $this->db->query('select * from tbldilivery as d where d.user_id='.$this->session->user_id);
+         $data['data'] = $query->result();
          $this->load->view('dynamic/dashboard/customer/header');
-         $this->load->view('dynamic/product/bill');
+         $this->load->view('dynamic/order/get_bill',$data);
          $this->load->view('dynamic/dashboard/customer/footer');
      }
 
@@ -41,6 +43,19 @@ class Ci_bill_delivery extends CI_Controller {
         $this->load->view('dynamic/dashboard/admin/header');
         $this->load->view('dynamic/order/view_order',$data);
         $this->load->view('dynamic/dashboard/admin/footer');
+    }
+
+    public function print_bill(){
+
+        $query = $this->db->query('select * from tbldilivery as d  where d.bid='.$_POST['bid']);
+        //      echo $_POST['pid'];
+        $data['data'] = $query->result();
+
+        $query = $this->db->query('select * from tbltransaction as d where d.bid='.$_POST['bid']);
+        //      echo $_POST['pid'];
+        $data['data1'] = $query->result();
+        $this->load->view('dynamic/dashboard/customer/header1');
+        $this->load->view('dynamic/order/print_bill',$data);
     }
 
 }

@@ -275,7 +275,7 @@
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_customer/select_view_pending">Product Status</a>
                         </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/dynamic/product/ci_bill_delivery/getBill">getBill</a>
+                                <a href="<?php echo base_url();?>index.php/dynamic/product/ci_bill_delivery/get_all_bill">getBill</a>
                             </li>
 
                         </ul></li>
