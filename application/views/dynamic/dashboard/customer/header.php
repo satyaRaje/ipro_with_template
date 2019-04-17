@@ -303,7 +303,10 @@
                  
                     <li> <a  href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Offer Zone</span></a>
                         </li>
-                        
+
+                        <li> <a  href="<?php echo base_url()."index.php/dynamic/product/ci_profile/customer_complaint"?>" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Add Complaint</span></a>
+                        </li>
+
 
                         </li>
                     </ul>

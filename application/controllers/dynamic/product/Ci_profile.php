@@ -55,7 +55,62 @@ class Ci_profile extends CI_Controller {
 
      }
 
+    public function getAllCustomer(){
+        $query = $this->db->query('select * from tbllogin as t order by rdate desc limit 500');
+        //      echo $_POST['pid'];
+        $data['data'] = $query->result();
 
+        $this->load->view('dynamic/dashboard/admin/header');
+        $this->load->view('dynamic/dashboard/customer/view_customer',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+    }
+
+
+    public function customer_complaint(){
+
+        $query = $this->db->query("select * from tbl_compaint as t where email='".$this->session->email."'");
+        //      echo $_POST['pid'];
+        $data['data'] = $query->result();
+
+        $this->load->view('dynamic/dashboard/customer/header');
+        $this->load->view('dynamic/dashboard/customer/complaint_box',$data);
+        $this->load->view('dynamic/dashboard/customer/footer');
+
+    }
+
+
+    public function Add_complaint(){
+        $data=array(
+            "email"=>$_POST['email'],
+            "mobile"=>$_POST['mobile_no'],
+            "complaint_text"=>$_POST['message']
+        );
+        $this->db->insert("tbl_compaint",$data);
+
+        $query = $this->db->query("select * from tbl_compaint as t where email='".$this->session->email."'");
+        //      echo $_POST['pid'];
+        $data['data'] = $query->result();
+
+
+        $this->load->view('dynamic/dashboard/customer/header');
+        $this->load->view('dynamic/dashboard/customer/complaint_box',$data);
+        $this->load->view('dynamic/dashboard/customer/footer');
+
+    }
+
+
+    public function view_all_complaint(){
+
+        $query = $this->db->query("select * from tbl_compaint as t");
+        //      echo $_POST['pid'];
+        $data['data'] = $query->result();
+
+
+        $this->load->view('dynamic/dashboard/admin/header');
+        $this->load->view('dynamic/dashboard/customer/view_complaint',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+
+    }
 }
 
 ?>

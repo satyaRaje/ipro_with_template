@@ -271,11 +271,12 @@
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Customer</span></a>
                             <ul class="nav nav-second-level collapse" aria-expanded="false">
-                        <li>
-                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Contact</a>
-                        </li>
+
+                                <li>
+                                    <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_profile/view_all_complaint">Complaint Box</a>
+                                </li>
                        <li>
-                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Customer Data</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_profile/getAllCustomer">Customer List</a>
                         </li>
                        </ul>
                 </li>
