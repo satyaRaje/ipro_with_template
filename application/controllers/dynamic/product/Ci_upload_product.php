@@ -104,7 +104,7 @@ class ci_upload_product extends CI_Controller {
 
          $where = "uploaded_by =".$this->session->user_id." and pid=".$_POST['product_id'];
 
-         $str = $this->db->update_string('tblproduct', $data, $where);
+          $str = $this->db->update_string('tblproduct', $data, $where);
          $this->db->query($str);
          //echo $str;
          $this->load_panel_data();
