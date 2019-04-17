@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 10, 2019 at 10:00 AM
+-- Generation Time: Apr 17, 2019 at 02:03 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -90,13 +90,8 @@ CREATE TABLE `tblcart` (
 --
 
 INSERT INTO `tblcart` (`pid`, `pname`, `qty`, `price`, `img`, `user_id`, `flag`) VALUES
-(3, 'my prod', 1, 98600, 'http://localhost/ipro_with_template/uploads/admin_product/69898751/Screenshot_(2).png', 3, 0),
-(1, 'file', 1, 960000, 'http://localhost/ipro_with_template/uploads/admin_product/143503085/Screenshot_(1).png', 3, 0),
-(1, 'file', 4, 960000, 'http://localhost/ipro_with_template/uploads/admin_product/143503085/Screenshot_(1).png', 3, 0),
-(3, 'my prod', 1, 98600, 'http://localhost/ipro_with_template/uploads/admin_product/69898751/Screenshot_(2).png', 3, 0),
-(3, 'my prod', 1, 98600, 'http://localhost/ipro_with_template/uploads/admin_product/69898751/Screenshot_(2).png', 3, 0),
-(3, 'my prod', 1, 98600, 'http://localhost/ipro_with_template/uploads/admin_product/69898751/Screenshot_(2).png', 3, 0),
-(3, 'my prod', 1, 98600, 'http://localhost/ipro_with_template/uploads/admin_product/69898751/Screenshot_(2).png', 3, 0);
+(1, 'gaurav', 2, 1000, 'http://localhost/ipro_with_template/uploads/admin_product/28057385/Screenshot_(1).png', 3, 0),
+(1, 'gaurav', 2, 1000, 'http://localhost/ipro_with_template/uploads/admin_product/28057385/Screenshot_(1).png', 3, 0);
 
 -- --------------------------------------------------------
 
@@ -113,6 +108,32 @@ CREATE TABLE `tblcompany` (
   `location` varchar(150) NOT NULL,
   `flag` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tblcontactus`
+--
+
+CREATE TABLE `tblcontactus` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `mobile_no` varchar(10) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `info` varchar(150) NOT NULL,
+  `known_us` varchar(150) NOT NULL,
+  `message` varchar(250) NOT NULL,
+  `flag` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblcontactus`
+--
+
+INSERT INTO `tblcontactus` (`id`, `name`, `mobile_no`, `email`, `info`, `known_us`, `message`, `flag`) VALUES
+(1, 'GAURAV KAD', '6565656565', 'KAD.GAURAV.GAURAV447@GMAIL.COM', 'worker', 'news', 'fiinal gaurav kad', 0),
+(2, 'poo', 'asdf', 'asdf@g.c', 'worker', 'news', 'asdfafd                                ', 0),
+(3, 'final gaurav', '9970612561', 'gauravkad8@gmail.com', 'businessman', 'news', 'i am gaurav kad i want to won compitition full stack developer i want to win competition.                                ', 0);
 
 -- --------------------------------------------------------
 
@@ -139,9 +160,8 @@ CREATE TABLE `tbldilivery` (
 --
 
 INSERT INTO `tbldilivery` (`bid`, `tot`, `billing_add`, `city`, `state`, `country`, `pincode`, `payment_mode`, `user_id`, `flag`, `date_stamp`) VALUES
-(1, 4800000, 'N 11 E 36 2 MAYUR NAGAGAR HUDCO NEAR D MART                                                                ', '', '', '', '', 0, 7, 0, '2019-04-10 01:08:06'),
-(2, 5095800, 'N 11 E 36 2 MAYUR NAGAGAR HUDCO NEAR D MART', '', '', '', '', 0, 3, 0, '2019-04-10 12:16:35'),
-(3, 5293000, 'N 11 E 36 2 MAYUR NAGAGAR HUDCO NEAR D MART', '', '', '', '', 0, 3, 0, '2019-04-10 13:12:20');
+(1, 1000, '', '', '', '', '', 0, 3, 0, '2019-04-17 17:10:25'),
+(2, 4000, 'N 11 E 36 2 MAYUR NAGAGAR HUDCO NEAR D MART', '', '', '', '', 0, 3, 0, '2019-04-17 17:10:49');
 
 -- --------------------------------------------------------
 
@@ -283,18 +303,16 @@ CREATE TABLE `tblproduct` (
   `rand` varchar(100) NOT NULL,
   `customer_quote` double NOT NULL,
   `admin_quote` double NOT NULL,
-  `alise_name` varchar(350) NOT NULL
+  `alise_name` varchar(350) NOT NULL,
+  `loop_count` smallint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblproduct`
 --
 
-INSERT INTO `tblproduct` (`pid`, `pname`, `description`, `catageory`, `product_price`, `discount`, `file_url`, `date`, `userId`, `images`, `sqnNo`, `height`, `width`, `volume`, `color`, `diameter`, `flag`, `front_View`, `bottom_view`, `left_view`, `right_view`, `top_view`, `isomatric_view`, `uploaded_by`, `MRP`, `rand`, `customer_quote`, `admin_quote`, `alise_name`) VALUES
-(1, 'file', '', '', 0, 0, '2018-9-19_111054_(1).pdf', '2019-04-09 16:05:39', 0, '', '', 0, 0, 0, '', 0, 18, 'Screenshot_(1).png', 'Screenshot_(2)1.png', 'Screenshot_(2)2.png', 'Screenshot_(1)1.png', 'Screenshot_(2).png', 'Screenshot_(2)3.png', 7, 0, '143503085', 986000, 960000, ''),
-(2, 'product test', 'this is good pridct', 'Printing', 0, 0, '2018-9-19_111054_(1).pdf', '2019-04-10 06:36:24', 0, '', '', 9600, 9600, 9600, 'Blue', 980, 18, 'Screenshot_(1).png', '', '', '', 'Screenshot_(2).png', '', 3, 0, '68396797', 96000, 9800, ''),
-(3, 'my prod', 'these', 'Printing', 0, 0, '2018-9-19_111054_(2).pdf', '2019-04-10 06:40:45', 0, '', '', 9860, 9860, 956, 'red', 1200, 18, 'Screenshot_(2).png', '', '', '', 'Screenshot_(2)1.png', '', 3, 0, '69898751', 98600, 98600, ''),
-(4, 'uuu', '', '', 0, 0, '2018-9-19_111054.pdf', '2019-04-10 07:04:53', 0, '', '', 0, 0, 0, '', 0, 11, 'Screenshot_(1).png', '', '', '', '', '', 3, 0, '133290373', 980, 9500, '');
+INSERT INTO `tblproduct` (`pid`, `pname`, `description`, `catageory`, `product_price`, `discount`, `file_url`, `date`, `userId`, `images`, `sqnNo`, `height`, `width`, `volume`, `color`, `diameter`, `flag`, `front_View`, `bottom_view`, `left_view`, `right_view`, `top_view`, `isomatric_view`, `uploaded_by`, `MRP`, `rand`, `customer_quote`, `admin_quote`, `alise_name`, `loop_count`) VALUES
+(1, 'gaurav', 'these is good product', 'Printing', 0, 0, '', '2019-04-17 05:21:39', 0, '', '', 250, 100, 6500, 'Red', 250, 18, 'Screenshot_(1).png', 'Screenshot_(1)1.png', 'Screenshot_(2)3.png', 'Screenshot_(2)1.png', 'Screenshot_(2)2.png', 'Screenshot_(3).png', 2, 1000, '28057385', 0, 0, '', 0);
 
 -- --------------------------------------------------------
 
@@ -355,19 +373,7 @@ CREATE TABLE `tblshop` (
 --
 
 INSERT INTO `tblshop` (`pid`, `pname`, `description`, `catageory`, `product_price`, `discount`, `file_url`, `date`, `userId`, `images`, `sqnNo`, `height`, `width`, `volume`, `color`, `diameter`, `flag`, `front_View`, `bottom_view`, `left_view`, `right_view`, `top_view`, `isomatric_view`, `uploaded_by`, `MRP`, `rand`) VALUES
-(1, 'Gaurav', '12', 'Printing', 0, 0, '', '2019-04-03 14:17:18', 0, '', '', 1, 21, 2, '12', 12, 11, 'Screenshot_2018-12-28_at_10_52_05_AM1.png', '', '', '', '', '', 2, 12, ''),
-(2, 'Gaurav', '12', 'Printing', 0, 0, '', '2019-04-03 14:24:09', 0, '', '', 1, 21, 2, '12', 12, 18, '', '', '', '', '', '', 2, 12, ''),
-(3, 'gaurav100', '12', 'Printing', 0, 0, '', '2019-04-03 14:24:47', 0, '', '', 21, 21, 21, '2', 12, 11, 'Screenshot_2018-12-28_at_10_52_05_AM2.png', '', '', '', 'Sample_Certificate_COE_Star_Performer.png', '', 2, 1, ''),
-(4, 'gaurav100', '12', 'Printing', 0, 0, '', '2019-04-03 14:25:27', 0, '', '', 21, 21, 21, '2', 12, 18, 'Screenshot_2018-12-28_at_10_52_05_AM.png', 'Sample_Certificate_COE_Surplus_Output.png', 'Sample_Certificate_COE_Outstanding_Quality.png', 'Sample_Certificate_Live_Project_Quikr.png', 'Screenshot_2018-12-28_at_10_52_05_AM1.png', 'Sample_Certificate_COE_Outstanding_Quality2.png', 2, 1, ''),
-(5, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:30:19', 0, '', '', 21, 2, 12, '12', 1, 18, '', '', '', '', '', '', 2, 121, '8580'),
-(6, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:32:07', 0, '', '', 21, 2, 12, '12', 1, 18, 'Screenshot_2018-12-28_at_10_52_05_AM.png', '', '', '', '', '', 2, 121, '179967162'),
-(7, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:32:45', 0, '', '', 21, 2, 12, '12', 1, 18, '', '', '', '', '', '', 2, 121, '468619349'),
-(8, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:32:54', 0, '', '', 21, 2, 12, '12', 1, 18, 'Screenshot_2018-12-28_at_10_52_05_AM.png', '', '', '', 'Screenshot_2018-12-28_at_10_52_05_AM1.png', '', 2, 121, '297952456'),
-(9, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:35:24', 0, '', '', 21, 2, 12, '12', 1, 18, 'Screenshot_2018-12-28_at_10_52_05_AM.png', '', '', '', 'Sample_Certificate_COE_Outstanding_Quality1.png', '', 2, 121, '298444808'),
-(10, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:35:26', 0, '', '', 21, 2, 12, '12', 1, 18, 'Screenshot_2018-12-28_at_10_52_05_AM.png', 'Sample_Certificate_COE_Star_Performer.png', 'Sample_Certificate_COE_Star_Performer1.png', 'Sample_Certificate_Live_Project_Quikr.png', 'Sample_Certificate_COE_Outstanding_Quality.png', 'Sample_Certificate_COE_Outstanding_Quality5.png', 2, 121, '405583452'),
-(11, 'testt', '212', 'Printing', 0, 0, '', '2019-04-03 14:36:55', 0, '', '', 21, 2, 12, '12', 1, 18, 'Screenshot_2018-12-28_at_10_52_05_AM.png', '', '', '', '', '', 2, 121, '147800205'),
-(12, 'test11', '1', 'Printing', 0, 0, '', '2019-04-03 15:16:14', 0, '', '', 1, 21, 2, '12', 12, 11, '', '', '', '', '', '', 2, 12, '504038808'),
-(13, 'test shop product', '100', 'Printing', 0, 0, '', '2019-04-04 16:25:35', 0, '', '', 20, 2, 2, 'red', 100, 11, 'Screenshot_2018-12-28_at_10_52_05_AM.png', 'Sample_Certificate_Live_Project_Quikr.png', 'Sample_Certificate_Live_Project_Quikr1.png', 'Sample_Certificate_COE_Outstanding_Quality.png', 'Sample_Certificate_COE_Surplus_Output.png', 'Screenshot_2018-12-28_at_10_52_05_AM1.png', 2, 20, '368299025');
+(1, 'Sugar_test', 'good describe', 'Printing', 0, 0, '', '2019-04-17 05:28:08', 0, '', '', 950, 250, 1233, 'Blue', 6580, 11, 'Screenshot_(1).png', '', '', '', '', '', 2, 680, '399794593');
 
 -- --------------------------------------------------------
 
@@ -389,33 +395,17 @@ CREATE TABLE `tbltransaction` (
   `cost` double NOT NULL,
   `user_id` int(11) NOT NULL,
   `bid` int(11) NOT NULL,
-  `flag` smallint(6) NOT NULL
+  `flag` smallint(6) NOT NULL,
+  `qty` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbltransaction`
 --
 
-INSERT INTO `tbltransaction` (`pid`, `pname`, `cost`, `user_id`, `bid`, `flag`) VALUES
-(1, 'file', 960000, 7, 1, 0),
-(2, '', 0, 7, 1, 0),
-(3, 'file', 960000, 7, 2, 0),
-(4, '', 0, 7, 2, 0),
-(5, '', 0, 7, 2, 0),
-(6, 'my prod', 98600, 3, 2, 0),
-(7, '', 0, 3, 2, 0),
-(8, '', 0, 3, 2, 0),
-(9, '', 0, 3, 2, 0),
-(10, '', 0, 3, 2, 0),
-(11, '', 0, 3, 2, 0),
-(12, 'my prod', 98600, 3, 3, 0),
-(13, '', 0, 3, 3, 0),
-(14, '', 0, 3, 3, 0),
-(15, '', 0, 3, 3, 0),
-(16, '', 0, 3, 3, 0),
-(17, '', 0, 3, 3, 0),
-(18, '', 0, 3, 3, 0),
-(19, '', 0, 3, 3, 0);
+INSERT INTO `tbltransaction` (`pid`, `pname`, `cost`, `user_id`, `bid`, `flag`, `qty`) VALUES
+(1, 'gaurav', 1000, 3, 1, 0, 1),
+(3, 'gaurav', 1000, 3, 2, 0, 2);
 
 -- --------------------------------------------------------
 
@@ -452,7 +442,55 @@ INSERT INTO `tbl_admin_message` (`id`, `message`, `from_msg`, `flag`) VALUES
 (15, 'Pid 2 <br> Product : product test Message : this product have some features and we can sumbit it           ', 3, 0),
 (16, 'Pid 3 <br> Product : my prod Message : proadas\r\n                                ', 3, 0),
 (17, 'Pid 4 <br> Product : uuu Message : this product is user\r\n                                ', 3, 0),
-(18, 'Pid 4 <br> Product : uuu Message : gau\r\n                                ', 3, 0);
+(18, 'Pid 4 <br> Product : uuu Message : gau\r\n                                ', 3, 0),
+(19, 'Pid 6 <br> Product : test Message : i want to buy these product fot my use\r\n                                ', 3, 0),
+(20, 'Pid 6 <br> Product : test Message : my product profile and your aggrement approval', 3, 0),
+(21, 'Pid 6 <br> Product : test Message : produ\r\n                                ', 3, 0),
+(22, 'Pid 6 <br> Product : test Message : these is gaurav message            ', 3, 0),
+(23, 'Pid 6 <br> Product : test Message : these is gaurav message            ', 3, 0),
+(24, 'Pid 5 <br> Product : file gaurav Message : my name is gaurav', 3, 0),
+(25, 'Pid 5 <br> Product : file gaurav Message : i want the price exact 96800\r\n                                ', 3, 0),
+(26, 'Pid 5 <br> Product : file gaurav Message : \r\n                                ', 3, 0),
+(27, 'Pid 5 <br> Product : file gaurav Message : \r\n                                ', 3, 0),
+(28, 'Pid 1 <br> Product : my gaurav Message : test gaurav\r\n                                ', 3, 0),
+(29, 'Pid 1 <br> Product : my gaurav Message : test gaurav\r\n                                ', 3, 0),
+(30, 'Pid 1 <br> Product : my gaurav Message : test gaurav\r\n                                ', 3, 0),
+(31, 'Pid 1 <br> Product : my gaurav Message : test gaurav\r\n                                ', 3, 0),
+(32, 'Pid 1 <br> Product : my gaurav Message : test gaurav\r\n                                ', 3, 0),
+(33, 'Pid 1 <br> Product : my gaurav Message : test gaurav\r\n                                ', 3, 0),
+(34, 'Pid 1 <br> Product : my gaurav Message : for unit price\r\n                                ', 3, 0),
+(35, 'Pid 2 <br> Product : my test Message : these is test message\r\n                                ', 3, 0),
+(36, 'Pid 2 <br> Product : my test Message : \r\n                                ', 3, 0),
+(37, 'Pid 4 <br> Product : asdf Message : my rost', 3, 0),
+(38, 'Pid 7 <br> Product : stl test Message : text approve my product\r\n                                ', 3, 0),
+(39, 'Pid 10 <br> Product : file Message : ok mamma\r\n                                ', 3, 0),
+(40, 'Pid 9 <br> Product : file Message : test                         ', 3, 0),
+(41, 'Pid 11 <br> Product : guuu Message : kindly review these product                    ', 3, 0),
+(42, 'Pid 11 <br> Product : guuu Message : profit\r\n                                ', 3, 0),
+(43, 'Pid 7 <br> Product : stl test Message : file 14    ', 3, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_compaint`
+--
+
+CREATE TABLE `tbl_compaint` (
+  `cid` int(11) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `mobile` varchar(10) NOT NULL,
+  `complaint_text` varchar(250) NOT NULL,
+  `flag` smallint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_compaint`
+--
+
+INSERT INTO `tbl_compaint` (`cid`, `email`, `mobile`, `complaint_text`, `flag`) VALUES
+(1, 'customer@ipro3d.io', '9561916860', 'My Complaint is Registered....!', 0),
+(2, 'customer@ipro3d.io', '9561916860', 'My Complaint is Registered....!', 0),
+(3, 'customer@ipro3d.io', '9561916860', 'My Complaint is Registered....!', 0);
 
 -- --------------------------------------------------------
 
@@ -511,7 +549,33 @@ INSERT INTO `tbl_message` (`id`, `message`, `to_msg`, `from_msg`, `flag`) VALUES
 (40, 'Pid 2<br> Product : product test <br> Message : i can give 98000                 ', '', '', 0),
 (41, 'Pid 3<br> Product : my prod <br> Message : we can just pay           ', '', '', 0),
 (42, 'Pid 3<br> Product : my prod <br> Message : we can just pay           ', '', '', 0),
-(43, 'Pid 4<br> Product : uuu <br> Message : gaurav\r\n                                ', '', '', 0);
+(43, 'Pid 4<br> Product : uuu <br> Message : gaurav\r\n                                ', '', '', 0),
+(44, 'Pid 6<br> Product : test <br> Message : we have verified these       ', '', '', 0),
+(45, 'Pid 6<br> Product : test <br> Message : we have verified these       ', '', '', 0),
+(46, 'Pid 6<br> Product : test <br> Message : we have verified these       ', '', '', 0),
+(47, 'Pid 5<br> Product : file gaurav <br> Message : asdf\r\n                                ', '', '', 0),
+(48, 'Pid 5<br> Product : file gaurav <br> Message : asdf\r\n                                ', '', '', 0),
+(49, 'Pid 5<br> Product : file gaurav <br> Message : asdf\r\n                                ', '', '', 0),
+(50, 'Pid 5<br> Product : file gaurav <br> Message : barganinig price of customer   ', '', '', 0),
+(51, 'Pid 5<br> Product : file gaurav <br> Message : 98600\r\n                                ', '', '', 0),
+(52, 'Pid 1<br> Product : my gaurav <br> Message : \r\n                         asdff       ', '', '', 0),
+(53, 'Pid 1<br> Product : my gaurav <br> Message : \r\n                         asdff       ', '', '', 0),
+(54, 'Pid 1<br> Product : my gaurav <br> Message : Final Price\r\n                                ', '', '', 0),
+(55, 'Pid 1<br> Product : my gaurav <br> Message : Final Price\r\n                                ', '', '', 0),
+(56, 'Pid 2<br> Product : my test <br> Message : these is good product\r\n                                ', '', '', 0),
+(57, 'Pid 4<br> Product : asdf <br> Message : \r\n                                ', '', '', 0),
+(58, 'Pid 4<br> Product : asdf <br> Message : test', '', '', 0),
+(59, 'Pid 2<br> Product : my test <br> Message : figure  ', '', '', 0),
+(60, 'Pid 4<br> Product : asdf <br> Message : this is message\r\n                                ', '', '', 0),
+(61, 'Pid 7<br> Product : stl test <br> Message : fi\r\n                                ', '', '', 0),
+(62, 'Pid 9<br> Product : file <br> Message : test\r\n                                ', '', '', 0),
+(63, 'Pid 9<br> Product : file <br> Message : test\r\n                                ', '', '', 0),
+(64, 'Pid 9<br> Product : file <br> Message : test\r\n                                ', '', '', 0),
+(65, 'Pid 10<br> Product : file <br> Message : \r\n                                860022', '', '', 0),
+(66, 'Pid 11<br> Product : guuu <br> Message : gaurav kad\r\n                                ', '', '', 0),
+(67, 'Pid 11<br> Product : guuu <br> Message : gaurav kad\r\n                                ', '', '', 0),
+(68, 'Pid 7<br> Product : stl test <br> Message : file test                                ', '', '', 0),
+(69, 'Pid 7<br> Product : stl test <br> Message : file test                                ', '', '', 0);
 
 --
 -- Indexes for dumped tables
@@ -533,6 +597,12 @@ ALTER TABLE `tblblog`
 -- Indexes for table `tblcompany`
 --
 ALTER TABLE `tblcompany`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tblcontactus`
+--
+ALTER TABLE `tblcontactus`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -590,6 +660,12 @@ ALTER TABLE `tbl_admin_message`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tbl_compaint`
+--
+ALTER TABLE `tbl_compaint`
+  ADD PRIMARY KEY (`cid`);
+
+--
 -- Indexes for table `tbl_message`
 --
 ALTER TABLE `tbl_message`
@@ -615,10 +691,15 @@ ALTER TABLE `tblblog`
 ALTER TABLE `tblcompany`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT for table `tblcontactus`
+--
+ALTER TABLE `tblcontactus`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
 -- AUTO_INCREMENT for table `tbldilivery`
 --
 ALTER TABLE `tbldilivery`
-  MODIFY `bid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `bid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `tblenquiry`
 --
@@ -638,7 +719,7 @@ ALTER TABLE `tbllogin`
 -- AUTO_INCREMENT for table `tblproduct`
 --
 ALTER TABLE `tblproduct`
-  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `tblquote`
 --
@@ -648,22 +729,27 @@ ALTER TABLE `tblquote`
 -- AUTO_INCREMENT for table `tblshop`
 --
 ALTER TABLE `tblshop`
-  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `tbltransaction`
 --
 ALTER TABLE `tbltransaction`
-  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `tbl_admin_message`
 --
 ALTER TABLE `tbl_admin_message`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+--
+-- AUTO_INCREMENT for table `tbl_compaint`
+--
+ALTER TABLE `tbl_compaint`
+  MODIFY `cid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `tbl_message`
 --
 ALTER TABLE `tbl_message`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
