@@ -30,6 +30,20 @@ class Ci_upload_customer extends CI_Controller {
     {
         $this->load_panel_data();
     }
+    public function get_All(){
+        $user=$this->session->userdata('user');
+        $query = $this->db->get_where('tblproduct', array('uploaded_by' =>$this->session->user_id));
+        $data['data'] = $query->result();
+        $this->load->view('dynamic/dashboard/customer/header');
+        $this->load->view('dynamic/product/customer/all_product',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+
+    }
+
+
+
+
+
 
     public function select_view_pending(){
         $this->load->view('dynamic/dashboard/customer/header');
@@ -123,6 +137,12 @@ class Ci_upload_customer extends CI_Controller {
     public function select_customer_pending(){
         $this->load->view('dynamic/dashboard/customer/header');
         $this->load->view('dynamic/customer/customer');
+        $this->load->view('dynamic/dashboard/customer/footer');
+    }
+
+    public function update_customer_price(){
+        $this->load->view('dynamic/dashboard/customer/header');
+        $this->load->view('dynamic/product/customer/customer_profit');
         $this->load->view('dynamic/dashboard/customer/footer');
     }
     public function load_panel_data(){

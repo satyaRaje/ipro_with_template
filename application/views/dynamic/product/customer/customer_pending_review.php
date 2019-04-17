@@ -9,27 +9,8 @@
                 <div class="card">
                     <div class="card card-header" style="background-color: white;">
                         <div class="row">
-                            <h2 class="text-danger font-weight-bold"><?php echo $d->pname; ?></h2>
-
-                                <a href="<?php echo base_url()."uploads/admin_product/".$d->rand."/stl/".$d->file_url;?>" ><button type="button" class=" btn btn-rounded btn-primary btn-sm" style="margin-left: 80px;"> <i class="mdi mdi-briefcase-upload"></i>Download</button></a>
-                                <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/generate_quotation";?>' >
-                                    <input type="hidden" name="product_id" value='<?php echo $d->pid;?>'/>
-                                    <input type="hidden" name="product_name" value='<?php echo $d->pname;?>'/>
-                                    <input type="hidden" name="uploaded_by" value='<?php echo $d->uploaded_by;?>'/>
-                                    <a href="#"><button type="submit" class=" btn btn-rounded btn-danger btn-sm" style="margin-left: 80px;"><i class="mdi mdi-briefcase-upload"></i>Generate Quotation </button></a>
-                                </form>
-                                <a><button class="btn btn-sm btn-info btn-rounded m-l-5">Customer Price : <?php echo $d->customer_quote."  |  Our Price  ".$d->admin_quote;?></button></a>
-                            <?php if($d->flag==100){ ?>
-
-                                <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/send_product_review";?>' >
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <button type="submit" class=" btn btn-rounded btn-primary" style="margin-left: 80px;"> <i class="mdi mdi-briefcase-upload"></i>Generate Quotation</button>
-                                </form>
-                            <?php } ?>
-                                <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/send_product_review";?>' >
-                                    <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
-                                    <button type="submit" class=" btn btn-rounded btn-danger" style="margin-left: 80px;"><i class="mdi mdi-briefcase-upload"></i>Send Quotation </button>
-                                </form>
+                            <h2 class="text-danger font-weight-bold"><?php echo $d->pname; ?>   </h2>
+                            <label class="label text text-danger font-weight-bold pull-right">Company Price : <?php echo $d->admin_quote;?></label>
                         </div>
                     </div>
                         <div class="row pull-center">
@@ -129,10 +110,46 @@
                             <?php } ?>
                         </div>
                     </div>
+                    <div class="card card-footer m-t-10" style="background-color: white;">
+                        <div class="row">
+                            <a href="<?php echo base_url()."uploads/admin_product/".$d->rand."/stl/".$d->file_url;?>" ><button type="button" class=" btn btn-rounded btn-primary" > <i class="mdi mdi-briefcase-upload"></i>Download</button></a>
+                         <?php if($d->loop_count==0){?>
+                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/generate_quotation";?>' >
+                                <input type="hidden" name="product_id" value='<?php echo $d->pid;?>'/>
+                                <input type="hidden" name="product_name" value='<?php echo $d->pname;?>'/>
+                                <input type="hidden" name="uploaded_by" value='<?php echo $d->uploaded_by;?>'/>
+                                <button type="submit" class=" btn btn-rounded btn-danger m-l-15" ><i class="mdi mdi-briefcase-upload"></i>Message </button>
+                            </form>
+                        <?php }?>
+                      <?php if($d->loop_count!=0){?>
+                            <a><button class="btn btn-info btn-rounded m-l-15">Customer Profit : <?php echo $d->customer_quote."  |  Our Price  ".$d->admin_quote;?></button></a>
+                            
+                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_customer/update_customer_price";?>' >
+                                <input type="hidden" name="product_id" value='<?php echo $d->pid;?>'/>
+                                <input type="hidden" name="product_name" value='<?php echo $d->pname;?>'/>
+                                <input type="hidden" name="uploaded_by" value='<?php echo $d->uploaded_by;?>'/>
+                                <input type="hidden" name="cprice" value='<?php echo $d->admin_quote;?>'/>
+                                <button type="submit" class=" btn btn-rounded btn-danger m-l-15" ><i class="mdi mdi-briefcase-upload"></i>Add Profit </button>
+                            </form>
+
+                          <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/send_product_review";?>' >
+                              <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
+                              <button type="submit" class=" btn btn-rounded btn-danger m-l-15" ><i class="mdi mdi-briefcase-upload"></i>Upload On Marketplace </button>
+                          </form>
+
+                       <?php }?>
+
+                            <form method="post"action='<?php echo base_url()."index.php/dynamic/product/ci_upload_product/send_product_review";?>' >
+                                <input type="hidden" name="pid" value='<?php echo $d->pid;?>'/>
+                                <button type="submit" class=" btn btn-rounded btn-danger m-l-15" ><i class="mdi mdi-briefcase-upload"></i>Get Quotation </button>
+                            </form>
+                        </div>
+                    </div>
 
                 </div>
             </div>
          <?php }?>
+
 
 
         <?php } ?>

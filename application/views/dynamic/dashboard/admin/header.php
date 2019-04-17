@@ -18,6 +18,8 @@
     <link href='<?php echo base_url()."style/full/css/colors/default-dark.css";?>' id="theme" rel="stylesheet">
 
     <link href='<?php echo base_url()."style/assets/plugins/summernote/dist/summernote-bs4.css"?>' rel="stylesheet" />
+
+    <link href="<?php echo base_url()."style/full/assets/plugins/datatables/media/css/dataTables.bootstrap4.css";?>" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -207,11 +209,15 @@
                                 <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
                             </li>
                         <li>
-                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_upload">View Product</a>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/removed_marketplace">Removed From Marketplace</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_product_on_marketplace">Marketplace Product</a>
                         </li>
+
+                            <li>
+                                <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/terminater_requestes">Terminated Request</a>
+                            </li>
                         </ul></li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Shop</span></a>
                             <ul aria-expanded="false" class="collapse" style="height: 262px;">
@@ -228,14 +234,8 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
                               <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
-                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/view_stl">View STL File</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/select_view_upload">View Quotation</a>
-                        </li>
-                          <li>
-                            <a href="<?php echo base_url()."/index.php/dynamic/enquiry/enquiry/select_enquiry";?>">View Enquiry</a>
-                        </li>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_bill_delivery/getOrderStatus">Orders</a>
+                            </li>
                           <li>
                             <a href="<?php echo base_url()."/index.php/dynamic/enquiry/enquiry/select_contact";?>">View Contact</a>
                         </li>

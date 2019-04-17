@@ -42,7 +42,7 @@ class Enquiry extends CI_Controller {
 
 
      public function add_contact(){
-        $data= array('name'=>$_POST['fname'], 'mobile_no'=>$_POST['mobileno'], 'email'=>$_POST['email'], 'info'=>$_POST['inlineFormCustomSelect'], 'known_us'=>$_POST['inlineFormCustomSelect2'], 'message'=>$_POST['message'], 'flag'=>0);
+        $data= array('name'=>$_POST['fname'], 'mobile_no'=>$_POST['mobileno'], 'email'=>$_POST['email'], 'info'=>$_POST['info'], 'known_us'=>$_POST['aboutus'], 'message'=>$_POST['message'], 'flag'=>0);
         $this->db->insert('tblcontactus',$data);
          $this->load->view('base_web/header.php');
          $this->load->view('base_web/contact_us.php');

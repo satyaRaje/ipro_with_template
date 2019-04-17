@@ -30,10 +30,30 @@
                                 </textarea>
                             </div>
 
-                            <div class="form-group" style="display:none;">
+                            <div class="form-group">
                                 <label>Company Price</label>
-                                <input class="form-control" id="price" name="price" value="">
+                                <input class="form-control"  value='<?php echo $_POST['cprice'];?>' readonly>
                             </div>
+
+                            <div class="form-group">
+                                <label>Customer Profit</label>
+                                <input class="form-control" onchange="includegst(this)">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Customer Profit</label>
+                                <input class="form-control" id="price" name="price" value="" readonly>
+                            </div>
+                            <script>
+                                function includegst(a) {
+                                    var t = Number(a.value);
+                                    t=t+t*0.185;
+                                    document.getElementById("price").value = t;
+
+                                }
+
+                            </script>
+
 
 
                             <div class="form-group">

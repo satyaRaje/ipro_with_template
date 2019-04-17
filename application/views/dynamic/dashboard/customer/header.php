@@ -269,11 +269,15 @@
                                 <a href="<?php echo base_url()."/index.php/dynamic/product/ci_upload_customer/load_panel_data";?>">Upload Stl File</a>
                             </li>
                             <li>
-                            <a href="<?php echo base_url()."/index.php/dynamic/product/ci_upload_customer/upload_admin_product";?>">Upload Product</a>
+                            <a href="<?php echo base_url()."/index.php/dynamic/product/ci_upload_customer/get_All";?>">All Product</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_customer/select_view_pending">Product Status</a>
                         </li>
+                            <li>
+                                <a href="<?php echo base_url();?>index.php/dynamic/product/ci_bill_delivery/getBill">getBill</a>
+                            </li>
+
                         </ul></li>
                         <li>
                         <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Blog</span></a>

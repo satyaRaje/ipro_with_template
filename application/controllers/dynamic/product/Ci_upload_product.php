@@ -124,6 +124,8 @@ class ci_upload_product extends CI_Controller {
          $this->load->view('dynamic/product/generate_product_quotation');
          $this->load->view('dynamic/dashboard/admin/footer');
      }
+
+
       public function view_news(){
          $this->load->view('dynamic/dashboard/admin/header');
          $this->load->view('dynamic/product/newletter');
@@ -138,7 +140,7 @@ class ci_upload_product extends CI_Controller {
 
 
      public function update_company_quotation(){
-         $data = array('flag' => '2','admin_quote'=>$_POST['price']);
+         $data = array('flag' => '2','admin_quote'=>$_POST['price'],'loop_count'=>($_POST['loop_count']+1));
          $data_msg = array('message' => "Pid ".$_POST['pid']."<br> Product : ".$_POST['pname']." <br> Message : ".$_POST['message'],"from_msg"=>$_POST['uid'],"from_msg"=>"");
 
          $where = "pid=".$_POST['pid'];
@@ -474,7 +476,7 @@ class ci_upload_product extends CI_Controller {
      
      public function remove_product_on_marketplace(){
                    $test = array(
-                'flag' =>11
+                'flag' =>17
             );
             //echo $_POST['pid'];
             //  $this->load->model('upload_product');
@@ -496,6 +498,44 @@ class ci_upload_product extends CI_Controller {
         //      print_r($data);
         $this->load->view('dynamic/product/customer/pending_under_review',$data);
         $this->load->view('dynamic/dashboard/admin/footer');
+    }
+
+    public function removed_marketplace(){
+        $this->load->view('dynamic/dashboard/admin/header');
+        $names = array('17');
+        $this->db->where_in('flag', $names);
+        //$d=array('flag' => '100');
+        $query = $this->db->get('tblproduct');
+        $data['data'] = $query->result();
+        //      print_r($data);
+        $this->load->view('dynamic/product/market_removed',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+    }
+
+
+    public function terminater_requestes(){
+        $this->load->view('dynamic/dashboard/admin/header');
+        $names = array('33');
+        $this->db->where_in('flag', $names);
+        //$d=array('flag' => '100');
+        $query = $this->db->get('tblproduct');
+        $data['data'] = $query->result();
+        //      print_r($data);
+        $this->load->view('dynamic/product/terminated_request',$data);
+        $this->load->view('dynamic/dashboard/admin/footer');
+    }
+
+    public function terminate_product(){
+        $test = array(
+            'flag' =>33
+        );
+        //echo $_POST['pid'];
+        //  $this->load->model('upload_product');
+        $where = "pid=" . $_POST['pid'];
+
+        $str = $this->db->update_string('tblproduct', $test, $where);
+        $this->db->query($str);
+        $this->select_view_pending();
     }
 }
 

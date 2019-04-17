@@ -142,7 +142,7 @@
                         <div class="card-body"><font color="black">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">Contact Us</font></h2>
 
-                     <form class="form p-t-20" method="post" action="http://ipro3d.io/final/ipro_with_template/index.php/dynamic/enquiry/enquiry/add_contact">
+                     <form class="form p-t-20" method="post" action="<?php echo base_url(); ?>index.php/dynamic/enquiry/enquiry/add_contact">
                                     <div class="form-group">
                                         <label for="exampleInputuname">Name</label>
                                         <div class="input-group">

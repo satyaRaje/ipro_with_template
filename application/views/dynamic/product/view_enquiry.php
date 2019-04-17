@@ -16,6 +16,17 @@
                                                 
                                             </tr>
                                         </thead>
+                                        <tfoot>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Customer Name</th>
+                                            <th>Mobile</th>
+                                            <th>Email</th>
+                                            <th>Info</th>
+                                            <th>Enquiry</th>
+
+                                        </tr>
+                                        </tfoot>
                                         <tbody>
                                       <?php $i=1; foreach ($data as $d){?>
                                             <tr>
