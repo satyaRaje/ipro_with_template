@@ -194,7 +194,6 @@ public function Cnc(){
         $this->load->view('base_web/footer.php');  
     }
 
-
     public function Marketplace()
     {
         $d=array('flag' => '18');

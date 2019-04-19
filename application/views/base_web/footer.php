@@ -86,7 +86,7 @@
                     <h3 style="color: black;">Contact us</h3>
                     <li><a href="<?php echo base_url(); ?>index.php/welcome/faq"><i style="color: black" class="ti-angle-right"></i>
                     <font color="black"> Support/FAQs</font></a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/welcome/faq"><i style="color: black" class="ti-angle-right"></i>
+                    <li><a href="#"><i style="color: black" class="ti-angle-right"></i>
                     <font color="black"> Enquiries</font></a></li>
                   <li><a href="<?php echo base_url(); ?>index.php/welcome/Contact_us"><i style="color: black" class="ti-angle-right"></i>
                     <font color="black"> Contact</font></a></li>
