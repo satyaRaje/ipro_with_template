@@ -9,7 +9,7 @@
                             <font color="black">
                             <h2 class="card-title" id="printing" align="center" style="font-weight: bold;font-family: Philosiphers"><font color="black">Add Testimonial</font></h2>
 
-                     <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/testimonial/ci_testimonial/insert_data";?>" enctype="multipart/form-data">
+                     <form class="form p-t-20" method="post" action="<?php echo base_url()."index.php/dynamic/testimonial/Ci_testimonial/insert_data";?>" enctype="multipart/form-data">
                                     
                                      <div class="form-group">
                                         <label>Testimonial's Name</label>
@@ -78,7 +78,8 @@
                                                 <td><?php echo $d->tdesignation;?></td>
                                                 <td><?php echo $d->tcompany;?></td>
                                                 <td><?php echo $d->tcomment;?></td>
-                                                <td><form method="post" action="<?php echo base_url()."index.php/dynamic/testimonial/ci_testimonial/insert_data"; ?>">
+                                                <td>
+                                                    <form method="post" action="<?php echo base_url()."index.php/dynamic/testimonial/Ci_testimonial/insert_data"; ?>">
                                                         <input type="hidden" name="tid"  value="<?php echo $d->tid;?>">
                                                         <input type="submit" class="btn btn-rounded btn-primary" value="Upload Testimonial"><br><br>
                                                         <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove"><br><br>
