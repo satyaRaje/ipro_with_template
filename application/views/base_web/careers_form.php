@@ -38,7 +38,7 @@
                                         <div class="controls">
                                             <fieldset>
                                                 <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" value="Design and Development ( Mechanical / Production / Industrial engineering)" name="position" required="" class="custom-control-input" aria-invalid="false"><span class="custom-control-label">Design and Development ( Mechanical / Production / Industrial engineering)</span> </label>
+                                                    <input type="checkbox" value="Design and Development ( Mechanical / Production / Industrial engineering)" name="position" class="custom-control-input" aria-invalid="false"><span class="custom-control-label">Design and Development ( Mechanical / Production / Industrial engineering)</span> </label>
                                             </fieldset>
                                             <fieldset>
                                                 <label class="custom-control custom-checkbox">
@@ -55,19 +55,19 @@
                                             <div class="controls">
                                                 <fieldset>
                                                     <label class="custom-control custom-radio">
-                                                        <input type="radio" value="Yes" name="education" required="" id="styled_radio_inline1" class="custom-control-input"><span class="custom-control-label">12th</span> </label>
+                                                        <input type="radio" value="12th" name="education" required="" id="styled_radio_inline1" class="custom-control-input"><span class="custom-control-label">12th</span> </label>
                                                 </fieldset>
                                                 <fieldset>
                                                     <label class="custom-control custom-radio">
-                                                        <input type="radio" value="No" name="education" id="styled_radio_inline2" class="custom-control-input"><span class="custom-control-label">Diploma</span> </label>
+                                                        <input type="radio" value="Diploma" name="education" id="styled_radio_inline2" class="custom-control-input"><span class="custom-control-label">Diploma</span> </label>
                                                 </fieldset>
                                                 <fieldset>
                                                     <label class="custom-control custom-radio">
-                                                        <input type="radio" value="No" name="education" id="styled_radio_inline2" class="custom-control-input"><span class="custom-control-label">Degree</span> </label>
+                                                        <input type="radio" value="Degree" name="education" id="styled_radio_inline2" class="custom-control-input"><span class="custom-control-label">Degree</span> </label>
                                                 </fieldset>
                                                 <fieldset>
                                                     <label class="custom-control custom-radio">
-                                                        <input type="radio" value="No" name="education" id="styled_radio_inline2" class="custom-control-input"><span class="custom-control-label">Masters</span> </label>
+                                                        <input type="radio" value="Masters" name="education" id="styled_radio_inline2" class="custom-control-input"><span class="custom-control-label">Masters</span> </label>
                                                 </fieldset>
                                             <div class="help-block"></div></div>
                                     </div>
