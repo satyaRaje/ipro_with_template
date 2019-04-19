@@ -263,6 +263,9 @@
                        <li>
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/view_news">Add Newsletter</a>
                         </li>
+                        <li>
+                            <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/add_testimonial">Add Testimonial</a>
+                        </li>
                        <li>
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Add New Admin</a>
                         </li>

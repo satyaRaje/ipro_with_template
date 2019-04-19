@@ -95,7 +95,7 @@
                                     <div class="form-group">
                                         <h5><font color="black">Upload Your Resume <span class="text-danger">*</span></font></h5>
                                         <div class="controls">
-                                            <input type="file" name="file" class="form-control" required=""> <div class="help-block"></div></div>
+                                            <input type="file" name="resume" class="form-control" required=""> <div class="help-block"></div></div>
                                     </div>
                                     <button type="submit" class="btn btn-info" align="center">Submit</button>
                                 </form>

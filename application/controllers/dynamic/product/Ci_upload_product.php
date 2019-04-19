@@ -131,6 +131,13 @@ class ci_upload_product extends CI_Controller {
          $this->load->view('dynamic/product/newletter');
          $this->load->view('dynamic/dashboard/admin/footer');
      }
+
+      public function add_testimonial(){
+         $this->load->view('dynamic/dashboard/admin/header');
+         $this->load->view('dynamic/product/add_testimonial');
+         $this->load->view('dynamic/dashboard/admin/footer');
+     }
+
       public function view_stl(){
          $this->load->view('dynamic/dashboard/admin/header');
          $this->load->view('dynamic/product/view_stl');
