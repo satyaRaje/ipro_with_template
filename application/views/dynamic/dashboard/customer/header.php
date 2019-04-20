@@ -280,15 +280,15 @@
 
                         </ul></li>
                         <li>
-                        <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Blog</span></a>
+                        <a href="#" aria-expanded="false"><i class="mdi mdi-account-edit"></i><span class="hide-menu">Blog</span></a>
                         </li>
                        
                         <li>
-                        <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Hire Designer</span></a>
+                        <a href="#" aria-expanded="false"><i class="mdi mdi-account-search"></i><span class="hide-menu">Hire Designer</span></a>
                         </li>
                 
 
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-history"></i><span class="hide-menu">History</span></a>
                              <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
 
@@ -301,10 +301,10 @@
                         </li>
                         
                  
-                    <li> <a  href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Offer Zone</span></a>
+                    <li> <a  href="#" aria-expanded="false"><i class="mdi mdi-assistant"></i><span class="hide-menu">Offer Zone</span></a>
                         </li>
 
-                        <li> <a  href="<?php echo base_url()."index.php/dynamic/product/ci_profile/customer_complaint"?>" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Add Complaint</span></a>
+                        <li> <a  href="<?php echo base_url()."index.php/dynamic/product/ci_profile/customer_complaint"?>" aria-expanded="false"><i class="mdi mdi-help-circle-outline"></i><span class="hide-menu">Add Complaint</span></a>
                         </li>
 
 

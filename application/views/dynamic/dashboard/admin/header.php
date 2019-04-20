@@ -219,7 +219,7 @@
                                 <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/terminater_requestes">Terminated Request</a>
                             </li>
                         </ul></li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-laptop-windows"></i><span class="hide-menu">Shop</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-home"></i><span class="hide-menu">Shop</span></a>
                             <ul aria-expanded="false" class="collapse" style="height: 262px;">
 
                                 <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/upload_admin_product">Upload Product</a>
@@ -231,7 +231,8 @@
                                     <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_shop/select_product_on_marketplace">View Online Product</a>
                                 </li>
                             </ul></li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">View</span></a>
+
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-eye"></i><span class="hide-menu">View</span></a>
                               <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_bill_delivery/getOrderStatus">Orders</a>
@@ -242,7 +243,7 @@
                          </ul>
 
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">History</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-history"></i><span class="hide-menu">History</span></a>
                              <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
                             <a href="<?php echo base_url();?>/index.php/dynamic/product/ci_upload_product/upload_admin_product">Sale History</a>
@@ -255,7 +256,7 @@
                         </li>
                     </ul>
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Add</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-plus"></i><span class="hide-menu">Add</span></a>
                             <ul class="nav nav-second-level collapse" aria-expanded="false">
                         <li>
                             <a href="<?php echo base_url()."index.php/dynamic/blog/Ci_blog/load_admin_blog";?>">Add Blog</a>
@@ -272,7 +273,7 @@
                     </ul>
 
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Customer</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-account-circle"></i><span class="hide-menu">Customer</span></a>
                             <ul class="nav nav-second-level collapse" aria-expanded="false">
 
                                 <li>
@@ -284,10 +285,10 @@
                        </ul>
                 </li>
                  <li>
-                    <a href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Discount</span></a>
+                    <a href="#" aria-expanded="false"><i class="mdi mdi-auto-fix"></i><span class="hide-menu">Discount</span></a>
                 </li>
                  <li>
-                    <a  href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Generate Coupon</span></a>
+                    <a  href="#" aria-expanded="false"><i class="mdi mdi-barcode-scan"></i><span class="hide-menu">Generate Coupon</span></a>
                 </li>
 
                         </li>
