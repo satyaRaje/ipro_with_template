@@ -63,7 +63,7 @@ class Enquiry extends CI_Controller {
     public function insert_mutation_form()
     {
         $data = array('email'=>$_POST['email'], 'name'=>$_POST['name'], 'mobile_no'=>$_POST['mobile_no'], 'whatsapp_no'=>$_POST['whatsapp_no'], 'dob'=>$_POST['dob'], 'college_id'=>$_POST['college_id'],'year_of_admission'=>$_POST['year_of_admission'],'year_of_study'=>$_POST['year_of_study'],'degree'=>$_POST['degree'],'college'=>$_POST['college'],'department'=>$_POST['department'],'interests'=>$_POST['interests'],'future_goals'=>$_POST['future_goals'],'comments' =>$_POST['comments']);
-        $this->db->insert('tblmutation',$data);
+         $this->db->insert('tblmutation',$data);
          $this->load->view('base_web/header.php');
          $this->load->view('base_web/mutation_form.php');
          $this->load->view('base_web/footer.php');
