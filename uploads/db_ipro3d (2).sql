@@ -581,7 +581,7 @@ CREATE TABLE `tbl_message` (
 
 --
 -- Dumping data for table `tbl_message`
---
+--o
 
 INSERT INTO `tbl_message` (`id`, `message`, `to_msg`, `from_msg`, `flag`) VALUES
 (5, 'Pid 4 For Product : my product Message : asdf\r\n                                ', '', '', 0),
