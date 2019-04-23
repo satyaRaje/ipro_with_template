@@ -28,8 +28,18 @@ class Welcome extends CI_Controller {
 
     public function index()
     {
+        
     	$this->load->view('base_web/header.php');
         $this->load->view('base_web/panel2.php');
+        $this->load->view('base_web/footer.php');
+
+    }
+    public function testimonial()
+    {
+         $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data['data'] = $query->result();
+        $this->load->view('base_web/header.php');
+        $this->load->view('base_web/view_testimonial.php',$data);
         $this->load->view('base_web/footer.php');
 
     }

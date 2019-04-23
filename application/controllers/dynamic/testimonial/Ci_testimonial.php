@@ -70,4 +70,6 @@ class Ci_testimonial extends CI_Controller {
             $this->db->query($str);
             $this->load_testimonial();
         }
+    }
+}
 ?>

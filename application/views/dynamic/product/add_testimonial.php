@@ -68,9 +68,8 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-
-                                     <?php $i=1;
-                                     foreach ($data as $d){?>
+                                       <?php $i=1;
+                                         foreach ($data as $d)  {?>
                                             <tr <?php if($d->flag==1){ echo "class='text text-primary'";}else{echo "class='text text-danger'";}?> >
                                                 <td><?php echo $i;?></td>
                                                 <td><?php echo $d->tid;?></td>
@@ -79,7 +78,7 @@
                                                 <td><?php echo $d->tcompany;?></td>
                                                 <td><?php echo $d->tcomment;?></td>
                                                 <td>
-                                                    <form method="post" action="<?php echo base_url()."index.php/dynamic/testimonial/Ci_testimonial/insert_data"; ?>">
+                                                    <form method="post" action="<?php echo base_url()."index.php/dynamic/testimonial/Ci_testimonial/upload_testimonial"; ?>">
                                                         <input type="hidden" name="tid"  value="<?php echo $d->tid;?>">
                                                         <input type="submit" class="btn btn-rounded btn-primary" value="Upload Testimonial"><br><br>
                                                         <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove"><br><br>

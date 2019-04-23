@@ -34,7 +34,7 @@ class ci_upload_product extends CI_Controller {
    public function upload_stl_file(){
        $this->load->model('dynamic/product/product_model','up');
 
-            $rand = rand(55555666,4444446666);
+            $rand = rand(5555555,66666666);
        if(!is_file( getcwd().'/uploads/admin_product/'.$rand)){
            mkdir( getcwd().'/uploads/admin_product/'.$rand, 0777, true);
        }
@@ -132,11 +132,7 @@ class ci_upload_product extends CI_Controller {
          $this->load->view('dynamic/dashboard/admin/footer');
      }
 
-      public function add_testimonial(){
-         $this->load->view('dynamic/dashboard/admin/header');
-         $this->load->view('dynamic/product/add_testimonial');
-         $this->load->view('dynamic/dashboard/admin/footer');
-     }
+     
 
       public function view_stl(){
          $this->load->view('dynamic/dashboard/admin/header');
