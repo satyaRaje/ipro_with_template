@@ -82,6 +82,7 @@
                                                         <input type="hidden" name="tid"  value="<?php echo $d->tid;?>">
                                                         <input type="submit" class="btn btn-rounded btn-primary" value="Upload Testimonial"><br><br>
                                                         <input type="submit" class="btn btn-rounded btn-danger" name="rmv" value="Remove"><br><br>
+                                                        
                                                     </form>
                                                 </td>
                                             </tr>
