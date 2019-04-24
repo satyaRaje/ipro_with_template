@@ -28,15 +28,16 @@ class Welcome extends CI_Controller {
 
     public function index()
     {
-        
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data1['data'] = $query->result();
     	$this->load->view('base_web/header.php');
-        $this->load->view('base_web/panel2.php');
+        $this->load->view('base_web/panel2.php',$data1);
         $this->load->view('base_web/footer.php');
 
     }
     public function testimonial()
     {
-         $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
         $data['data'] = $query->result();
         $this->load->view('base_web/header.php');
         $this->load->view('base_web/view_testimonial.php',$data);
@@ -51,8 +52,11 @@ class Welcome extends CI_Controller {
 
     
     public function Printing(){
+        
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1,'tid' => 4)); //For selection Data
+        $data2['data'] = $query->result();
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/printing.php');
+        $this->load->view('base_web/printing.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
@@ -70,8 +74,13 @@ public function Rapid(){
     }
 
 public function Cad(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+        
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/cad.php');
+        $this->load->view('base_web/cad.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 

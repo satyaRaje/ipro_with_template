@@ -1,7 +1,6 @@
 <?php
-            foreach ($data as $d){
-            ?>
-
+  foreach ($data as $d){
+ ?>
 <div class="row light-blue" id="test">
     <div class="col-md-12">
         <div class="fix-width text-center">

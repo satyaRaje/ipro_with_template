@@ -78,91 +78,33 @@
 </div>
  </div><br>
    
+
+
+
 <div class="row light-blue" id="test">
     <div class="col-md-12">
         <div class="fix-width text-center">
             <h2 class="display-7">IPRO3D Technologies LPP.<br>Testimonials</h2>
             <div class="tesimonial-box owl-carousel owl-theme owl-loaded owl-drag" id="owl-demo2">
+                <?php
+                       foreach ($data as $d){
+                    ?>
                 <div class="owl-stage-outer">
                         <div class="owl-item cloned" style="width:100%;padding-right: 5%;padding-left: 5%">
                             <div class="item">
-                                <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
-                                <div class="username"><b>Shinwu Ch<br></b>
-                                    <div class="designation">Customer<br>
+                                <p class="testimonial-text"><b class="font-500">" <?php echo $d->tcomment;?> "</b> </p>
+                                <div class="username"><b><?php echo $d->tname;?><br></b>
+                                    <div class="designation"><?php echo $d->tdesignation;?> , <?php echo $d->tcompany;?><br>
                                     </div>
                                 </div>
                             </div>
                         </div>          
-                </div>               
-                
-                <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
-                    <div class="item">
-                        <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
-                        <div class="username"><b>Mohammed Shameem<br></b>
-                             <div class="designation">Product Manager,ABC<br>
-                                    </div>
-                                
-                        </div>
-                    </div>
-                </div>
-                        
-                <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
-                    <div class="item">
-                        <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
-                        <div class="username"><b>Nick Stanbridge<br></b>
-                            <div class="designation">Customer,Pune<br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             
-                <div class="owl-item active" style="width: 100%;padding-right: 5%;padding-left: 5%">
-                    <div class="item">
-                        <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
-                        <div class="username"><b>Shinwu Ch<br></b>
-                            <div class="designation">Customer,Austria<br>
-                                    </div>
-                             
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="owl-item cloned" style="width:100%;padding-right: 5%;padding-left: 5%">
-                    <div class="item">
-                        <p class="testimonial-text"><b class="font-500">in my opinion, MaterialPro Admin is a professional light-weight theme that will suit multiple projects types including MVC web-projects &amp; dashboard-type user interface. I am yet to take a deep dive into the many features it offers. But from a first-hand experience, I would say it is really worth the money you pay for it… Go ahead &amp; give it a try</b> </p>
-                        <div class="username">
-                        <b>Mohammed Shameem<br></b>
-                        <div class="designation">Owner of XYZ<br>
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="owl-item cloned" style="width: 100%;padding-right: 5%;padding-left: 5%">
-                    <div class="item">
-                        <p class="testimonial-text"><b class="font-500">The free version is incredible and it had everything I needed, however I bought this full template to support the developer. It’s a great, lightweight template which has loads of awesome little features and pre-made layouts to help kick-start your next admin panel, CMS, or CRM system. Keep up the good work!</b> </p>
-                        <div class="username">
-                            <b>Nick Stanbridge<br></b>
-                            <div class="designation">Customer,Aurangabad<br>
-                                    </div>
-                             
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="owl-item cloned" style="width:100%;padding-right: 5%;padding-left: 5%">
-                    <div class="item">
-                        <p class="testimonial-text"><b class="font-500">This front-end templates are very nice, very suitable for my background to do now, provide a lot of components for my use. Customer service is also very patient, very good, did not download the success of the beginning, and later also help me download finished, it is worth!</b> </p>
-                        <div class="username"><b>Shinwu Ch<br></b>
-                            <div class="designation">Customer,Delhi<br>
-                                    </div>
-                             
-                        </div>
-                    </div>
-                </div>
+                </div> 
+                <?php }?>
             </div>
-        </div>
-        
+    <br>
+
+
         <!--div class="owl-nav disabled">
             <div class="owl-prev">prev
             </div>
@@ -178,7 +120,9 @@
             </div>
         </div>
     </div>
+   </div>
 </div>
+
         
       <div style="background-color: #F5F5F5">
     <hr>
