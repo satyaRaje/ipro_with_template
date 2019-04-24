@@ -51,7 +51,23 @@
             <p class="card-text" style="font-size: 20px"><b>Color :  </b><font color="black" class="font-weight-bold"><?php echo $d->color;?></font></p>
             <p class="card-text" style="font-size: 20px"><b>Diameter :  </b><font color="black" class="font-weight-bold"><?php echo $d->diameter;?></font></p>
             <p class="card-text" style="font-size: 20px"><b>Product MRP :  </b><font color="black" class="font-weight-bold"><?php echo $d->MRP;?></font></p>
+
+<?php foreach ($data as $d ){?>
+  <form method="post" action='<?php echo base_url()."index.php/dynamic/purchase/ci_Purchase/add_to_cart"; ?>'>
+    <input type="hidden" value="<?php echo $d->pid;?>" name="pid">
+           <input type="hidden" value="<?php echo $d->pname;?>" name="pname">
+           <input type="hidden" value="<?php echo $d->MRP;?>" name="price">
+           <input type="hidden" value="<?php echo $d->discount;?>" name="discount">
+           <input type="hidden" value="<?php echo base_url()."uploads/admin_product/$d->rand/$d->front_View"?>" name="img">
+      <button class="btn btn-rounded btn-sm btn-info" type="submit"><i class="mdi mdi-cart-plus"></i> Add Cart</button>
+  </form>
+<?php } ?>
+<br>
+<form method="post" action="#">
+<button  type="submit" class="btn btn-danger btn-rounded">Pay Now</button>
+</form>
 	</div>
+
 </div>
 
 

@@ -84,7 +84,7 @@
 <div class="row light-blue" id="test">
     <div class="col-md-12">
         <div class="fix-width text-center">
-            <h2 class="display-7">IPRO3D Technologies LPP.<br>Testimonials</h2>
+            <h2 class="display-7">IPRO3D Technologies LLP.<br>Testimonials</h2>
             <div class="tesimonial-box owl-carousel owl-theme owl-loaded owl-drag" id="owl-demo2">
                 <?php
                        foreach ($data as $d){
