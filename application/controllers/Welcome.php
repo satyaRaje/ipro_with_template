@@ -52,24 +52,36 @@ class Welcome extends CI_Controller {
 
     
     public function Printing(){
-        
-        $query = $this->db->get_where('tbltestimonial',array('flag'=>1,'tid' => 4)); //For selection Data
+       $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
         $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
         $this->load->view('base_web/printing.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
     public function Scanning(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/scanning.php');
+        $this->load->view('base_web/scanning.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
 
 public function Rapid(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/rapid.php');
+        $this->load->view('base_web/rapid.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
@@ -85,63 +97,113 @@ public function Cad(){
     }
 
     public function Design(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/design.php');
+        $this->load->view('base_web/design.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
     public function Reverse(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/reverse.php');
+        $this->load->view('base_web/reverse.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
 public function Topology(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/topology.php');
+        $this->load->view('base_web/topology.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
     public function Small(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/small.php');
+        $this->load->view('base_web/small.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
     public function Vaccum(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/vaccum.php');
+        $this->load->view('base_web/vaccum.php',$data2);
         $this->load->view('base_web/footer.php');
     }
     public function Xray(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/xray.php');
+        $this->load->view('base_web/xray.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
 
     public function Functional(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/functional.php');
+        $this->load->view('base_web/functional.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
     public function Tooling(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/tooling.php');
+        $this->load->view('base_web/tooling.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
 
 
 public function Injection(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/injection.php');
+        $this->load->view('base_web/injection.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 public function Cnc(){
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/cnc.php');
+        $this->load->view('base_web/cnc.php',$data2);
         $this->load->view('base_web/footer.php');
     }
 
@@ -167,8 +229,13 @@ public function Cnc(){
     }
     public function Mutation()
     {
+        $this->db->order_by('tid', 'DESC'); 
+        $this->db->limit(1);
+        $query = $this->db->get_where('tbltestimonial',array('flag'=>1)); //For selection Data
+        $data2['data'] = $query->result();
+        
         $this->load->view('base_web/header.php');
-        $this->load->view('base_web/mutation.php');
+        $this->load->view('base_web/mutation.php',$data2);
         $this->load->view('base_web/footer.php');
     }
      public function Login()
