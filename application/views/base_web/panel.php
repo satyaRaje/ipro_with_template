@@ -1,7 +1,7 @@
 
 
 <head>
-<title>IPRO3D</title>
+<title>3d Printing Service - Ipro3d Technologies LLP</title> 
 
 <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/images/favicon.png">
 

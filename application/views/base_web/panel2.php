@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>IPRO3D</title>
+<title>3d Printing Service - Ipro3d Technologies LLP</title> 
 <link href="<?php echo base_url();?>bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>style/full/assets/owl.carousel/owl.carousel.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>style/full/assets/owl.carousel/owl.theme.default.css" rel="stylesheet">
