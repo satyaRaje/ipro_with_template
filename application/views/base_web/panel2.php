@@ -17,7 +17,7 @@
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img4.jpg" height="550px" width="100%" style="opacity:0.9" /></a>
         <div class="carousel-caption d-md-block" align="center">
             <p style="font-weight: bold;font-size: 50px;font-family:" align="center"><font color="#E40B32">Get Quotation</font></p>
-                <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Instant Quotation</a> <br><br>     
+                <a type="button" class="btn btn-rounded btn-success" href="<?php echo base_url(); ?>index.php/welcome/Marketplace" style="font-size:20px">Instant Quotation</a> <br><br>     
                              
         </div>
          
@@ -26,7 +26,7 @@
         <a href="#"><img src="<?php echo base_url();?>assets/images/slider/img8.jpg" height="550px" width="100%" style="opacity:0.9"/></a>
         <div class="carousel-caption d-md-block" align="center">
             <p style="font-weight: bold;font-size: 50px" align="center"><font color="#E40B32">Idea to Design</font></p>             
-                <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Design</a> <br><br>  
+                <a type="button" class="btn btn-rounded btn-success" href="<?php echo base_url(); ?>index.php/dynamic/Login/login/user_login_page" style="font-size:20px">Design</a> <br><br>  
         </div>
     </div>
     <div class="col-md-3" >
@@ -34,7 +34,7 @@
         <div class="carousel-caption d-md-block" align="center">
             <br><br>
             <p style="font-weight: bold;font-size: 49px" align="center"><font color="#E40B32">Marketplace </font></p>    
-                <a type="button" class="btn btn-rounded btn-success" href="#" style="font-size:20px">Start your Shop</a>  <br><br>      
+                <a type="button" class="btn btn-rounded btn-success" href="<?php echo base_url(); ?>index.php/welcome/Shop" style="font-size:20px">Start your Shop</a>  <br><br>      
                 
         </div>
     </div>

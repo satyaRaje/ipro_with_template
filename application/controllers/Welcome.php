@@ -220,6 +220,7 @@ public function Cnc(){
         $this->load->view('base_web/header.php');
         $this->load->view('base_web/contact_us.php');
         $this->load->view('base_web/footer.php');
+        
     }
     public function Enquiry()
     {
